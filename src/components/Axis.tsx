@@ -1,11 +1,7 @@
 
+import * as d3 from 'd3'
 import React, { useRef, useState, useEffect } from 'react'
-import { select } from 'd3-selection'
-import { axisLeft, axisBottom } from 'd3-axis'
-import { scaleLinear, scaleBand } from 'd3-scale'
-import { max } from 'd3-array'
-
-import { D3SelectSVGRef } from '../models'
+import { SVGSVGElementSelection } from '../models'
 
 
 const data = [
@@ -36,6 +32,7 @@ const data = [
 ]
 
 const Axis: React.FC = () => {
+    
     const dimensions = {
         width: 600,
         height: 600,
@@ -44,14 +41,15 @@ const Axis: React.FC = () => {
         chartHeight: 500,
         chartWidth: 500,
     }
-    const svgRef = useRef<SVGSVGElement>(null)
-    const [selection, setSelection] = useState<D3SelectSVGRef>(null)
 
-    const y = scaleLinear()
-        .domain([0, max(data, d => d.units)!])
+    const svgRef = useRef<SVGSVGElement>(null)
+    const [selection, setSelection] = useState<SVGSVGElementSelection>(null)
+
+    const y = d3.scaleLinear()
+        .domain([0, d3.max(data, d => d.units)] as [number, number])
         .range([dimensions.width - dimensions.marginBottom, 0])
 
-    const x = scaleBand()
+    const x = d3.scaleBand()
         .domain(data.map(d => d.name))
         .range([0, dimensions.width - dimensions.marginLeft])
         .padding(0.1)
@@ -62,14 +60,14 @@ const Axis: React.FC = () => {
      * appy transforms to place the axis where they need to be
      * modifications can be aplied to the functions to style the axis
      */
-    const xAxis = axisBottom(x)
-    const yAxis = axisLeft(y)
+    const xAxis = d3.axisBottom(x)
+    const yAxis = d3.axisLeft(y)
         .ticks(3)
         .tickFormat(d => `${d} units`)
 
     useEffect(() => {
         if (!selection) {
-            setSelection(select(svgRef.current))
+            setSelection(d3.select(svgRef.current))
         } else {
             /**
              * we need to call so we can pass in the current selection
@@ -77,8 +75,7 @@ const Axis: React.FC = () => {
              * i have separated the groups and put them into variables
              * for readability
              */
-            const xAxisGroup = selection
-                .append('g')
+            const xAxisGroup = selection.append('g')
                 .attr(
                     'transform',
                     `translate(${dimensions.marginLeft}, ${

@@ -8,7 +8,7 @@ import {
     ScatterPlot
 } from './components'
 
-storiesOf('Basics', module)
+storiesOf('Bar Charts', module)
     .add('Simple Axis', () => <Axis />)
     .add('Simple BarChart', () => <BarChart />)
     .add('Update example', () => <Update />)

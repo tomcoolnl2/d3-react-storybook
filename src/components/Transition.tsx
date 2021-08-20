@@ -1,16 +1,16 @@
 
-import React, { useRef, useState, useEffect } from 'react'
-import { select } from 'd3-selection'
-import { scaleLinear, scaleBand } from 'd3-scale'
-import { max } from 'd3-array'
-import 'd3-transition'
-import { easeElastic } from 'd3-ease'
+import * as d3 from 'd3'
+import { FC, useRef, useState, useEffect } from 'react'
 import randomstring from 'randomstring'
+import { SVGSVGElementSelection } from '../models'
 
-import { D3SelectSVGRef } from '../models'
 
+type LengthData = {
+    name: string,
+    units: number
+}
 
-let initialData = [
+let initialData: LengthData[] = [
     {
         name: 'foo',
         units: 32,
@@ -36,34 +36,34 @@ let initialData = [
         units: 59,
     },
 ]
-const Transition: React.FC = () => {
+
+const Transition: FC = () => {
+
     const dimensions = { width: 800, height: 500 }
     const svgRef = useRef<SVGSVGElement>(null)
-    const [data, setData] = useState(initialData)
-    const [name, setName] = useState('')
-    const [unit, setUnit] = useState('')
+    const [data, setData] = useState<LengthData[]>(initialData)
 
-    let x = scaleBand()
-        .domain(data.map(d => d.name))
+    let x = d3.scaleBand()
+        .domain(data.map(({ name }: LengthData) => name))
         .range([0, dimensions.width])
         .padding(0.05)
 
-    let y = scaleLinear()
-        .domain([0, max(data, d => d.units)!])
+    let y = d3.scaleLinear()
+        .domain([0, d3.max(data, ({ units }: LengthData) => units)] as [number, number])
         .range([dimensions.height, 0])
 
-    const [selection, setSelection] = useState<D3SelectSVGRef>(null)
+    const [selection, setSelection] = useState<SVGSVGElementSelection>(null)
 
     useEffect(() => {
         if (!selection) {
-            setSelection(select(svgRef.current))
+            setSelection(d3.select(svgRef.current))
         } else {
             selection
                 .selectAll('rect')
-                .data(data)
+                .data<LengthData>(data)
                 .enter()
                 .append('rect')
-                .attr('x', d => x(d.name)!)
+                .attr('x', ({ name }: LengthData) => x(name)!)
                 .attr('y', dimensions.height)
                 .attr('width', x.bandwidth)
                 .attr('fill', 'orange')
@@ -76,29 +76,29 @@ const Transition: React.FC = () => {
                  */
                 .transition()
                 .duration(700)
-                .delay((_, i) => i * 100)
-                .ease(easeElastic)
-                .attr('height', d => dimensions.height - y(d.units))
-                .attr('y', d => y(d.units))
+                .delay((_: LengthData, i: number) => i * 100)
+                .ease(d3.easeElastic)
+                .attr('height', ({ units }: LengthData) => dimensions.height - y(units))
+                .attr('y', ({ units }: LengthData) => y(units))
         }
     }, [selection])
 
     useEffect(() => {
         if (selection) {
-            x = scaleBand()
-                .domain(data.map(d => d.name))
+            x = d3.scaleBand()
+                .domain(data.map(({ name }: LengthData) => name))
                 .range([0, dimensions.width])
                 .padding(0.05)
-            y = scaleLinear()
-                .domain([0, max(data, d => d.units)!])
+            y = d3.scaleLinear()
+                .domain([0, d3.max(data, ({ units }: LengthData) => units)])
                 .range([dimensions.height, 0])
 
-            const rects = selection.selectAll('rect').data(data)
+            const rects = selection.selectAll('rect').data<LengthData>(data)
 
             rects
                 .exit()
                 .transition()
-                .ease(easeElastic)
+                .ease(d3.easeElastic)
                 .duration(400)
                 .attr('height', 0)
                 .attr('y', dimensions.height)
@@ -113,25 +113,25 @@ const Transition: React.FC = () => {
             rects
                 .transition()
                 .delay(300)
-                .attr('x', d => x(d.name)!)
-                .attr('y', d => y(d.units))
+                .attr('x', ({ name }: LengthData) => x(name)!)
+                .attr('y', ({ units }: LengthData) => y(units))
                 .attr('width', x.bandwidth)
-                .attr('height', d => dimensions.height - y(d.units))
+                .attr('height', ({ units }: LengthData) => dimensions.height - y(units))
                 .attr('fill', 'orange')
 
             rects
                 .enter()
                 .append('rect')
-                .attr('x', d => x(d.name)!)
+                .attr('x', ({ name }: LengthData) => x(name))
                 .attr('width', x.bandwidth)
                 .attr('height', 0)
                 .attr('y', dimensions.height)
                 .transition()
                 .delay(400)
                 .duration(500)
-                .ease(easeElastic)
-                .attr('height', d => dimensions.height - y(d.units))
-                .attr('y', d => y(d.units))
+                .ease(d3.easeElastic)
+                .attr('height', ({ units }: LengthData)=> dimensions.height - y(units))
+                .attr('y', ({ units }: LengthData) => y(units))
                 .attr('fill', 'orange')
         }
     }, [data])
@@ -140,7 +140,7 @@ const Transition: React.FC = () => {
      * functions to help add and remove elements to show transitions
      */
     const addData = () => {
-        const dataToAdd = {
+        const dataToAdd: LengthData = {
             name: randomstring.generate(),
             units: Math.round(Math.random() * 80 + 20),
         }

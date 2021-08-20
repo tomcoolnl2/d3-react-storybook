@@ -1,8 +1,6 @@
 
-import { useRef, useEffect, useState, FC } from 'react'
-import { select } from 'd3-selection'
-import { scaleLinear } from 'd3-scale'
-import { max } from 'd3-array'
+import * as d3 from 'd3'
+import { FC, useRef, useState, useEffect } from 'react'
 
 
 type ChartProps = {
@@ -16,7 +14,7 @@ const Chart: FC<ChartProps> = ({ width, height, data }) => {
     const ref = useRef<SVGSVGElement>(null)
     
     useEffect(() => {
-        select(ref.current)
+        d3.select(ref.current)
             .attr('width', width)
             .attr('height', height)
             .style('border', '1px solid black')
@@ -28,12 +26,12 @@ const Chart: FC<ChartProps> = ({ width, height, data }) => {
 
     const draw = () => {
         
-        const svg = select(ref.current)
+        const svg = d3.select(ref.current)
 
-        const selection = svg.selectAll('rect').data(data)
+        const selection = svg.selectAll('rect').data<number>(data)
 
-        const yScale = scaleLinear()
-							.domain([0, max(data)] as [number, number])
+        const yScale = d3.scaleLinear()
+							.domain([0, d3.max(data)] as [number, number])
 							.range([0, height - 100])
         
         selection
@@ -45,7 +43,7 @@ const Chart: FC<ChartProps> = ({ width, height, data }) => {
             .enter()
             .append('rect')
             .attr('x', (d: number, i: number) => i * 45)
-            .attr('y', (d: number) => height)
+            .attr('y', () => height)
             .attr('width', 40)
             .attr('height', 0)
             .attr('fill', 'orange')

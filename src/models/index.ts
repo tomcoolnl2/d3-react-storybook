@@ -1,7 +1,6 @@
 
-import { Selection } from 'd3-selection'
+import { Selection } from 'd3'
 
-// satisfy D3 Typings
-export type D3SelectSVGRef = null | Selection<SVGSVGElement | null, unknown, null, undefined>
 
-export type t = null | Selection<SVGSVGElement, unknown, null, undefined>
+// encaptulate D3 Typings
+export interface SVGSVGElementSelection extends Selection<SVGSVGElement | null, unknown, null, undefined> {}

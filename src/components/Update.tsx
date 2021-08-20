@@ -1,9 +1,13 @@
+import * as d3 from 'd3'
 import React, { useRef, useState, useEffect } from 'react'
-import { select, Selection } from 'd3-selection'
-import { scaleLinear, scaleBand } from 'd3-scale'
-import { max } from 'd3-array'
+import { SVGSVGElementSelection } from '../models'
 
-let initialData = [
+type LengthData = {
+    name: string,
+    units: number
+}
+
+let initialData: LengthData[] = [
     {
         name: 'foo',
         units: 32,
@@ -29,42 +33,39 @@ let initialData = [
         units: 59,
     },
 ]
-const Update: React.FC = () => {
-    const dimensions = { width: 800, height: 500 }
-    const svgRef = useRef<SVGSVGElement | null>(null)
-    const [data, setData] = useState(initialData)
-    const [name, setName] = useState('')
-    const [unit, setUnit] = useState('')
 
-    let x = scaleBand()
-        .domain(data.map(d => d.name))
+const Update: React.FC = () => {
+    
+    const dimensions = { width: 800, height: 500 }
+    const svgRef = useRef<SVGSVGElement>(null)
+    const [data, setData] = useState<LengthData[]>(initialData)
+    const [name, setName] = useState<string>('')
+    const [unit, setUnit] = useState<string>('')
+
+    let x = d3.scaleBand()
+        .domain(data.map(({ name }: LengthData) => name))
         .range([0, dimensions.width])
         .padding(0.05)
 
-    let y = scaleLinear()
-        .domain([0, max(data, d => d.units)!])
+    let y = d3.scaleLinear()
+        .domain([0, d3.max(data, ({ units }: LengthData) => units)])
         .range([dimensions.height, 0])
 
-    const [selection, setSelection] = useState<null | Selection<
-        SVGSVGElement | null,
-        unknown,
-        null,
-        undefined
-    >>(null)
+    const [selection, setSelection] = useState<SVGSVGElementSelection>(null)
 
     useEffect(() => {
         if (!selection) {
-            setSelection(select(svgRef.current))
+            setSelection(d3.select(svgRef.current))
         } else {
             selection
                 .selectAll('rect')
                 .data(data)
                 .enter()
                 .append('rect')
-                .attr('x', d => x(d.name)!)
-                .attr('y', d => y(d.units))
+                .attr('x', ({ name }: LengthData) => x(name))
+                .attr('y', ({ units }: LengthData) => y(units))
                 .attr('width', x.bandwidth)
-                .attr('height', d => dimensions.height - y(d.units))
+                .attr('height', ({ units }: LengthData) => dimensions.height - y(units))
                 .attr('fill', 'orange')
         }
     }, [selection])
@@ -78,18 +79,18 @@ const Update: React.FC = () => {
             /**
              * update the scales
              */
-            x = scaleBand()
-                .domain(data.map(d => d.name))
+            x = d3.scaleBand()
+                .domain(data.map(({ name }: LengthData) => name))
                 .range([0, dimensions.width])
                 .padding(0.05)
-            y = scaleLinear()
-                .domain([0, max(data, d => d.units)!])
+            y = d3.scaleLinear()
+                .domain([0, d3.max(data, ({ units }: LengthData) => units)])
                 .range([dimensions.height, 0])
 
             /**
              * join the data
              */
-            const rects = selection.selectAll('rect').data(data)
+            const rects = selection.selectAll('rect').data<LengthData>(data)
             /**
              * remove exit selection
              */
@@ -98,10 +99,10 @@ const Update: React.FC = () => {
              * update the current shapes in the DOM
              */
             rects
-                .attr('x', d => x(d.name)!)
-                .attr('y', d => y(d.units))
+                .attr('x', ({ name }: LengthData) => x(name)!)
+                .attr('y', ({ units }: LengthData) => y(units))
                 .attr('width', x.bandwidth)
-                .attr('height', d => dimensions.height - y(d.units))
+                .attr('height', ({ units }: LengthData) => dimensions.height - y(units))
                 .attr('fill', 'orange')
             /**
              * append the enter selection shapes to the DOM
@@ -109,10 +110,10 @@ const Update: React.FC = () => {
             rects
                 .enter()
                 .append('rect')
-                .attr('x', d => x(d.name)!)
-                .attr('y', d => y(d.units))
+                .attr('x', ({ name }: LengthData) => x(name))
+                .attr('y', ({ units }: LengthData) => y(units))
                 .attr('width', x.bandwidth)
-                .attr('height', d => dimensions.height - y(d.units))
+                .attr('height', ({ units }: LengthData) => dimensions.height - y(units))
                 .attr('fill', 'orange')
         }
     }, [data])
