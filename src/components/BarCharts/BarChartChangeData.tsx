@@ -68,7 +68,7 @@ const dataset: number[][] = [
 	[60, 30, 40, 20, 30]
 ]
 
-export const BarChart: FC = () => {
+export const BarChartChangeData: FC = () => {
 
     const initialIndex = 0, 
         width = 600, 

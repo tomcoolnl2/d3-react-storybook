@@ -1,7 +1,7 @@
 
 import * as d3 from 'd3'
-import React, { useRef, useState, useEffect } from 'react'
-import { SVGSVGElementSelection } from '../models'
+import { FC, useRef, useState, useEffect } from 'react'
+import { D3SVGSVGElementSelection } from '../../models'
 
 
 const data = [
@@ -31,7 +31,7 @@ const data = [
     },
 ]
 
-const Axis: React.FC = () => {
+export const BarChartAxis: FC = () => {
     
     const dimensions = {
         width: 600,
@@ -43,7 +43,7 @@ const Axis: React.FC = () => {
     }
 
     const svgRef = useRef<SVGSVGElement>(null)
-    const [selection, setSelection] = useState<SVGSVGElementSelection>(null)
+    const [selection, setSelection] = useState<D3SVGSVGElementSelection>(null)
 
     const y = d3.scaleLinear()
         .domain([0, d3.max(data, d => d.units)] as [number, number])
@@ -116,5 +116,3 @@ const Axis: React.FC = () => {
         <svg ref={svgRef} width={dimensions.width} height={dimensions.height} />
     )
 }
-
-export { Axis }

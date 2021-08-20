@@ -2,7 +2,7 @@
 import * as d3 from 'd3'
 import { FC, useRef, useState, useEffect } from 'react'
 import randomstring from 'randomstring'
-import { SVGSVGElementSelection } from '../models'
+import { D3SVGSVGElementSelection } from '../../models'
 
 
 type LengthData = {
@@ -37,7 +37,7 @@ let initialData: LengthData[] = [
     },
 ]
 
-const Transition: FC = () => {
+export const BarChartTransition: FC = () => {
 
     const dimensions = { width: 800, height: 500 }
     const svgRef = useRef<SVGSVGElement>(null)
@@ -52,7 +52,7 @@ const Transition: FC = () => {
         .domain([0, d3.max(data, ({ units }: LengthData) => units)] as [number, number])
         .range([dimensions.height, 0])
 
-    const [selection, setSelection] = useState<SVGSVGElementSelection>(null)
+    const [selection, setSelection] = useState<D3SVGSVGElementSelection>(null)
 
     useEffect(() => {
         if (!selection) {
@@ -166,5 +166,3 @@ const Transition: FC = () => {
         </>
     )
 }
-
-export { Transition }
