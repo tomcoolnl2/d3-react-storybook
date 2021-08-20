@@ -1,6 +1,7 @@
 
 import { storiesOf } from '@storybook/react'
 import {
+    BarChart,
     Axis,
     Update,
     Transition,
@@ -9,6 +10,7 @@ import {
 
 storiesOf('Basics', module)
     .add('Simple Axis', () => <Axis />)
+    .add('Simple BarChart', () => <BarChart />)
     .add('Update example', () => <Update />)
     .add('Transition example', () => <Transition />)
     .add('Scatter Plot', () => <ScatterPlot />)
