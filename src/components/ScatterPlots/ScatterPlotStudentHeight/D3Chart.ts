@@ -60,13 +60,13 @@ export class D3Chart {
 		this.update(data)
 	}
 
-	private normalize(data: StudentData[]) {
+	private normalize(data: StudentData[]): void {
 		this.data = data.map(({ name, age, height }: StudentData): Student => ({
 			name, age: Number(age), height: Number(height)
 		}))
 	}
 
-	public update(data: StudentData[]) {
+	public update(data: StudentData[]): void {
 
 		this.normalize(data)
 

@@ -8,8 +8,7 @@ import {
 	D3ScaleOrdinal, 
 	D3SVGGElementSelection, 
 	D3SVGSVGElementSelection, 
-	D3SVGTextElementSelection,
-	D3SVGCircleElementSelection
+	D3SVGTextElementSelection
 } from '../../../models'
 import { 
 	PublicationData, 
@@ -193,7 +192,7 @@ export class GapMinderChart {
     public update(data: PublicationData) {
 
 		// JOIN new data with old elements.
-	const circles = this.mainGroup.selectAll('circle')
+		const circles = this.mainGroup.selectAll('circle')
 			.data(data.countries)
 			
 		// // EXIT old elements not present in new data.
