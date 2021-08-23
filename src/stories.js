@@ -1,16 +1,23 @@
 
 import { storiesOf } from '@storybook/react'
 import {
-    BarChart,
-    Axis,
-    Update,
-    Transition,
-    ScatterPlot
+    BarChartChangeData,
+    BarChartAxis,
+    BarChartUpdate,
+    BarChartTransition,
+    BarChartGenderSort,
+    GapMinderClone,
+    ScatterPlotStudentHeight
 } from './components'
 
 storiesOf('Bar Charts', module)
-    .add('Simple Axis', () => <Axis />)
-    .add('Simple BarChart', () => <BarChart />)
-    .add('Update example', () => <Update />)
-    .add('Transition example', () => <Transition />)
-    .add('Scatter Plot', () => <ScatterPlot />)
+    .add('Simple Axis', () => <BarChartAxis />)
+    .add('Simple BarChart', () => <BarChartChangeData />)
+    .add('Update example', () => <BarChartUpdate />)
+    .add('Transition example', () => <BarChartTransition />)
+    .add('BarChart Gender Sort', () => <BarChartGenderSort />)
+
+storiesOf('Scatter Plots', module)
+    .add('Student Height', () => <ScatterPlotStudentHeight />)
+    .add('GapMinder Clone', () => <GapMinderClone />)
+    

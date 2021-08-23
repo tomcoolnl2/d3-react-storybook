@@ -1,6 +1,3 @@
 
-export { BarChart } from './BarChart'
-export { Axis } from './Axis'
-export { Update } from './Update'
-export { Transition } from './Transition'
-export { ScatterPlot } from './ScatterPlot'
+export * from './BarCharts'
+export * from './ScatterPlots'
