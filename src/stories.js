@@ -6,7 +6,8 @@ import {
     BarChartUpdate,
     BarChartTransition,
     BarChartGenderSort,
-    ScatterPlot
+    GapMinderClone,
+    ScatterPlotStudentHeight
 } from './components'
 
 storiesOf('Bar Charts', module)
@@ -17,4 +18,6 @@ storiesOf('Bar Charts', module)
     .add('BarChart Gender Sort', () => <BarChartGenderSort />)
 
 storiesOf('Scatter Plots', module)
-    .add('Scatter Plot', () => <ScatterPlot />)
+    .add('Student Height', () => <ScatterPlotStudentHeight />)
+    .add('GapMinder Clone', () => <GapMinderClone />)
+    

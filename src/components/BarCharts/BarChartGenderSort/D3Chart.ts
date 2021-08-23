@@ -8,8 +8,9 @@ export type PersonData = {
 	name: string
 }
 
-export type Person = PersonData & {
-	height: number
+export type Person = {
+	height: number,
+	name: string
 }
 
 const MARGIN = { TOP: 10, BOTTOM: 50, LEFT: 70, RIGHT: 10 }
@@ -18,83 +19,81 @@ const HEIGHT = 500 - MARGIN.TOP - MARGIN.BOTTOM
 
 export class D3Chart {
 
-	public svg: D3SVGGElementSelection = null
-	public xLabel: D3SVGTextElementSelection = null
-	public xAxisGroup: D3SVGGElementSelection = null
-	public yAxisGroup: D3SVGGElementSelection = null
+	private readonly parent: SVGSVGElement = null
+	private mainGroup: D3SVGGElementSelection = null
+	private xLabel: D3SVGTextElementSelection = null
+	private xAxisGroup: D3SVGGElementSelection = null
+	private yAxisGroup: D3SVGGElementSelection = null
 
 	public data: Person[] = null
-	public menData: Person[] = null
-	public womenData: Person[] = null
+	private menData: Person[] = null
+	private womenData: Person[] = null
 
-	constructor(
-		private element: HTMLElement = null
-	) {
-
-		
+	constructor(parent: SVGSVGElement) {
+		this.parent = parent
+		this.initialize()
 	}
 
-	initialize() {
+	private async initialize() {
 
-		this.svg = d3.select(this.element)
-			.append('svg')
-				.attr('width', WIDTH + MARGIN.LEFT + MARGIN.RIGHT)
-				.attr('height', HEIGHT + MARGIN.TOP + MARGIN.BOTTOM)
+		this.mainGroup = d3.select(this.parent)
+			.attr('width', WIDTH + MARGIN.LEFT + MARGIN.RIGHT)
+			.attr('height', HEIGHT + MARGIN.TOP + MARGIN.BOTTOM)
 			.append('g')
 				.attr('transform', `translate(${MARGIN.LEFT}, ${MARGIN.TOP})`)
 
-		this.xLabel = this.svg.append('text')
+		this.xLabel = this.mainGroup.append('text')
 			.attr('x', WIDTH / 2)
 			.attr('y', HEIGHT + 50)
 			.attr('text-anchor', 'middle')
 
-		this.svg.append('text')
-			.attr('x', -(HEIGHT / 2))
+		this.mainGroup.append('text')
+			.attr('x', - (HEIGHT / 2))
 			.attr('y', -50)
 			.attr('text-anchor', 'middle')
 			.text('Height in cm')
 			.attr('transform', 'rotate(-90)')
 
-		this.xAxisGroup = this.svg.append('g')
+		this.xAxisGroup = this.mainGroup.append('g')
 			.attr('transform', `translate(0, ${HEIGHT})`)
 
-		this.yAxisGroup = this.svg.append('g')
+		this.yAxisGroup = this.mainGroup.append('g')
 
-		Promise.all([
+		const datasets: PersonData[][] = await Promise.all([
 			d3.json<PersonData[]>('https://udemy-react-d3.firebaseio.com/tallest_men.json'),
 			d3.json<PersonData[]>('https://udemy-react-d3.firebaseio.com/tallest_women.json')
 		])
-		.then((datasets: Array<PersonData[]>) => {
-			this.normalize(datasets)
-			this.update(GenderEnum.MALE)
-		})
+
+		this.normalize(datasets)
+		this.update(GenderEnum.MALE)
 	}
 
-	normalize(datasets: Array<PersonData[]>) {
+	private normalize(datasets: PersonData[][]) {
 
-		const [menData, womenData]: Array<PersonData[]> = datasets
+		const [menData, womenData]: PersonData[][] = datasets
+		const toNumber = (n: string): number => Number(n) << 0
 
 		this.menData = menData.filter(Boolean)
-							.map(({ height, name }) => ({ height: Number(height), name}))
+							.map(({ height, name }) => ({ height: toNumber(height), name}))
 
 		this.womenData = womenData.filter(Boolean)
-							.map(({ height, name }) => ({ height: Number(height), name}))
+							.map(({ height, name }) => ({ height: toNumber(height), name}))
 	}
 
-	update(gender: GenderEnum) {
+	public update(gender: GenderEnum) {
 
 		this.data = (gender === GenderEnum.MALE) ? this.menData : this.womenData
 		this.xLabel.text(`The world's tallest ${gender}`)
 
 		const y = d3.scaleLinear()
 			.domain([
-				d3.min(this.data, ({ height }) => Number(height)) * 0.95, 
-				d3.max(this.data, ({ height }) => Number(height))
+				d3.min(this.data, ({ height }) => height) * 0.95, 
+				d3.max(this.data, ({ height }) => height)
 			])
 			.range([HEIGHT, 0])
 
 		const x = d3.scaleBand()
-			.domain(this.data.map(d => d.name))
+			.domain(this.data.map(({ name }) => name))
 			.range([0, WIDTH])
 			.padding(0.4)
 
@@ -103,10 +102,10 @@ export class D3Chart {
 
 		const yAxisCall = d3.axisLeft(y)
 		this.yAxisGroup.transition().duration(500).call(yAxisCall)
-
+		
 		// DATA JOIN
-		const rects = this.svg.selectAll('rect')
-			.data(this.data)
+		const rects = this.mainGroup.selectAll('rect')
+			.data<Person>(this.data)
 
 		// EXIT
 		rects.exit()
