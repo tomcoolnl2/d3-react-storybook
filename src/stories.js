@@ -7,7 +7,9 @@ import {
     BarChartTransition,
     BarChartGenderSort,
     GapMinderClone,
-    ScatterPlotStudentHeight
+    ScatterPlotStudentHeight,
+    CryptoCoinStats,
+    StackedArea
 } from './components'
 
 storiesOf('Bar Charts', module)
@@ -16,6 +18,12 @@ storiesOf('Bar Charts', module)
     .add('Update example', () => <BarChartUpdate />)
     .add('Transition example', () => <BarChartTransition />)
     .add('BarChart Gender Sort', () => <BarChartGenderSort />)
+
+storiesOf('Line Charts', module)
+    .add('Crypto Coin Stats', () => <CryptoCoinStats />)
+
+storiesOf('Stacked Charts', module)
+    .add('Stacked Area', () => <StackedArea />)
 
 storiesOf('Scatter Plots', module)
     .add('Student Height', () => <ScatterPlotStudentHeight />)
