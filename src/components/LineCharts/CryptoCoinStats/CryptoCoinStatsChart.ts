@@ -41,7 +41,7 @@ export class CryptoCoinStatsChart {
 	private mainGroup: D3SVGGElementSelection = null
     private xLabel: D3SVGTextElementSelection = null
     private yLabel: D3SVGTextElementSelection = null
-	private xScale: D3ScaleTime  = null
+	private xScale: D3ScaleTime = null
 	private yScale: D3ScaleLinear = null
 	private xAxisGroup: D3SVGGElementSelection = null
 	private yAxisGroup: D3SVGGElementSelection = null
@@ -79,7 +79,7 @@ export class CryptoCoinStatsChart {
     private normalize(data: RawCryptoCoinStatistics): void {
 
         const formattedData: CryptoCoinStatistics = {}
-        let currency: CryptoCurrencyEnum = null
+        let currency = <CryptoCurrencyEnum>null
 
         for (currency in data) {
             formattedData[currency] = data[currency]

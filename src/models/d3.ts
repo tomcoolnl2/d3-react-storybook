@@ -7,8 +7,8 @@ import {
     Selection, 
     Axis, 
     NumberValue, 
-    Transition, 
-    BaseType
+    Stack,
+    Series
 } from 'd3'
 
 // encaptulate D3 Typings
@@ -18,6 +18,8 @@ export interface D3ScaleOrdinal extends ScaleOrdinal<string, string, never> {}
 export interface D3ScaleTime extends ScaleTime<number, number, never> {}
 
 export interface D3AxisCall extends Axis<Date | NumberValue> {}
+export interface D3Stack extends Stack<any, { [key: string]: number }, string> {}
+export interface D3Series extends Series<{ [key: string]: number }, string> {}
 
 export interface D3SVGSVGElementSelection extends Selection<SVGSVGElement | null, unknown, null, undefined> {}
 export interface D3SVGGElementSelection extends Selection<SVGGElement | null, unknown, null, undefined> {}
