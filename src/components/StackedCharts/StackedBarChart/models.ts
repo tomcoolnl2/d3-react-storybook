@@ -1,5 +1,5 @@
 
-import { D3TSVData } from '../../../models'
+import { D3DSVData } from '../../../models'
 import { CausesEnum/*, causesList*/ } from './enums'
 
 
@@ -12,7 +12,7 @@ export type RawCrimeObservation = RawCrimeCauses & {
     total: string
 }
 
-export type RawCrimeStatistics = D3TSVData
+export type RawCrimeStatistics = D3DSVData
 
 
 export type CrimeCauses = {} | {

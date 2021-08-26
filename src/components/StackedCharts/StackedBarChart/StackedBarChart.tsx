@@ -4,14 +4,14 @@ import { FC, useRef, useState, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './styles.css'
 import { StackedBarChartChart } from './StackedBarChartChart'
-import { D3TSVData } from '../../../models'
+import { D3DSVData } from '../../../models'
 
 
 export const StackedBarChart: FC = () => {
 	
 	const chartArea = useRef<SVGSVGElement>(null)
 	const [chart, setChart] = useState<StackedBarChartChart>(null)
-    const [data, setData] = useState<D3TSVData>(null)
+    const [data, setData] = useState<D3DSVData>(null)
 
     const fetchData = async () => {
         const data = await csv('data/data_stacked.csv')

@@ -1,7 +1,14 @@
 
 import * as d3 from 'd3'
-import { D3Area, D3ScaleLinear, D3ScaleTime, D3Selection, MarginCoords } from '../../../models'
-import { Measurement, RawMeasurement } from './models'
+import { 
+    D3DSVData, 
+    D3Area, 
+    D3ScaleLinear, 
+    D3ScaleTime, 
+    D3Selection, 
+    MarginCoords 
+} from '../../../models'
+import { Measurement } from './models'
 
 
 export class AreaChartChart {
@@ -23,14 +30,14 @@ export class AreaChartChart {
 
     private data: Measurement[] = null
 
-    constructor(parent: SVGSVGElement, data: RawMeasurement) {
+    constructor(parent: SVGSVGElement, data: D3DSVData) {
         this.parent = parent
         this.normalize(data)
         this.initialize()
         this.draw() 
     }
 
-    private normalize(data: RawMeasurement): void {
+    private normalize(data: D3DSVData): void {
         this.data = data.map(({ date, value }): Measurement => ({
             date: d3.timeParse('%Y-%m-%d')(date),
             value: parseFloat(value)

@@ -11,7 +11,8 @@ import {
     CryptoCoinStats,
     AreaChart,
     StackedArea,
-    StackedBarChart
+    StackedBarChart,
+    WorldChoropleth
 } from './components'
 
 storiesOf('Bar Charts', module)
@@ -32,4 +33,6 @@ storiesOf('Stacked Charts', module)
 storiesOf('Scatter Plots', module)
     .add('Student Height', () => <ScatterPlotStudentHeight />)
     .add('GapMinder Clone', () => <GapMinderClone />)
-    
+
+storiesOf('Maps', module)
+    .add('World Choropleth', () => <WorldChoropleth />)
