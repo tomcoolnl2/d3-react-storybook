@@ -19,7 +19,7 @@ export const ChartWrapper: FC<ChartWrapperProps> = memo(({ gender }) => {
 	}, [])
 
 	useEffect(() => {
-        chart?.data && chart?.update(gender)
+        chart?.data && chart?.draw(gender)
 	}, [chart, gender])
 
 	return <svg className="chart-area" ref={chartArea}></svg>

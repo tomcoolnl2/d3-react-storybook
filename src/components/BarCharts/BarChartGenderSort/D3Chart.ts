@@ -1,6 +1,6 @@
 
 import * as d3 from 'd3'
-import { GenderEnum, D3SVGGElementSelection, D3SVGTextElementSelection } from '../../../models';
+import { GenderEnum, D3Selection } from '../../../models';
 
 
 export type PersonData = {
@@ -20,10 +20,10 @@ const HEIGHT = 500 - MARGIN.TOP - MARGIN.BOTTOM
 export class D3Chart {
 
 	private readonly parent: SVGSVGElement = null
-	private mainGroup: D3SVGGElementSelection = null
-	private xLabel: D3SVGTextElementSelection = null
-	private xAxisGroup: D3SVGGElementSelection = null
-	private yAxisGroup: D3SVGGElementSelection = null
+	private mainGroup: D3Selection<SVGGElement> = null
+	private xLabel: D3Selection<SVGTextElement> = null
+	private xAxisGroup: D3Selection<SVGGElement> = null
+	private yAxisGroup: D3Selection<SVGGElement> = null
 
 	public data: Person[] = null
 	private menData: Person[] = null
@@ -65,7 +65,7 @@ export class D3Chart {
 		])
 
 		this.normalize(datasets)
-		this.update(GenderEnum.MALE)
+		this.draw(GenderEnum.MALE)
 	}
 
 	private normalize(datasets: PersonData[][]) {
@@ -80,7 +80,7 @@ export class D3Chart {
 							.map(({ height, name }) => ({ height: toNumber(height), name}))
 	}
 
-	public update(gender: GenderEnum) {
+	public draw(gender: GenderEnum) {
 
 		this.data = (gender === GenderEnum.MALE) ? this.menData : this.womenData
 		this.xLabel.text(`The world's tallest ${gender}`)

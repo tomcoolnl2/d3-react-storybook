@@ -5,23 +5,42 @@ import {
     ScaleOrdinal, 
     ScaleTime, 
     Selection, 
-    Axis, 
-    NumberValue, 
+    Axis,
     Stack,
-    Series
+    Series,
+    ScaleBand,
+    DSVRowArray,
+    BaseType,
+    Transition,
+    Area,
+    ScaleThreshold,
+    GeoPath,
+    GeoPermissibleObjects,
+    GeoProjection
 } from 'd3'
 
-// encaptulate D3 Typings
+
+export interface D3DSVData extends DSVRowArray<string> {}
+
 export interface D3ScaleLinear extends ScaleLinear<number, number, never> {}
 export interface D3ScaleLog extends ScaleLogarithmic<number, number, never> {}
-export interface D3ScaleOrdinal extends ScaleOrdinal<string, string, never> {}
+export interface D3ScaleOrdinal extends ScaleOrdinal<string, any, never> {}
 export interface D3ScaleTime extends ScaleTime<number, number, never> {}
+export interface D3ScaleBand extends ScaleBand<string> {}
+export interface D3ScaleThreshold extends ScaleThreshold<any, any, never>{}
 
-export interface D3AxisCall extends Axis<Date | NumberValue> {}
+export interface D3Axis extends Axis<any> {}
+
+export interface D3Area<T = any> extends Area<T> {}
+export interface D3AreaShape<T> { [key: number]: number, data: T }
 export interface D3Stack extends Stack<any, { [key: string]: number }, string> {}
+export interface D3IterableStackData extends Iterable<{ [key: string]: number }> {}
 export interface D3Series extends Series<{ [key: string]: number }, string> {}
 
-export interface D3SVGSVGElementSelection extends Selection<SVGSVGElement | null, unknown, null, undefined> {}
-export interface D3SVGGElementSelection extends Selection<SVGGElement | null, unknown, null, undefined> {}
-export interface D3SVGTextElementSelection extends Selection<SVGTextElement | null, unknown, null, undefined> {}
-export interface D3SVGCircleElementSelection extends Selection<SVGCircleElement | null, unknown, null, undefined> {}
+// Maybe we need this in future cases
+// export interface D3Selection<T extends BaseType, V = unknown, PT extends BaseType = null, PV = undefined> extends Selection<T, V, PT, PV> {}
+export interface D3Selection<T extends BaseType> extends Selection<T, any, any, any> {}
+export interface D3Transition extends Transition<any, any, any, any> {}
+
+export interface D3GeoPath extends GeoPath<any, GeoPermissibleObjects> {}
+export interface D3GeoProjection extends GeoProjection {}

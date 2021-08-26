@@ -57,7 +57,7 @@ export class D3Chart {
 			.attr('text-anchor', 'middle')
 			.text('Height in cm')
 
-		this.update(data)
+		this.draw(data)
 	}
 
 	private normalize(data: StudentData[]): void {
@@ -66,12 +66,12 @@ export class D3Chart {
 		}))
 	}
 
-	public update(data: StudentData[]): void {
+	public draw(data: StudentData[]): void {
 
 		this.normalize(data)
 
-		this.x.domain([0 , d3.max(this.data, ({ age }: Student) => age)] as [number, number])
-		this.y.domain([0 , d3.max(this.data, ({ height }: Student) => height)] as [number, number])
+		this.x.domain([0 , d3.max(this.data, ({ age }: Student) => age)])
+		this.y.domain([0 , d3.max(this.data, ({ height }: Student) => height)])
 
 		const xAxisCall = d3.axisBottom(this.x)
 		const yAxisCall = d3.axisLeft(this.y)

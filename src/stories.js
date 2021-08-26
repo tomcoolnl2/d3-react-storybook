@@ -9,7 +9,10 @@ import {
     GapMinderClone,
     ScatterPlotStudentHeight,
     CryptoCoinStats,
-    StackedArea
+    AreaChart,
+    StackedArea,
+    StackedBarChart,
+    WorldChoropleth
 } from './components'
 
 storiesOf('Bar Charts', module)
@@ -23,9 +26,13 @@ storiesOf('Line Charts', module)
     .add('Crypto Coin Stats', () => <CryptoCoinStats />)
 
 storiesOf('Stacked Charts', module)
+    .add('Simple Area Chart', () => <AreaChart />)
     .add('Stacked Area', () => <StackedArea />)
+    .add('Stacked Bars', () => <StackedBarChart />)
 
 storiesOf('Scatter Plots', module)
     .add('Student Height', () => <ScatterPlotStudentHeight />)
     .add('GapMinder Clone', () => <GapMinderClone />)
-    
+
+storiesOf('Maps', module)
+    .add('World Choropleth', () => <WorldChoropleth />)

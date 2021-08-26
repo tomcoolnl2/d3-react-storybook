@@ -3,11 +3,9 @@ import * as d3 from 'd3'
 import { 
     D3ScaleLinear,
     D3ScaleTime,
-    D3AxisCall,
-    D3SVGGElementSelection, 
-    D3SVGSVGElementSelection,
-    MarginCoords, 
-    D3SVGTextElementSelection
+    D3Axis,
+    D3Selection,
+    MarginCoords
 } from '../../../models'
 import { 
     CryptoCoinData, 
@@ -37,18 +35,18 @@ export class CryptoCoinStatsChart {
 
     // D3/SVG Elements
 	private readonly parent: SVGSVGElement = null
-	private svg: D3SVGSVGElementSelection = null
-	private mainGroup: D3SVGGElementSelection = null
-    private xLabel: D3SVGTextElementSelection = null
-    private yLabel: D3SVGTextElementSelection = null
+	private svg: D3Selection<SVGSVGElement> = null
+	private mainGroup: D3Selection<SVGGElement> = null
+    private xLabel: D3Selection<SVGTextElement> = null
+    private yLabel: D3Selection<SVGTextElement> = null
 	private xScale: D3ScaleTime = null
 	private yScale: D3ScaleLinear = null
-	private xAxisGroup: D3SVGGElementSelection = null
-	private yAxisGroup: D3SVGGElementSelection = null
-    private xAxisCall: D3AxisCall = null
-    private yAxisCall: D3AxisCall = null
-    private xAxis: D3SVGGElementSelection = null
-    private yAxis: D3SVGGElementSelection = null
+	private xAxisGroup: D3Selection<SVGGElement> = null
+	private yAxisGroup: D3Selection<SVGGElement> = null
+    private xAxisCall: D3Axis = null
+    private yAxisCall: D3Axis = null
+    private xAxis: D3Selection<SVGGElement> = null
+    private yAxis: D3Selection<SVGGElement> = null
 
     // Static values
     public static cryptoCoinDataOptions: CryptoCoinDataOptions = {
@@ -73,7 +71,7 @@ export class CryptoCoinStatsChart {
 		// prepare
 		this.initialize()
 		// force initial state
-		this.update()
+		this.draw()
     }
 
     private normalize(data: RawCryptoCoinStatistics): void {
@@ -150,7 +148,7 @@ export class CryptoCoinStatsChart {
             .attr('class', 'y-axis')
     }
 
-    public update(): void {
+    public draw(): void {
 
         // filter data based on selections
         const currency: CryptoCurrencyEnum = this.selectedCurrency
@@ -161,6 +159,7 @@ export class CryptoCoinStatsChart {
             CryptoCoinStatsChart.parseTime('12/05/2013'), 
             CryptoCoinStatsChart.parseTime('31/10/2017')
         ]
+        
         const dataTimeFiltered = this.normalizedData[currency].filter(({ date }: CryptoCoinData) => {
             return ((date >= sliderValues[0]) && (date <= sliderValues[1]))
         })
@@ -209,12 +208,12 @@ export class CryptoCoinStatsChart {
 
     public filterDataByCurrency(currency: CryptoCurrencyEnum): void {
         this.selectedCurrency = currency
-        this.update()
+        this.draw()
     }
 
     public filterDataByOption(optionId: CryptoCoinDataOptionId): void {
         this.selectedDataOption = optionId
-        this.update()
+        this.draw()
     }
 
     public static parseTime(time: string, format: string = '%d/%m/%Y'): Date {
