@@ -1,0 +1,1669 @@
+city,city_ascii,lat,lng,country,iso2,iso3,admin_name,capital,population,id
+Klaipėda,Klaipeda,55.7204,21.1199,Lithuania,LT,LTU,Klaipėdos Miestas,admin,192307,1440897790
+Palanga,Palanga,55.9203,21.0710,Lithuania,LT,LTU,Palangos Miestas,admin,,1440868798
+Nida,Nida,55.3086,20.9965,Lithuania,LT,LTU,Neringa,admin,,1440271703
+Kretinga,Kretinga,55.8888,21.2445,Lithuania,LT,LTU,Kretinga,admin,,1440720895
+Tauragė,Taurage,55.2522,22.2897,Lithuania,LT,LTU,Tauragė,admin,,1440115384
+Šilutė,Silute,55.3453,21.4733,Lithuania,LT,LTU,Šilutė,admin,,1440568024
+Rietavas,Rietavas,55.7271,21.9234,Lithuania,LT,LTU,Rietavo,admin,,1440780088
+Plungė,Plunge,55.9077,21.8456,Lithuania,LT,LTU,Plungė,admin,,1440542185
+Šilalė,Silale,55.4898,22.1869,Lithuania,LT,LTU,Šilalė,admin,,1440106904
+Visaginas,Visaginas,55.5968,26.4398,Lithuania,LT,LTU,Visaginas,admin,,1440984232
+Zarasai,Zarasai,55.7322,26.2512,Lithuania,LT,LTU,Zarasai,admin,,1440450872
+Ignalina,Ignalina,55.3406,26.1605,Lithuania,LT,LTU,Ignalina,admin,,1440789779
+Utena,Utena,55.4976,25.5992,Lithuania,LT,LTU,Utena,admin,,1440298742
+Švenčionys,Svencionys,55.1330,26.1595,Lithuania,LT,LTU,Švenčionys,admin,,1440170338
+Rokiškis,Rokiskis,55.9587,25.5947,Lithuania,LT,LTU,Rokiškis,admin,,1440918695
+Molėtai,Moletai,55.2247,25.4169,Lithuania,LT,LTU,Molėtai,admin,,1440110307
+Šalčininkai,Salcininkai,54.3086,25.3868,Lithuania,LT,LTU,Šalčininkai,admin,,1440401402
+Vilnius,Vilnius,54.6834,25.3166,Lithuania,LT,LTU,Vilniaus Miestas,primary,542366,1440887149
+Kupiškis,Kupiskis,55.8401,24.9803,Lithuania,LT,LTU,Kupiškis,admin,,1440122297
+Trakai,Trakai,54.6399,24.9360,Lithuania,LT,LTU,Trakai,admin,,1440324561
+Biržai,Birzai,56.1986,24.7521,Lithuania,LT,LTU,Biržai,admin,,1440132489
+Anykščiai,Anyksciai,55.5246,25.1066,Lithuania,LT,LTU,Anykščiai,admin,,1440174702
+Telšiai,Telsiai,55.9831,22.2343,Lithuania,LT,LTU,Telšiai,admin,,1440908000
+Kelmė,Kelme,55.6301,22.9349,Lithuania,LT,LTU,Kelmė,admin,,1440476751
+Marijampolė,Marijampole,54.5599,23.3541,Lithuania,LT,LTU,Marijampolė,admin,,1440180524
+Lazdijai,Lazdijai,54.2333,23.5147,Lithuania,LT,LTU,Lazdijai,admin,,1440584882
+Šakiai,Sakiai,54.9534,23.0478,Lithuania,LT,LTU,Šakiai,admin,,1440362808
+Radviliškis,Radviliskis,55.8111,23.5411,Lithuania,LT,LTU,Radviliškis,admin,,1440712589
+Šiauliai,Siauliai,55.9386,23.3250,Lithuania,LT,LTU,Šiaulių Miestas,admin,133528,1440593416
+Birštonas,Birstonas,54.6048,24.0311,Lithuania,LT,LTU,Birštono,admin,,1440134144
+Druskininkai,Druskininkai,54.0157,23.9870,Lithuania,LT,LTU,Druskininkai,admin,,1440489111
+Kėdainiai,Kedainiai,55.2878,23.9727,Lithuania,LT,LTU,Kėdainiai,admin,,1440351434
+Alytus,Alytus,54.3964,24.0414,Lithuania,LT,LTU,Alytaus Miestas,admin,,1440273296
+Prienai,Prienai,54.6360,23.9458,Lithuania,LT,LTU,Prienai,admin,,1440412268
+Elektrėnai,Elektrenai,54.7863,24.6626,Lithuania,LT,LTU,Elektrénai,admin,,1440272776
+Kaunas,Kaunas,54.9504,23.8800,Lithuania,LT,LTU,Kauno Miestas,admin,374643,1440302852
+Jonava,Jonava,55.0801,24.2754,Lithuania,LT,LTU,Jonava,admin,,1440040612
+Kaišiadorys,Kaisiadorys,54.8653,24.4682,Lithuania,LT,LTU,Kaišiadorys,admin,,1440257941
+Panevežys,Panevezys,55.7400,24.3700,Lithuania,LT,LTU,Panevėžio Miestas,admin,127405,1440120065
+Joniškis,Joniskis,56.2394,23.6154,Lithuania,LT,LTU,Joniškis,admin,,1440592411
+Kazlų Rūda,Kazlu Ruda,54.7497,23.4950,Lithuania,LT,LTU,Kazlų Rūdos,admin,,1440371651
+Vilkaviškis,Vilkaviskis,54.6480,23.0305,Lithuania,LT,LTU,Vilkaviškis,admin,,1440557692
+Pasvalys,Pasvalys,56.0625,24.3997,Lithuania,LT,LTU,Pasvalys,admin,,1440957197
+Pakruojis,Pakruojis,55.9789,23.8551,Lithuania,LT,LTU,Pakruojis,admin,,1440570493
+Raseiniai,Raseiniai,55.3797,23.1239,Lithuania,LT,LTU,Raseiniai,admin,,1440481520
+Pagėgiai,Pagegiai,55.1379,21.9138,Lithuania,LT,LTU,Pagégiai,admin,,1440724133
+Jurbarkas,Jurbarkas,55.0756,22.7642,Lithuania,LT,LTU,Jurbarkas,admin,,1440845969
+Kalvarija,Kalvarija,54.4172,23.2283,Lithuania,LT,LTU,Kalvarijos,admin,,1440799248
+Širvintos,Sirvintos,55.0440,24.9545,Lithuania,LT,LTU,Širvintos,admin,,1440054141
+Skuodas,Skuodas,56.2706,21.5321,Lithuania,LT,LTU,Skuodas,admin,,1440264405
+Mažeikiai,Mazeikiai,56.3122,22.3265,Lithuania,LT,LTU,Mažeikiai,admin,,1440746512
+Akmenė,Akmene,56.2500,22.7500,Lithuania,LT,LTU,Akmenė,admin,,1440240618
+Ukmergė,Ukmerge,55.2494,24.7636,Lithuania,LT,LTU,Ukmergė,admin,,1440784663
+Varėna,Varena,54.2155,24.5754,Lithuania,LT,LTU,Varėna,admin,,1440933251
+Capellen,Capellen,49.6450,5.9908,Luxembourg,LU,LUX,Capellen,admin,,1442533571
+Esch-sur-Alzette,Esch-sur-Alzette,49.4958,5.9806,Luxembourg,LU,LUX,Esch-sur-Alzette,admin,,1442192663
+Remich,Remich,49.5450,6.3669,Luxembourg,LU,LUX,Remich,admin,,1442971283
+Echternach,Echternach,49.8056,6.4222,Luxembourg,LU,LUX,Echternach,admin,,1442794725
+Mersch,Mersch,49.7489,6.1061,Luxembourg,LU,LUX,Mersch,admin,,1442283324
+Redange-sur-Attert,Redange-sur-Attert,49.7656,5.8908,Luxembourg,LU,LUX,Redange,admin,,1442099691
+Vianden,Vianden,49.9350,6.2089,Luxembourg,LU,LUX,Vianden,admin,,1442979391
+Wiltz,Wiltz,49.9689,5.9319,Luxembourg,LU,LUX,Wiltz,admin,,1442345477
+Clervaux,Clervaux,50.0547,6.0314,Luxembourg,LU,LUX,Clervaux,admin,,1442118762
+Diekirch,Diekirch,49.8833,6.1667,Luxembourg,LU,LUX,Diekirch,admin,6242,1442382721
+Grevenmacher,Grevenmacher,49.7000,6.3333,Luxembourg,LU,LUX,Grevenmacher,admin,3958,1442392954
+Luxembourg,Luxembourg,49.6117,6.1300,Luxembourg,LU,LUX,Luxembourg,primary,107260,1442262731
+Skrunda,Skrunda,56.6833,22.0167,Latvia,LV,LVA,Skrundas Novads,admin,,1428371210
+Daugavpils,Daugavpils,55.8800,26.5100,Latvia,LV,LVA,Daugavpils Novads,admin,111564,1428924928
+Jēkabpils,Jekabpils,56.4833,25.8500,Latvia,LV,LVA,Jēkabpils Novads,admin,,1428885452
+Aglona,Aglona,56.1333,27.0167,Latvia,LV,LVA,Aglonas Novads,admin,,1428424524
+Lielvārde,Lielvarde,56.7225,24.8050,Latvia,LV,LVA,Lielvārdes Novads,admin,,1428614074
+Saldus,Saldus,56.6667,22.5000,Latvia,LV,LVA,Saldus Novads,admin,,1428774997
+Ozolnieki,Ozolnieki,56.6864,23.7878,Latvia,LV,LVA,Ozolnieku Novads,admin,,1428973455
+Brocēni,Broceni,56.7000,22.5333,Latvia,LV,LVA,Brocēnu Novads,admin,,1428026538
+Jelgava,Jelgava,56.6527,23.7128,Latvia,LV,LVA,Jelgavas Novads,admin,67207,1428370571
+Pilsrundāle,Pilsrundale,56.4167,24.0000,Latvia,LV,LVA,Rundāles Novads,admin,,1428889985
+Dobele,Dobele,56.6250,23.2786,Latvia,LV,LVA,Dobeles Novads,admin,,1428641580
+Iecava,Iecava,56.5986,24.2022,Latvia,LV,LVA,Iecavas Novads,admin,,1428743931
+Jaunpils,Jaunpils,56.7325,23.0136,Latvia,LV,LVA,Jaunpils Novads,admin,,1428617492
+Auce,Auce,56.4667,22.8833,Latvia,LV,LVA,Auces Novads,admin,,1428962592
+Tukums,Tukums,56.9669,23.1553,Latvia,LV,LVA,Tukuma Novads,admin,,1428304262
+Tērvete,Tervete,56.4781,23.3867,Latvia,LV,LVA,Tērvetes Novads,admin,,1428176770
+Salacgrīva,Salacgriva,57.7531,24.3590,Latvia,LV,LVA,Salacgrīvas Novads,admin,,1428301933
+Ventspils,Ventspils,57.3899,21.5606,Latvia,LV,LVA,Ventspils,admin,42884,1428112098
+Dundaga,Dundaga,57.5050,22.3504,Latvia,LV,LVA,Dundagas Novads,admin,,1428711022
+Jaunjelgava,Jaunjelgava,56.6132,25.0832,Latvia,LV,LVA,Jaunjelgavas Novads,admin,,1428755180
+Nereta,Nereta,56.2044,25.3077,Latvia,LV,LVA,Neretas Novads,admin,,1428242925
+Alsunga,Alsunga,56.9801,21.5640,Latvia,LV,LVA,Alsungas Novads,admin,,1428710208
+Kuldīga,Kuldiga,56.9690,21.9680,Latvia,LV,LVA,Kuldīgas Novads,admin,,1428739306
+Pāvilosta,Pavilosta,56.8898,21.1817,Latvia,LV,LVA,Pāvilostas Novads,admin,,1428955629
+Piņķi,Pinki,56.9419,23.9137,Latvia,LV,LVA,Babītes Novads,admin,,1428171019
+Ādaži,Adazi,57.0705,24.3371,Latvia,LV,LVA,Ādažu Novads,admin,,1428843734
+Kandava,Kandava,57.0389,22.7724,Latvia,LV,LVA,Kandavas Novads,admin,,1428964284
+Roja,Roja,57.5015,22.8088,Latvia,LV,LVA,Rojas Novads,admin,,1428577367
+Carnikava,Carnikava,57.1293,24.2842,Latvia,LV,LVA,Carnikavas Novads,admin,,1428447982
+Garkalne,Garkalne,57.0449,24.4195,Latvia,LV,LVA,Garkalnes Novads,admin,,1428447019
+Saulkrasti,Saulkrasti,57.2599,24.4189,Latvia,LV,LVA,Saulkrastu Novads,admin,,1428934591
+Smārde,Smarde,56.9533,23.3387,Latvia,LV,LVA,Engures Novads,admin,,1428580716
+Mērsrags,Mersrags,57.3364,23.1235,Latvia,LV,LVA,Mērsraga Novads,admin,,1428954276
+Talsi,Talsi,57.2465,22.5876,Latvia,LV,LVA,Talsu Novads,admin,,1428411666
+Jūrmala,Jurmala,56.9567,23.7233,Latvia,LV,LVA,Jūrmala,admin,,1428952300
+Mārupe,Marupe,56.9032,24.0467,Latvia,LV,LVA,Mārupes Novads,admin,,1428162714
+Ulbroka,Ulbroka,56.9363,24.3039,Latvia,LV,LVA,Stopiņu Novads,admin,,1428511061
+Zilupe,Zilupe,56.3860,28.1218,Latvia,LV,LVA,Zilupes Novads,admin,,1428917349
+Ludza,Ludza,56.5396,27.7189,Latvia,LV,LVA,Ludzas Novads,admin,,1428976928
+Dagda,Dagda,56.0961,27.5328,Latvia,LV,LVA,Dagdas Novads,admin,,1428145757
+Baltinava,Baltinava,56.9439,27.6440,Latvia,LV,LVA,Baltinavas Novads,admin,,1428769707
+Cibla,Cibla,56.5498,27.8837,Latvia,LV,LVA,Ciblas Novads,admin,,1428931914
+Kārsava,Karsava,56.7874,27.6732,Latvia,LV,LVA,Kārsavas Novads,admin,,1428849607
+Riga,Riga,56.9500,24.1000,Latvia,LV,LVA,Rīga,primary,742572,1428586192
+Krāslava,Kraslava,55.8969,27.1720,Latvia,LV,LVA,Krāslavas Novads,admin,,1428739484
+Limbaži,Limbazi,57.5130,24.7240,Latvia,LV,LVA,Limbažu Novads,admin,,1428920312
+Preiļi,Preili,56.2940,26.7248,Latvia,LV,LVA,Preiļu Novads,admin,,1428460035
+Vecvārkava,Vecvarkava,56.1984,26.5081,Latvia,LV,LVA,Vārkavas Novads,admin,,1428075811
+Ilūkste,Ilukste,55.9779,26.2978,Latvia,LV,LVA,Ilūkstes Novads,admin,,1428832647
+Nīca,Nica,56.3456,21.0646,Latvia,LV,LVA,Nīcas Novads,admin,,1428762389
+Bauska,Bauska,56.4079,24.1944,Latvia,LV,LVA,Bauskas Novads,admin,,1428015452
+Viļaka,Vilaka,57.1843,27.6719,Latvia,LV,LVA,Viļakas Novads,admin,,1428268339
+Līvāni,Livani,56.3567,26.1761,Latvia,LV,LVA,Līvānu Novads,admin,,1428769984
+Alūksne,Aluksne,57.4216,27.0466,Latvia,LV,LVA,Alūksnes Novads,admin,,1428873095
+Rēzekne,Rezekne,56.5000,27.3166,Latvia,LV,LVA,Rēzekne,admin,38340,1428895373
+Rugāji,Rugaji,57.0033,27.1337,Latvia,LV,LVA,Rugāju Novads,admin,,1428746884
+Riebiņi,Riebini,56.3403,26.7999,Latvia,LV,LVA,Riebiņu Novads,admin,,1428663476
+Viļāni,Vilani,56.5505,26.9298,Latvia,LV,LVA,Viļānu Novads,admin,,1428636034
+Varakļāni,Varaklani,56.6091,26.7547,Latvia,LV,LVA,Varakļānu Novads,admin,,1428435689
+Ape,Ape,57.5394,26.6940,Latvia,LV,LVA,Apes Novads,admin,,1428396055
+Madona,Madona,56.8510,26.2184,Latvia,LV,LVA,Madonas Novads,admin,,1428548117
+Jaunpiebalga,Jaunpiebalga,57.1775,26.0284,Latvia,LV,LVA,Jaunpiebalgas Novads,admin,,1428003359
+Lubāna,Lubana,56.9043,26.7161,Latvia,LV,LVA,Lubānas Novads,admin,,1428963436
+Gulbene,Gulbene,57.1734,26.7527,Latvia,LV,LVA,Gulbenes Novads,admin,,1428888445
+Balvi,Balvi,57.1287,27.2700,Latvia,LV,LVA,Balvu Novads,admin,,1428606162
+Aknīste,Akniste,56.1615,25.7482,Latvia,LV,LVA,Aknīstes Novads,admin,,1428363907
+Viesīte,Viesite,56.3465,25.5581,Latvia,LV,LVA,Viesītes Novads,admin,,1428998036
+Cesvaine,Cesvaine,56.9675,26.3076,Latvia,LV,LVA,Cesvaines Novads,admin,,1428611306
+Ķegums,Kegums,56.7455,24.7250,Latvia,LV,LVA,Ķeguma Novads,admin,,1428359846
+Vecpiebalga,Vecpiebalga,57.0618,25.8179,Latvia,LV,LVA,Vecpiebalgas Novads,admin,,1428633596
+Smiltene,Smiltene,57.4242,25.9017,Latvia,LV,LVA,Smiltenes Novads,admin,,1428035157
+Drabeši,Drabesi,57.2433,25.2803,Latvia,LV,LVA,Amatas Novads,admin,,1428886151
+Cēsis,Cesis,57.3091,25.2761,Latvia,LV,LVA,Cēsu Novads,admin,,1428840269
+Ērgļi,Ergli,56.8988,25.6429,Latvia,LV,LVA,Ērgļu Novads,admin,,1428672513
+Valka,Valka,57.7767,26.0118,Latvia,LV,LVA,Valkas Novads,admin,,1428763918
+Grobiņa,Grobina,56.5358,21.1747,Latvia,LV,LVA,Grobiņas Novads,admin,,1428780265
+Strenči,Strenci,57.6269,25.6919,Latvia,LV,LVA,Strenču Novads,admin,,1428746601
+Mūrmuiža,Murmuiza,57.4731,25.4917,Latvia,LV,LVA,Beverīnas Novads,admin,,1428958481
+Mazsalaca,Mazsalaca,57.8619,25.0547,Latvia,LV,LVA,Mazsalacas Novads,admin,,1428775090
+Aloja,Aloja,57.7672,24.8774,Latvia,LV,LVA,Alojas Novads,admin,,1428805342
+Burtnieki,Burtnieki,57.6949,25.2750,Latvia,LV,LVA,Burtnieku Novads,admin,,1428423415
+Koknese,Koknese,56.6516,25.4364,Latvia,LV,LVA,Kokneses Novads,admin,,1428876472
+Aizkraukle,Aizkraukle,56.6029,25.2636,Latvia,LV,LVA,Aizkraukles Novads,admin,,1428407271
+Skrīveri,Skriveri,56.6485,25.1195,Latvia,LV,LVA,Skrīveru Novads,admin,,1428849429
+Baldone,Baldone,56.7445,24.4008,Latvia,LV,LVA,Baldones Novads,admin,,1428735750
+Vecumnieki,Vecumnieki,56.6061,24.5223,Latvia,LV,LVA,Vecumnieku Novads,admin,,1428888119
+Sala,Sala,56.5047,25.7618,Latvia,LV,LVA,Salas Novads,admin,,1428593161
+Pļaviņas,Plavinas,56.6177,25.7194,Latvia,LV,LVA,Pļaviņu Novads,admin,,1428245037
+Liepaga,Liepaga,56.5100,21.0100,Latvia,LV,LVA,Liepāja,admin,85132,1428511842
+Rūjiena,Rujiena,57.8961,25.3342,Latvia,LV,LVA,Rūjienas Novads,admin,,1428387860
+Naukšēni,Naukseni,57.8842,25.4580,Latvia,LV,LVA,Naukšēnu Novads,admin,,1428372673
+Lieģi,Liegi,56.5797,21.3338,Latvia,LV,LVA,Durbes Novads,admin,,1428643853
+Rauna,Rauna,57.3337,25.6085,Latvia,LV,LVA,Raunas Novads,admin,,1428987270
+Aizpute,Aizpute,56.7211,21.6016,Latvia,LV,LVA,Aizputes Novads,admin,,1428860274
+Kocēni,Koceni,57.5198,25.3404,Latvia,LV,LVA,Kocēnu Novads,admin,,1428151958
+Valmiera,Valmiera,57.5387,25.4257,Latvia,LV,LVA,Valmiera,admin,,1428524787
+Sigulda,Sigulda,57.1538,24.8595,Latvia,LV,LVA,Siguldas Novads,admin,,1428703594
+Priekuļi,Priekuli,57.3115,25.3571,Latvia,LV,LVA,Priekuļu Novads,admin,,1428165145
+Ogre,Ogre,56.8113,24.6113,Latvia,LV,LVA,Ogres Novads,admin,,1428832851
+Ragana,Ragana,57.1821,24.7056,Latvia,LV,LVA,Krimuldas Novads,admin,,1428990628
+Loja,Loja,57.1534,24.6433,Latvia,LV,LVA,Sējas Novads,admin,,1428831058
+Ropaži,Ropazi,56.9747,24.6329,Latvia,LV,LVA,Ropažu Novads,admin,,1428220999
+Priekule,Priekule,56.4458,21.5939,Latvia,LV,LVA,Priekules Novads,admin,,1428340962
+Rucava,Rucava,56.1640,21.1627,Latvia,LV,LVA,Rucavas Novads,admin,,1428020890
+Salaspils,Salaspils,56.8610,24.3498,Latvia,LV,LVA,Salaspils Novads,admin,,1428270898
+Ikšķile,Ikskile,56.8340,24.4968,Latvia,LV,LVA,Ikšķiles Novads,admin,,1428284061
+Inčukalns,Incukalns,57.0987,24.6863,Latvia,LV,LVA,Inčukalna Novads,admin,,1428675819
+Mālpils,Malpils,57.0101,24.9578,Latvia,LV,LVA,Mālpils Novads,admin,,1428737728
+Olaine,Olaine,56.7947,23.9358,Latvia,LV,LVA,Olaines Novads,admin,,1428220700
+Ķekava,Kekava,56.8296,24.2318,Latvia,LV,LVA,Ķekavas Novads,admin,,1428331173
+Līgatne,Ligatne,57.2379,25.0436,Latvia,LV,LVA,Līgatnes Novads,admin,,1428643118
+Stalbe,Stalbe,57.3708,25.0324,Latvia,LV,LVA,Pārgaujas Novads,admin,,1428014091
+Vaiņode,Vainode,56.4185,21.8541,Latvia,LV,LVA,Vaiņodes Novads,admin,,1428647067
+Leova,Leova,46.4823,28.2530,Moldova,MD,MDA,Leova,admin,,1498085636
+Rezina,Rezina,47.7493,28.9658,Moldova,MD,MDA,Rezina,admin,,1498876065
+Căuşeni,Causeni,46.6367,29.4111,Moldova,MD,MDA,Căuşeni,admin,,1498826686
+Rîşcani,Riscani,47.9479,27.5638,Moldova,MD,MDA,Rîşcani,admin,,1498650340
+Sîngerei,Singerei,47.6363,28.1430,Moldova,MD,MDA,Sîngerei,admin,,1498521430
+Făleşti,Falesti,47.5767,27.7126,Moldova,MD,MDA,Făleşti,admin,,1498180648
+Floreşti,Floresti,47.8914,28.2931,Moldova,MD,MDA,Floreşti,admin,,1498297203
+Şoldăneşti,Soldanesti,47.8161,28.7972,Moldova,MD,MDA,Şoldăneşti,admin,,1498087659
+Ştefan Vodă,Stefan Voda,46.5129,29.6619,Moldova,MD,MDA,Ştefan-Vodă,admin,,1498766864
+Orhei,Orhei,47.3849,28.8245,Moldova,MD,MDA,Orhei,admin,,1498680500
+Comrat,Comrat,46.2946,28.6565,Moldova,MD,MDA,Găgăuzia,admin,,1498677351
+Cimişlia,Cimislia,46.5268,28.7644,Moldova,MD,MDA,Cimişlia,admin,,1498766980
+Cantemir,Cantemir,46.2774,28.2027,Moldova,MD,MDA,Cantemir,admin,,1498973808
+Basarabeasca,Basarabeasca,46.3317,28.9636,Moldova,MD,MDA,Basarabeasca,admin,,1498894118
+Edineţ,Edinet,48.1721,27.3034,Moldova,MD,MDA,Edineţ,admin,,1498114952
+Ocniţa,Ocnita,48.3827,27.4381,Moldova,MD,MDA,Ocniţa,admin,,1498334915
+Drochia,Drochia,48.0355,27.8129,Moldova,MD,MDA,Drochia,admin,,1498968635
+Donduşeni,Donduseni,48.2394,27.6056,Moldova,MD,MDA,Donduşeni,admin,,1498280582
+Briceni,Briceni,48.3629,27.0779,Moldova,MD,MDA,Briceni,admin,,1498970287
+Ialoveni,Ialoveni,46.9435,28.7823,Moldova,MD,MDA,Ialoveni,admin,,1498897259
+Bălți,Balti,47.7591,27.9053,Moldova,MD,MDA,Bălţi,admin,151355,1498172131
+Criuleni,Criuleni,47.2131,29.1593,Moldova,MD,MDA,Criuleni,admin,,1498171854
+Bender,Bender,46.8316,29.4777,Moldova,MD,MDA,Bender,admin,,1498257678
+Anenii Noi,Anenii Noi,46.8784,29.2348,Moldova,MD,MDA,Anenii Noi,admin,,1498650298
+Cahul,Cahul,45.9079,28.1944,Moldova,MD,MDA,Cahul,admin,63407,1498020356
+Chișinău,Chisinau,47.0050,28.8577,Moldova,MD,MDA,Chişinău,primary,688134,1498011437
+Straşeni,Straseni,47.1422,28.6077,Moldova,MD,MDA,Străşeni,admin,,1498773145
+Tiraspol,Tiraspol,46.8531,29.6400,Moldova,MD,MDA,Stînga Nistrului,admin,157000,1498104958
+Teleneşti,Telenesti,47.5011,28.3654,Moldova,MD,MDA,Teleneşti,admin,,1498811064
+Taraclia,Taraclia,45.9027,28.6682,Moldova,MD,MDA,Taraclia,admin,,1498129687
+Dubăsari,Dubasari,47.2631,29.1608,Moldova,MD,MDA,Stînga Nistrului,,23254,1498583082
+Cocieri,Cocieri,47.3087,29.1101,Moldova,MD,MDA,Dubăsari,admin,,1498580757
+Călăraşi,Calarasi,47.2556,28.3099,Moldova,MD,MDA,Călăraşi,admin,,1498598747
+Glodeni,Glodeni,47.7751,27.5189,Moldova,MD,MDA,Glodeni,admin,,1498553213
+Hînceşti,Hincesti,46.8305,28.5906,Moldova,MD,MDA,Hînceşti,admin,,1498402212
+Nisporeni,Nisporeni,47.0816,28.1714,Moldova,MD,MDA,Nisporeni,admin,,1498953988
+Soroca,Soroca,48.1566,28.2849,Moldova,MD,MDA,Soroca,admin,,1498912060
+Ungheni,Ungheni,47.2108,27.8005,Moldova,MD,MDA,Ungheni,admin,,1498687533
+Berane,Berane,42.8425,19.8733,Montenegro,ME,MNE,Berane,admin,,1499204492
+Plav,Plav,42.5969,19.9456,Montenegro,ME,MNE,Plav,admin,,1499247875
+Andrijevica,Andrijevica,42.7339,19.7919,Montenegro,ME,MNE,Andrijevica,admin,,1499379378
+Petnjica,Petnjica,42.9089,19.9644,Montenegro,ME,MNE,Petnjica,admin,,1499532482
+Gusinje,Gusinje,42.5619,19.8339,Montenegro,ME,MNE,Gusinje,admin,,1499342041
+Kolašin,Kolasin,42.8242,19.5225,Montenegro,ME,MNE,Kolašin,admin,,1499083772
+Podgorica,Podgorica,42.4660,19.2663,Montenegro,ME,MNE,Podgorica,primary,145850,1499454516
+Bijelo Polje,Bijelo Polje,43.0292,19.7456,Montenegro,ME,MNE,Bijelo Polje,admin,,1499452756
+Bar,Bar,42.0931,19.1003,Montenegro,ME,MNE,Bar,admin,,1499197266
+Budva,Budva,42.2864,18.8400,Montenegro,ME,MNE,Budva,admin,,1499564238
+Cetinje,Cetinje,42.3922,18.9225,Montenegro,ME,MNE,Cetinje,admin,,1499733751
+Danilovgrad,Danilovgrad,42.5472,19.1053,Montenegro,ME,MNE,Danilovgrad,admin,,1499538261
+Herceg-Novi,Herceg-Novi,42.4531,18.5375,Montenegro,ME,MNE,Herceg Novi,admin,,1499673791
+Kotor,Kotor,42.4258,18.7719,Montenegro,ME,MNE,Kotor,admin,,1499573612
+Mojkovac,Mojkovac,42.9639,19.5825,Montenegro,ME,MNE,Mojkovac,admin,,1499103009
+Nikšić,Niksic,42.7750,18.9583,Montenegro,ME,MNE,Nikšić,admin,,1499844133
+Plužine,Pluzine,43.1528,18.8394,Montenegro,ME,MNE,Plužine,admin,,1499719205
+Pljevlja,Pljevlja,43.3522,19.3542,Montenegro,ME,MNE,Pljevlja,admin,,1499255431
+Rožaje,Rozaje,42.8439,20.1683,Montenegro,ME,MNE,Rožaje,admin,,1499854307
+Šavnik,Savnik,42.9564,19.0967,Montenegro,ME,MNE,Šavnik,admin,,1499140506
+Tivat,Tivat,42.4364,18.6961,Montenegro,ME,MNE,Tivat,admin,,1499952005
+Ulcinj,Ulcinj,41.9283,19.2064,Montenegro,ME,MNE,Ulcinj,admin,,1499867182
+Žabljak,Zabljak,43.1547,19.1219,Montenegro,ME,MNE,Žabljak,admin,,1499125825
+Vevčani,Vevcani,41.2406,20.5933,Macedonia,MK,MKD,Vevčani,admin,,1807108428
+Kočani,Kocani,41.9164,22.4128,Macedonia,MK,MKD,Kočani,admin,,1807422302
+Staro Nagoričane,Staro Nagoricane,42.1981,21.8286,Macedonia,MK,MKD,Staro Nagoričane,admin,,1807782793
+Radoviš,Radovis,41.6383,22.4647,Macedonia,MK,MKD,Radoviš,admin,,1807341711
+Sopište,Sopiste,41.9547,21.4275,Macedonia,MK,MKD,Sopište,admin,,1807691189
+Petrovec,Petrovec,41.9389,21.6150,Macedonia,MK,MKD,Petrovec,admin,,1807236473
+Bosilovo,Bosilovo,41.4406,22.7278,Macedonia,MK,MKD,Bosilovo,admin,,1807868218
+Zrnovci,Zrnovci,41.8542,22.4444,Macedonia,MK,MKD,Zrnovci,admin,,1807046032
+Gradsko,Gradsko,41.5775,21.9428,Macedonia,MK,MKD,Gradsko,admin,,1807080471
+Lipkovo,Lipkovo,42.1564,21.5853,Macedonia,MK,MKD,Lipkovo,admin,,1807754347
+Lozovo,Lozovo,41.7839,21.9056,Macedonia,MK,MKD,Lozovo,admin,,1807681577
+Plasnica,Plasnica,41.4672,21.1231,Macedonia,MK,MKD,Plasnica,admin,,1807030257
+Aračinovo,Aracinovo,42.0264,21.5619,Macedonia,MK,MKD,Aračinovo,admin,,1807619539
+Studeničani,Studenicani,41.9158,21.5306,Macedonia,MK,MKD,Studeničani,admin,,1807047160
+Resen,Resen,41.0893,21.0109,Macedonia,MK,MKD,Resen,admin,,1807384915
+Bogovinje,Bogovinje,41.9236,20.9136,Macedonia,MK,MKD,Bogovinje,admin,,1807279534
+Vinica,Vinica,41.8828,22.5092,Macedonia,MK,MKD,Vinica,admin,,1807665568
+Belčišta,Belcista,41.3028,20.8303,Macedonia,MK,MKD,Debarca,admin,,1807953626
+Mogila,Mogila,41.1083,21.3786,Macedonia,MK,MKD,Mogila,admin,,1807583335
+Veles,Veles,41.7156,21.7756,Macedonia,MK,MKD,Veles,admin,,1807468155
+Kavadarci,Kavadarci,41.4331,22.0119,Macedonia,MK,MKD,Kavadarci,admin,,1807183974
+Kumanovo,Kumanovo,42.1322,21.7144,Macedonia,MK,MKD,Kumanovo,admin,,1807301219
+Ohrid,Ohrid,41.1172,20.8019,Macedonia,MK,MKD,Ohrid,admin,,1807586875
+Strumica,Strumica,41.4375,22.6433,Macedonia,MK,MKD,Strumica,admin,,1807799132
+Makedonski Brod,Makedonski Brod,41.5136,21.2153,Macedonia,MK,MKD,Makedonski Brod,admin,,1807831162
+Rostuša,Rostusa,41.6100,20.6000,Macedonia,MK,MKD,Mavrovo i Rostuša,admin,,1807907483
+Struga,Struga,41.1780,20.6778,Macedonia,MK,MKD,Struga,admin,,1807746682
+Čučer-Sandevo,Cucer-Sandevo,42.1020,21.3846,Macedonia,MK,MKD,Čučer-Sandevo,admin,,1807969277
+Novo Selo,Novo Selo,41.4149,22.8816,Macedonia,MK,MKD,Novo Selo,admin,,1807743098
+Zelenikovo,Zelenikovo,41.8841,21.5885,Macedonia,MK,MKD,Zelenikovo,admin,,1807765797
+Star Dojran,Star Dojran,41.1865,22.7203,Macedonia,MK,MKD,Dojran,admin,,1807304153
+Skopje,Skopje,42.0000,21.4335,Macedonia,MK,MKD,,primary,494087,1807600615
+Štip,Stip,41.7423,22.1979,Macedonia,MK,MKD,Štip,admin,,1807614061
+Makedonska Kamenica,Makedonska Kamenica,42.0208,22.5876,Macedonia,MK,MKD,Makedonska Kamenica,admin,,1807768534
+Ilinden,Ilinden,41.9945,21.5800,Macedonia,MK,MKD,Ilinden,admin,,1807767601
+Demir Hisar,Demir Hisar,41.2210,21.2030,Macedonia,MK,MKD,Demir Hisar,admin,,1807908017
+Želino,Zelino,41.9825,21.0624,Macedonia,MK,MKD,Želino,admin,,1807040075
+Prilep,Prilep,41.3451,21.5550,Macedonia,MK,MKD,Prilep,admin,,1807551778
+Bitola,Bitola,41.0391,21.3395,Macedonia,MK,MKD,Bitola,admin,86528,1807488567
+Krivogaštani,Krivogastani,41.3369,21.3311,Macedonia,MK,MKD,Krivogaštani,admin,,1807293579
+Kruševo,Krusevo,41.3694,21.2483,Macedonia,MK,MKD,Kruševo,admin,,1807741715
+Vasilevo,Vasilevo,41.4741,22.6430,Macedonia,MK,MKD,Vasilevo,admin,,1807855424
+Gostivar,Gostivar,41.7960,20.9082,Macedonia,MK,MKD,Gostivar,admin,,1807901060
+Vrapčište,Vrapciste,41.8344,20.8856,Macedonia,MK,MKD,Vrapčište,admin,,1807187187
+Novaci,Novaci,41.0420,21.4587,Macedonia,MK,MKD,Novaci,admin,,1807936735
+Čaška,Caska,41.6487,21.6922,Macedonia,MK,MKD,Čaška,admin,,1807720763
+Kratovo,Kratovo,42.0784,22.1807,Macedonia,MK,MKD,Kratovo,admin,,1807262234
+Probištip,Probistip,42.0019,22.1728,Macedonia,MK,MKD,Probištip,admin,,1807592969
+Debar,Debar,41.5244,20.5242,Macedonia,MK,MKD,Debar,admin,,1807621851
+Centar Župa,Centar Zupa,41.4788,20.5586,Macedonia,MK,MKD,Centar Župa,admin,,1807323094
+Rosoman,Rosoman,41.5167,21.9458,Macedonia,MK,MKD,Rosoman,admin,,1807663389
+Jegunovce,Jegunovce,42.0724,21.1237,Macedonia,MK,MKD,Jegunovce,admin,,1807040114
+Demir Kapija,Demir Kapija,41.4061,22.2463,Macedonia,MK,MKD,Demir Kapija,admin,,1807182004
+Negotino,Negotino,41.4846,22.0906,Macedonia,MK,MKD,Negotino,admin,,1807848381
+Konče,Konce,41.4951,22.3836,Macedonia,MK,MKD,Konče,admin,,1807382770
+Dolneni,Dolneni,41.4258,21.4540,Macedonia,MK,MKD,Dolneni,admin,,1807169470
+Sveti Nikole,Sveti Nikole,41.8667,21.9411,Macedonia,MK,MKD,Sveti Nikole,admin,,1807880409
+Valandovo,Valandovo,41.3174,22.5600,Macedonia,MK,MKD,Valandovo,admin,,1807423601
+Kičevo,Kicevo,41.5127,20.9589,Macedonia,MK,MKD,Kičevo,admin,,1807895120
+Delčevo,Delcevo,41.9654,22.7763,Macedonia,MK,MKD,Delčevo,admin,,1807161783
+Tetovo,Tetovo,42.0092,20.9701,Macedonia,MK,MKD,Tetovo,admin,119132,1807020286
+Češinovo,Cesinovo,41.8715,22.2896,Macedonia,MK,MKD,Češinovo-Obleševo,admin,,1807687666
+Karbinci,Karbinci,41.8176,22.2353,Macedonia,MK,MKD,Karbinci,admin,,1807568669
+Tearce,Tearce,42.0767,21.0531,Macedonia,MK,MKD,Tearce,admin,,1807139125
+Kriva Palanka,Kriva Palanka,42.2009,22.3324,Macedonia,MK,MKD,Kriva Palanka,admin,,1807058849
+Rankovce,Rankovce,42.1686,22.1166,Macedonia,MK,MKD,Rankovce,admin,,1807575395
+Pehčevo,Pehcevo,41.7623,22.8892,Macedonia,MK,MKD,Pehčevo,admin,,1807666030
+Gevgelija,Gevgelija,41.1417,22.5014,Macedonia,MK,MKD,Gevgelija,admin,,1807600399
+Bogdanci,Bogdanci,41.2031,22.5756,Macedonia,MK,MKD,Bogdanci,admin,,1807565779
+Berovo,Berovo,41.7031,22.8578,Macedonia,MK,MKD,Berovo,admin,,1807873177
+Brvenica,Brvenica,41.9672,20.9808,Macedonia,MK,MKD,Brvenica,admin,,1807009322
+Maastricht,Maastricht,50.8530,5.6770,Netherlands,NL,NLD,Limburg,admin,122378,1528563623
+Amsterdam,Amsterdam,52.3500,4.9166,Netherlands,NL,NLD,Noord-Holland,primary,1031000,1528355309
+The Hague,The Hague,52.0800,4.2700,Netherlands,NL,NLD,Zuid-Holland,primary,1406000,1528799905
+Haarlem,Haarlem,52.3804,4.6300,Netherlands,NL,NLD,Noord-Holland,admin,349957,1528822178
+Groningen,Groningen,53.2204,6.5800,Netherlands,NL,NLD,Groningen,admin,216688,1528295161
+Middelburg,Middelburg,51.5020,3.6100,Netherlands,NL,NLD,Zeeland,admin,46485,1528241984
+Lelystad,Lelystad,52.5176,5.4740,Netherlands,NL,NLD,Flevoland,admin,,1528990721
+Arnhem,Arnhem,51.9880,5.9230,Netherlands,NL,NLD,Gelderland,admin,141674,1528862562
+Assen,Assen,53.0000,6.5500,Netherlands,NL,NLD,Drenthe,admin,62237,1528917714
+'s-Hertogenbosch,'s-Hertogenbosch,51.6833,5.3167,Netherlands,NL,NLD,Noord-Brabant,admin,134520,1528012333
+Zwolle,Zwolle,52.5240,6.0970,Netherlands,NL,NLD,Overijssel,admin,111805,1528690076
+Utrecht,Utrecht,52.1003,5.1200,Netherlands,NL,NLD,Utrecht,admin,640000,1528871692
+Leeuwarden,Leeuwarden,53.2504,5.7834,Netherlands,NL,NLD,Fryslân,admin,125778,1528992603
+Rotterdam,Rotterdam,51.9200,4.4800,Netherlands,NL,NLD,Zuid-Holland,minor,1005000,1528892850
+Eindhoven,Eindhoven,51.4300,5.5000,Netherlands,NL,NLD,Noord-Brabant,minor,398053,1528636212
+Tromsø,Tromso,69.6351,18.9920,Norway,NO,NOR,Troms,admin,52436,1578188822
+Molde,Molde,62.7483,7.1833,Norway,NO,NOR,Møre og Romsdal,admin,18594,1578540727
+Vossavangen,Vossavangen,60.6300,6.4410,Norway,NO,NOR,Hordaland,,5571,1578107030
+Oslo,Oslo,59.9167,10.7500,Norway,NO,NOR,Oslo,primary,835000,1578324706
+Lillehammer,Lillehammer,61.1333,10.5000,Norway,NO,NOR,Oppland,admin,19542,1578724478
+Bærum,Baerum,59.9135,11.3472,Norway,NO,NOR,Akershus,,113659,1578429477
+Stavanger,Stavanger,58.9700,5.6800,Norway,NO,NOR,Rogaland,admin,173132,1578801684
+Hermansverk,Hermansverk,61.1833,6.8500,Norway,NO,NOR,Sogn og Fjordane,admin,,1578110608
+Leikanger,Leikanger,61.1833,6.8500,Norway,NO,NOR,Sogn og Fjordane,,1965,1578815332
+Kristiansand,Kristiansand,58.1666,8.0000,Norway,NO,NOR,Vest-Agder,admin,63814,1578642977
+Bergen,Bergen,60.3910,5.3245,Norway,NO,NOR,Hordaland,admin,213585,1578465701
+Skien,Skien,59.2000,9.6000,Norway,NO,NOR,Telemark,admin,73330,1578807356
+Arendal,Arendal,58.4648,8.7660,Norway,NO,NOR,Aust-Agder,admin,30916,1578533046
+Hamar,Hamar,60.8200,11.0690,Norway,NO,NOR,Hedmark,admin,29479,1578111692
+Tønsberg,Tonsberg,59.2640,10.4210,Norway,NO,NOR,Vestfold,admin,38914,1578658467
+Drammen,Drammen,59.7572,10.1907,Norway,NO,NOR,Buskerud,admin,90722,1578937195
+Bodø,Bodo,67.2468,14.3990,Norway,NO,NOR,Nordland,admin,34073,1578023501
+Haugesund,Haugesund,59.4119,5.2775,Norway,NO,NOR,Rogaland,minor,40321,1578805813
+Svolvær,Svolvaer,68.2333,14.5667,Norway,NO,NOR,Nordland,minor,4197,1578516140
+Narvik,Narvik,68.3832,17.2900,Norway,NO,NOR,Nordland,minor,20000,1578744025
+Ålesund,Alesund,62.5454,6.3880,Norway,NO,NOR,Møre og Romsdal,minor,47772,1578050516
+Hammerfest,Hammerfest,70.6613,23.6880,Norway,NO,NOR,Finnmark,minor,10000,1578368356
+Harstad,Harstad,68.7879,16.5156,Norway,NO,NOR,Troms,minor,19433,1578844884
+Finnsnes,Finnsnes,69.2406,18.0086,Norway,NO,NOR,Troms,minor,3907,1578015471
+Alta,Alta,69.9666,23.2417,Norway,NO,NOR,Finnmark,minor,12077,1578308187
+Kirkenes,Kirkenes,69.7250,30.0516,Norway,NO,NOR,Finnmark,minor,3282,1578657312
+Sandnes,Sandnes,58.8454,5.6900,Norway,NO,NOR,Rogaland,minor,46911,1578525190
+Gjøvik,Gjovik,60.8000,10.7000,Norway,NO,NOR,Oppland,minor,22719,1578892271
+Mo i Rana,Mo i Rana,66.3166,14.1667,Norway,NO,NOR,Nordland,minor,20409,1578067925
+Sarpsborg,Sarpsborg,59.2833,11.1167,Norway,NO,NOR,Østfold,admin,,1578097769
+Moss,Moss,59.4370,10.6692,Norway,NO,NOR,Østfold,minor,36901,1578386435
+Vadsø,Vadso,70.0966,29.7657,Norway,NO,NOR,Finnmark,admin,5139,1578863149
+Rørvik,Rorvik,64.8680,11.2053,Norway,NO,NOR,,minor,2615,1578785320
+Namsos,Namsos,64.4833,11.5000,Norway,NO,NOR,,minor,9035,1578576567
+Trondheim,Trondheim,63.4167,10.4167,Norway,NO,NOR,,minor,147139,1578633461
+Steinkjer,Steinkjer,64.0171,11.5000,Norway,NO,NOR,,admin,11274,1578642047
+Łódź,Lodz,51.7750,19.4514,Poland,PL,POL,Łódzkie,admin,758000,1616832750
+Lublin,Lublin,51.2504,22.5727,Poland,PL,POL,Lubelskie,admin,360044,1616953501
+Wrocław,Wroclaw,51.1104,17.0300,Poland,PL,POL,Dolnośląskie,admin,634893,1616108520
+Białystok,Bialystok,53.1504,23.1700,Poland,PL,POL,Podlaskie,admin,291855,1616443575
+Poznań,Poznan,52.4058,16.8999,Poland,PL,POL,Wielkopolskie,admin,623997,1616725607
+Zielona Góra,Zielona Gora,51.9504,15.5000,Poland,PL,POL,Lubuskie,admin,118433,1616050904
+Bydgoszcz,Bydgoszcz,53.1204,18.0100,Poland,PL,POL,Kujawsko-Pomorskie,admin,366452,1616454014
+Szczecin,Szczecin,53.4204,14.5300,Poland,PL,POL,Zachodniopomorskie,admin,407811,1616256546
+Gdańsk,Gdansk,54.3600,18.6400,Poland,PL,POL,Pomorskie,admin,740000,1616406372
+Olsztyn,Olsztyn,53.8000,20.4800,Poland,PL,POL,Warmińsko-Mazurskie,admin,186670,1616383275
+Katowice,Katowice,50.2604,19.0200,Poland,PL,POL,Śląskie,admin,2746000,1616798495
+Rzeszów,Rzeszow,50.0705,22.0000,Poland,PL,POL,Podkarpackie,admin,245686,1616879570
+Kraków,Krakow,50.0600,19.9600,Poland,PL,POL,Małopolskie,admin,756000,1616172264
+Opole,Opole,50.6850,17.9313,Poland,PL,POL,Opolskie,admin,131412,1616096837
+Kielce,Kielce,50.8904,20.6600,Poland,PL,POL,Świętokrzyskie,admin,215733,1616176351
+Gorzów Wielkopolski,Gorzow Wielkopolski,52.7368,15.2288,Poland,PL,POL,Lubuskie,admin,,1616788025
+Gdynia,Gdynia,54.5204,18.5300,Poland,PL,POL,Pomorskie,minor,314664,1616385189
+Grudziądz,Grudziadz,53.4804,18.7500,Poland,PL,POL,Kujawsko-Pomorskie,minor,102443,1616391533
+Inowrocław,Inowroclaw,52.7799,18.2500,Poland,PL,POL,Kujawsko-Pomorskie,minor,79007,1616606592
+Gliwice,Gliwice,50.3304,18.6700,Poland,PL,POL,Śląskie,minor,507670,1616311376
+Bytom,Bytom,50.3500,18.9100,Poland,PL,POL,Śląskie,minor,662247,1616740907
+Warsaw,Warsaw,52.2500,21.0000,Poland,PL,POL,Mazowieckie,primary,1707000,1616024847
+Elbląg,Elblag,54.1900,19.4027,Poland,PL,POL,Warmińsko-Mazurskie,minor,127558,1616395994
+Ełk,Elk,53.8337,22.3500,Poland,PL,POL,Warmińsko-Mazurskie,minor,55769,1616783003
+Koszalin,Koszalin,54.2000,16.1833,Poland,PL,POL,Zachodniopomorskie,minor,107450,1616258002
+Funchal,Funchal,32.6500,-16.8800,Portugal,PT,PRT,Madeira,admin,204767,1620995356
+Setúbal,Setubal,38.5300,-8.9000,Portugal,PT,PRT,Setúbal,admin,117974,1620174557
+Lisbon,Lisbon,38.7227,-9.1449,Portugal,PT,PRT,Lisboa,primary,2812000,1620619017
+Évora,Evora,38.5600,-7.9060,Portugal,PT,PRT,Évora,admin,55620,1620456226
+Angra do Heroísmo,Angra do Heroismo,38.6504,-27.2167,Portugal,PT,PRT,Azores,,12045,1620152939
+Santarém,Santarem,39.2310,-8.6820,Portugal,PT,PRT,Santarém,admin,29385,1620315932
+Horta,Horta,38.5347,-28.6448,Portugal,PT,PRT,Azores,,6611,1620589121
+Ponta Delgada,Ponta Delgada,37.7483,-25.6666,Portugal,PT,PRT,Azores,admin,61526,1620456537
+Porto,Porto,41.1500,-8.6200,Portugal,PT,PRT,Porto,admin,1337000,1620356810
+Faro,Faro,37.0171,-7.9333,Portugal,PT,PRT,Faro,admin,41355,1620330407
+Vila Real,Vila Real,41.2940,-7.7370,Portugal,PT,PRT,Vila Real,admin,17001,1620292123
+Aveiro,Aveiro,40.6410,-8.6510,Portugal,PT,PRT,Aveiro,admin,54162,1620555869
+Guarda,Guarda,40.5410,-7.2620,Portugal,PT,PRT,Guarda,admin,32111,1620174984
+Viseu,Viseu,40.6570,-7.9100,Portugal,PT,PRT,Viseu,admin,26364,1620291266
+Bragança,Braganca,41.8080,-6.7550,Portugal,PT,PRT,Bragança,admin,34375,1620281131
+Viana Do Castelo,Viana Do Castelo,41.6962,-8.8441,Portugal,PT,PRT,Viana do Castelo,admin,15555,1620680440
+Braga,Braga,41.5550,-8.4213,Portugal,PT,PRT,Braga,admin,826833,1620949401
+Beja,Beja,38.0140,-7.8630,Portugal,PT,PRT,Beja,admin,35854,1620050458
+Castelo Branco,Castelo Branco,39.8110,-7.4880,Portugal,PT,PRT,Castelo Branco,admin,33479,1620277400
+Portalegre,Portalegre,39.2900,-7.4230,Portugal,PT,PRT,Portalegre,admin,15581,1620475518
+Coimbra,Coimbra,40.2004,-8.4167,Portugal,PT,PRT,Coimbra,admin,106582,1620166724
+Leiria,Leiria,39.7390,-8.8050,Portugal,PT,PRT,Leiria,admin,45112,1620304777
+Covilhã,Covilha,40.2833,-7.5000,Portugal,PT,PRT,Castelo Branco,minor,24828,1620284248
+Portimão,Portimao,37.1337,-8.5333,Portugal,PT,PRT,Faro,minor,61226,1620859274
+Drobeta-Turnu Severin,Drobeta-Turnu Severin,44.6459,22.6659,Romania,RO,ROU,Mehedinţi,admin,106578,1642729144
+Brăila,Braila,45.2920,27.9690,Romania,RO,ROU,Brăila,admin,213569,1642286806
+Oradea,Oradea,47.0500,21.9200,Romania,RO,ROU,Bihor,admin,213830,1642066626
+Timișoara,Timisoara,45.7588,21.2234,Romania,RO,ROU,Timiş,admin,315053,1642603121
+Reșița,Resita,45.2970,21.8865,Romania,RO,ROU,Caraş-Severin,admin,83324,1642047399
+Călărași,Calarasi,44.2063,27.3259,Romania,RO,ROU,Călăraşi,admin,73224,1642445982
+Arad,Arad,46.1700,21.3200,Romania,RO,ROU,Arad,admin,169065,1642996909
+Alexandria,Alexandria,43.9016,25.2867,Romania,RO,ROU,Teleorman,admin,49346,1642953190
+Slobozia,Slobozia,44.5700,27.3820,Romania,RO,ROU,Ialomiţa,admin,52693,1642971618
+Baia Mare,Baia Mare,47.6595,23.5791,Romania,RO,ROU,Maramureş,admin,136553,1642459769
+Tulcea,Tulcea,45.1993,28.7967,Romania,RO,ROU,Tulcea,admin,92475,1642854000
+Ploiești,Ploiesti,44.9469,26.0365,Romania,RO,ROU,Prahova,admin,232542,1642169731
+Piatra-Neamt,Piatra-Neamt,46.9400,26.3830,Romania,RO,ROU,Neamţ,admin,102688,1642444635
+Suceava,Suceava,47.6377,26.2593,Romania,RO,ROU,Suceava,admin,105796,1642721443
+Botoșani,Botosani,47.7484,26.6597,Romania,RO,ROU,Botoşani,admin,114783,1642183791
+Constanța,Constanta,44.2027,28.6100,Romania,RO,ROU,Constanţa,admin,303399,1642851858
+Buzău,Buzau,45.1565,26.8065,Romania,RO,ROU,Buzău,admin,130954,1642794918
+Galați,Galati,45.4559,28.0459,Romania,RO,ROU,Galaţi,admin,311156,1642571620
+Vaslui,Vaslui,46.6333,27.7333,Romania,RO,ROU,Vaslui,admin,69225,1642644428
+Sfintu-Gheorghe,Sfintu-Gheorghe,45.8680,25.7930,Romania,RO,ROU,Covasna,admin,60677,1642189178
+Bacău,Bacau,46.5784,26.9196,Romania,RO,ROU,Bacău,admin,199668,1642838304
+Focșani,Focsani,45.6966,27.1865,Romania,RO,ROU,Vrancea,admin,105112,1642736232
+Bucharest,Bucharest,44.4334,26.0999,Romania,RO,ROU,Bucureşti,primary,1942000,1642414442
+Brașov,Brasov,45.6475,25.6072,Romania,RO,ROU,Braşov,admin,311044,1642328429
+Pitești,Pitesti,44.8563,24.8758,Romania,RO,ROU,Argeş,admin,171021,1642781938
+Tirgu Mures,Tirgu Mures,46.5582,24.5578,Romania,RO,ROU,Mureş,admin,149433,1642875714
+Deva,Deva,45.8833,22.9167,Romania,RO,ROU,Hunedoara,,67802,1642728479
+Cluj-Napoca,Cluj-Napoca,46.7884,23.5984,Romania,RO,ROU,Cluj,admin,316748,1642503974
+Rimnicu Vilcea,Rimnicu Vilcea,45.1100,24.3830,Romania,RO,ROU,Vâlcea,admin,107558,1642348361
+Sibiu,Sibiu,45.7971,24.1371,Romania,RO,ROU,Sibiu,admin,155565,1642393086
+Târgu Jiu,Targu Jiu,45.0450,23.2740,Romania,RO,ROU,Gorj,admin,97179,1642174891
+Alba Lulia,Alba Lulia,46.0770,23.5800,Romania,RO,ROU,Alba,admin,66085,1642449522
+Giurgiu,Giurgiu,43.9300,25.8400,Romania,RO,ROU,Giurgiu,admin,69067,1642984994
+Zalău,Zalau,47.1750,23.0630,Romania,RO,ROU,Sălaj,admin,63232,1642791988
+Craiova,Craiova,44.3263,23.8259,Romania,RO,ROU,Dolj,admin,304142,1642859458
+Hunedoara,Hunedoara,45.7500,22.9000,Romania,RO,ROU,Hunedoara,admin,,1642078107
+Târgoviște,Targoviste,44.9380,25.4590,Romania,RO,ROU,Dâmboviţa,admin,88435,1642534646
+Bistrița,Bistrita,47.1380,24.5130,Romania,RO,ROU,Bistriţa-Năsăud,admin,81318,1642633889
+Satu Mare,Satu Mare,47.7920,22.8850,Romania,RO,ROU,Satu Mare,admin,112490,1642046798
+Slatina,Slatina,44.4350,24.3710,Romania,RO,ROU,Olt,admin,78988,1642577360
+Miercurea Cuic,Miercurea Cuic,46.3610,25.5240,Romania,RO,ROU,Harghita,admin,42029,1642603145
+Iași,Iasi,47.1683,27.5749,Romania,RO,ROU,Iaşi,admin,325914,1642367695
+Belgrade,Belgrade,44.8186,20.4680,Serbia,RS,SRB,,primary,1099000,1688374696
+Aranđelovac,Arandelovac,44.3077,20.5612,Serbia,RS,SRB,Aranđelovac,admin,,1688854200
+Bela Palanka,Bela Palanka,43.2196,22.3140,Serbia,RS,SRB,Bela Palanka,admin,,1688276422
+Gadžin Han,Gadzin Han,43.2223,22.0333,Serbia,RS,SRB,Gadžin Han,admin,,1688569895
+Niš,Nis,43.3304,21.9000,Serbia,RS,SRB,Niš,admin,250000,1688661068
+Svrljig,Svrljig,43.4129,22.1252,Serbia,RS,SRB,Svrljig,admin,,1688519603
+Sokobanja,Sokobanja,43.6453,21.8692,Serbia,RS,SRB,Sokobanja,admin,,1688282797
+Boljevac,Boljevac,43.8321,21.9609,Serbia,RS,SRB,Boljevac,admin,,1688076013
+Zaječar,Zajecar,43.9019,22.2755,Serbia,RS,SRB,Zaječar,admin,,1688564835
+Bor,Bor,44.0819,22.0967,Serbia,RS,SRB,Bor,admin,,1688966590
+Negotin,Negotin,44.2264,22.5308,Serbia,RS,SRB,Negotin,admin,,1688309283
+Kladovo,Kladovo,44.6073,22.6155,Serbia,RS,SRB,Kladovo,admin,,1688823592
+Majdanpek,Majdanpek,44.4228,21.9358,Serbia,RS,SRB,Majdanpek,admin,,1688109331
+Golubac,Golubac,44.6529,21.6308,Serbia,RS,SRB,Golubac,admin,,1688460377
+Kučevo,Kucevo,44.4767,21.6712,Serbia,RS,SRB,Kučevo,admin,,1688495771
+Žagubica,Zagubica,44.1979,21.7902,Serbia,RS,SRB,Žagubica,admin,,1688849472
+Petrovac na Mlavi,Petrovac na Mlavi,44.3773,21.4198,Serbia,RS,SRB,Petrovac na Mlavi,admin,,1688674789
+Despotovac,Despotovac,44.0932,21.4440,Serbia,RS,SRB,Despotovac,admin,,1688388893
+Svilajnac,Svilajnac,44.2383,21.1970,Serbia,RS,SRB,Svilajnac,admin,,1688007802
+Doljevac,Doljevac,43.1968,21.8334,Serbia,RS,SRB,Doljevac,admin,,1688354392
+Merošina,Merosina,43.2813,21.7218,Serbia,RS,SRB,Merošina,admin,,1688733340
+Aleksinac,Aleksinac,43.5417,21.7078,Serbia,RS,SRB,Aleksinac,admin,,1688039133
+Blace,Blace,43.2970,21.2727,Serbia,RS,SRB,Blace,admin,,1688233004
+Brus,Brus,43.3846,21.0289,Serbia,RS,SRB,Brus,admin,,1688936225
+Kruševac,Krusevac,43.5810,21.3352,Serbia,RS,SRB,Kruševac,admin,,1688595236
+Aleksandrovac,Aleksandrovac,43.4609,21.0539,Serbia,RS,SRB,Aleksandrovac,admin,,1688573505
+Vrnjačka Banja,Vrnjacka Banja,43.6223,20.8956,Serbia,RS,SRB,Vrnjačka Banja,admin,,1688549018
+Trstenik,Trstenik,43.6169,21.0025,Serbia,RS,SRB,Trstenik,admin,,1688148503
+Varvarin,Varvarin,43.7195,21.3712,Serbia,RS,SRB,Varvarin,admin,,1688871979
+Ćićevac,Cicevac,43.7200,21.4436,Serbia,RS,SRB,Ćićevac,admin,,1688834584
+Ražanj,Razanj,43.6744,21.5492,Serbia,RS,SRB,Ražanj,admin,,1688323517
+Paraćin,Paracin,43.8592,21.4119,Serbia,RS,SRB,Paraćin,admin,,1688523885
+Ćuprija,Cuprija,43.9284,21.3745,Serbia,RS,SRB,Ćuprija,admin,,1688642855
+Jagodina,Jagodina,43.9791,21.2583,Serbia,RS,SRB,Jagodina,admin,,1688452613
+Rekovac,Rekovac,43.8609,21.0958,Serbia,RS,SRB,Rekovac,admin,,1688955843
+Ada,Ada,45.8027,20.1285,Serbia,RS,SRB,Ada,admin,,1688687750
+Alibunar,Alibunar,45.0789,20.9682,Serbia,RS,SRB,Alibunar,admin,,1688248362
+Apatin,Apatin,45.6709,18.9843,Serbia,RS,SRB,Apatin,admin,,1688081748
+Prijepolje,Prijepolje,43.3903,19.6506,Serbia,RS,SRB,Prijepolje,admin,,1688287067
+Rača,Raca,44.2268,20.9790,Serbia,RS,SRB,Rača,admin,,1688403125
+Raška,Raska,43.2859,20.6135,Serbia,RS,SRB,Raška,admin,,1688129790
+Ruma,Ruma,45.0079,19.8171,Serbia,RS,SRB,Ruma,admin,,1688037789
+Senta,Senta,45.9273,20.0789,Serbia,RS,SRB,Senta,admin,,1688368364
+Sečanj,Secanj,45.3676,20.7732,Serbia,RS,SRB,Sečanj,admin,,1688905613
+Sjenica,Sjenica,43.2735,20.0004,Serbia,RS,SRB,Sjenica,admin,,1688303533
+Smederevo,Smederevo,44.6516,20.9258,Serbia,RS,SRB,Smederevo,admin,,1688344019
+Smederevska Palanka,Smederevska Palanka,44.3654,20.9623,Serbia,RS,SRB,Smederevska Palanka,admin,,1688107292
+Sombor,Sombor,45.7742,19.1151,Serbia,RS,SRB,Sombor,admin,,1688575779
+Srbobran,Srbobran,45.5481,19.7954,Serbia,RS,SRB,Srbobran,admin,,1688431448
+Sremska Mitrovica,Sremska Mitrovica,44.9764,19.6122,Serbia,RS,SRB,Sremska Mitrovica,admin,,1688974283
+Sremski Karlovci,Sremski Karlovci,45.2021,19.9325,Serbia,RS,SRB,Sremski Karlovci,admin,,1688215764
+Stara Pazova,Stara Pazova,44.9861,20.1597,Serbia,RS,SRB,Stara Pazova,admin,,1688866909
+Subotica,Subotica,46.0700,19.6800,Serbia,RS,SRB,Subotica,admin,100000,1688081964
+Temerin,Temerin,45.4095,19.8911,Serbia,RS,SRB,Temerin,admin,,1688171551
+Titel,Titel,45.2060,20.2949,Serbia,RS,SRB,Titel,admin,,1688633486
+Topola,Topola,44.2544,20.6824,Serbia,RS,SRB,Topola,admin,,1688000008
+Tutin,Tutin,42.9900,20.3334,Serbia,RS,SRB,Tutin,admin,,1688161411
+Ub,Ub,44.4572,20.0762,Serbia,RS,SRB,Ub,admin,,1688701954
+Užice,Uzice,43.8582,19.8441,Serbia,RS,SRB,Užice,admin,,1688591624
+Valjevo,Valjevo,44.2720,19.8874,Serbia,RS,SRB,Valjevo,admin,,1688926375
+Veliko Gradište,Veliko Gradiste,44.7638,21.5163,Serbia,RS,SRB,Veliko Gradište,admin,,1688050059
+Vladimirci,Vladimirci,44.6158,19.7843,Serbia,RS,SRB,Vladimirci,admin,,1688070989
+Vrbas,Vrbas,45.5704,19.6479,Serbia,RS,SRB,Vrbas,admin,,1688145915
+Vršac,Vrsac,45.1175,21.2983,Serbia,RS,SRB,Vršac,admin,,1688560040
+Zrenjanin,Zrenjanin,45.3786,20.3995,Serbia,RS,SRB,Zrenjanin,admin,64053,1688827840
+Gornji Milanovac,Gornji Milanovac,44.0245,20.4586,Serbia,RS,SRB,Gornji Milanovac,admin,,1688363978
+Inđija,Indija,45.0482,20.0816,Serbia,RS,SRB,Inđija,admin,,1688349740
+Irig,Irig,45.1001,19.8603,Serbia,RS,SRB,Irig,admin,,1688660485
+Ivanjica,Ivanjica,43.5820,20.2284,Serbia,RS,SRB,Ivanjica,admin,,1688450536
+Kanjiža,Kanjiza,46.0635,20.0504,Serbia,RS,SRB,Kanjiža,admin,,1688731968
+Kikinda,Kikinda,45.8323,20.4682,Serbia,RS,SRB,Kikinda,admin,,1688358284
+Knić,Knic,43.9270,20.7197,Serbia,RS,SRB,Knić,admin,,1688545619
+Koceljeva,Koceljeva,44.4687,19.8214,Serbia,RS,SRB,Koceljeva,admin,,1688585119
+Kosjerić,Kosjeric,43.9987,19.9079,Serbia,RS,SRB,Kosjerić,admin,,1688365764
+Kovačica,Kovacica,45.1109,20.6236,Serbia,RS,SRB,Kovačica,admin,,1688530993
+Kovin,Kovin,44.7482,20.9766,Serbia,RS,SRB,Kovin,admin,,1688830508
+Kragujevac,Kragujevac,44.0200,20.9200,Serbia,RS,SRB,Kragujevac,admin,171197,1688832387
+Kraljevo,Kraljevo,43.7259,20.6896,Serbia,RS,SRB,Kraljevo,admin,,1688625234
+Krupanj,Krupanj,44.3676,19.3633,Serbia,RS,SRB,Krupanj,admin,,1688954602
+Kula,Kula,45.6109,19.5274,Serbia,RS,SRB,Kula,admin,,1688477275
+Lajkovac,Lajkovac,44.3700,20.1644,Serbia,RS,SRB,Lajkovac,admin,,1688900219
+Lapovo,Lapovo,44.1877,21.0969,Serbia,RS,SRB,Lapovo,admin,,1688267080
+Ljig,Ljig,44.2266,20.2394,Serbia,RS,SRB,Ljig,admin,,1688555007
+Ljubovija,Ljubovija,44.1896,19.3785,Serbia,RS,SRB,Ljubovija,admin,,1688274240
+Loznica,Loznica,44.5312,19.2427,Serbia,RS,SRB,Loznica,admin,,1688071221
+Lučani,Lucani,43.8608,20.1384,Serbia,RS,SRB,Lučani,admin,,1688437278
+Mali Iđoš,Mali Idos,45.7092,19.6663,Serbia,RS,SRB,Mali Iđoš,admin,,1688501809
+Mali Zvornik,Mali Zvornik,44.3992,19.1214,Serbia,RS,SRB,Mali Zvornik,admin,,1688513998
+Malo Crniće,Malo Crnice,44.5603,21.2906,Serbia,RS,SRB,Malo Crniće,admin,,1688544172
+Mionica,Mionica,44.2524,20.0817,Serbia,RS,SRB,Mionica,admin,,1688862283
+Nova Crnja,Nova Crnja,45.6685,20.6042,Serbia,RS,SRB,Nova Crnja,admin,,1688294163
+Nova Varoš,Nova Varos,43.4600,19.8117,Serbia,RS,SRB,Nova Varoš,admin,,1688051556
+Novi Bečej,Novi Becej,45.6015,20.1364,Serbia,RS,SRB,Novi Bečej,admin,,1688588712
+Novi Kneževac,Novi Knezevac,46.0410,20.0958,Serbia,RS,SRB,Novi Kneževac,admin,,1688706489
+Novi Pazar,Novi Pazar,43.1375,20.5149,Serbia,RS,SRB,Novi Pazar,admin,,1688435541
+Novi Sad,Novi Sad,45.2504,19.8499,Serbia,RS,SRB,Novi Sad,admin,225457,1688169087
+Odžaci,Odzaci,45.5076,19.2606,Serbia,RS,SRB,Odžaci,admin,,1688373834
+Opovo,Opovo,45.0522,20.4313,Serbia,RS,SRB,Opovo,admin,,1688371736
+Osečina,Osecina,44.3728,19.6010,Serbia,RS,SRB,Osečina,admin,,1688862457
+Pančevo,Pancevo,44.8713,20.6443,Serbia,RS,SRB,Pančevo,admin,,1688356974
+Pećinci,Pecinci,44.9089,19.9664,Serbia,RS,SRB,Pećinci,admin,,1688856329
+Plandište,Plandiste,45.2292,21.1238,Serbia,RS,SRB,Plandište,admin,,1688176320
+Požarevac,Pozarevac,44.6222,21.1826,Serbia,RS,SRB,Požarevac,admin,,1688653137
+Požega,Pozega,43.8459,20.0368,Serbia,RS,SRB,Požega,admin,,1688211541
+Priboj,Priboj,43.5836,19.5258,Serbia,RS,SRB,Priboj,admin,,1688522811
+Šid,Sid,45.1276,19.2267,Serbia,RS,SRB,Šid,admin,,1688899483
+Šabac,Sabac,44.7538,19.6876,Serbia,RS,SRB,Šabac,admin,,1688640421
+Arilje,Arilje,43.7550,20.0970,Serbia,RS,SRB,Arilje,admin,,1688798017
+Bajina Bašta,Bajina Basta,43.9709,19.5655,Serbia,RS,SRB,Bajina Bašta,admin,,1688643521
+Batočina,Batocina,44.1547,21.0799,Serbia,RS,SRB,Batočina,admin,,1688299986
+Bač,Bac,45.3923,19.2367,Serbia,RS,SRB,Bač,admin,,1688168992
+Bačka Palanka,Backa Palanka,45.2519,19.3916,Serbia,RS,SRB,Bačka Palanka,admin,,1688918464
+Bačka Topola,Backa Topola,45.8152,19.6369,Serbia,RS,SRB,Bačka Topola,admin,,1688533352
+Bački Petrovac,Backi Petrovac,45.3616,19.5920,Serbia,RS,SRB,Bački Petrovac,admin,,1688400393
+Bela Crkva,Bela Crkva,44.9015,21.4234,Serbia,RS,SRB,Bela Crkva,admin,,1688101335
+Bečej,Becej,45.6196,20.0400,Serbia,RS,SRB,Bečej,admin,,1688492797
+Bogatić,Bogatic,44.8376,19.4807,Serbia,RS,SRB,Bogatić,admin,,1688635508
+Žitište,Zitiste,45.4854,20.5507,Serbia,RS,SRB,Žitište,admin,,1688363591
+Žabari,Zabari,44.3562,21.2143,Serbia,RS,SRB,Žabari,admin,,1688661944
+Žabalj,Zabalj,45.3741,20.0707,Serbia,RS,SRB,Žabalj,admin,,1688662344
+Čoka,Coka,45.9415,20.1460,Serbia,RS,SRB,Čoka,admin,,1688200508
+Čačak,Cacak,43.8897,20.3301,Serbia,RS,SRB,Čačak,admin,170000,1688216463
+Trgovište,Trgoviste,42.3514,22.0921,Serbia,RS,SRB,Trgovište,admin,,1688150657
+Vranje,Vranje,42.5560,21.9002,Serbia,RS,SRB,Vranje,admin,,1688474456
+Bujanovac,Bujanovac,42.4606,21.7666,Serbia,RS,SRB,Bujanovac,admin,,1688743477
+Preševo,Presevo,42.3071,21.6500,Serbia,RS,SRB,Preševo,admin,,1688970219
+Bosilegrad,Bosilegrad,42.5005,22.4728,Serbia,RS,SRB,Bosilegrad,admin,,1688870763
+Surdulica,Surdulica,42.6904,22.1704,Serbia,RS,SRB,Surdulica,admin,,1688920744
+Vladičin Han,Vladicin Han,42.7082,22.0664,Serbia,RS,SRB,Vladičin Han,admin,,1688664018
+Crna Trava,Crna Trava,42.8071,22.3247,Serbia,RS,SRB,Crna Trava,admin,,1688208441
+Vlasotince,Vlasotince,42.9659,22.1272,Serbia,RS,SRB,Vlasotince,admin,,1688116678
+Žitorađa,Zitorada,43.1902,21.7134,Serbia,RS,SRB,Žitorađa,admin,,1688262057
+Prokuplje,Prokuplje,43.2383,21.5932,Serbia,RS,SRB,Prokuplje,admin,,1688111468
+Babušnica,Babusnica,43.0680,22.4115,Serbia,RS,SRB,Babušnica,admin,,1688685780
+Dimitrovgrad,Dimitrovgrad,43.0155,22.7776,Serbia,RS,SRB,Dimitrovgrad,admin,,1688139023
+Pirot,Pirot,43.1617,22.5871,Serbia,RS,SRB,Pirot,admin,,1688324137
+Knjaževac,Knjazevac,43.5667,22.2539,Serbia,RS,SRB,Knjaževac,admin,,1688849183
+Kuršumlija,Kursumlija,43.1390,21.2735,Serbia,RS,SRB,Kuršumlija,admin,,1688343996
+Medveđa,Medveda,42.8420,21.5858,Serbia,RS,SRB,Medveđa,admin,,1688014462
+Bojnik,Bojnik,43.0142,21.7180,Serbia,RS,SRB,Bojnik,admin,,1688559807
+Lebane,Lebane,42.9171,21.7294,Serbia,RS,SRB,Lebane,admin,,1688169172
+Leskovac,Leskovac,42.9976,21.9445,Serbia,RS,SRB,Leskovac,admin,,1688752541
+Čajetina,Cajetina,43.7497,19.7150,Serbia,RS,SRB,Čajetina,admin,,1688018668
+Velika Plana,Velika Plana,44.3323,21.0751,Serbia,RS,SRB,Velika Plana,admin,,1688536735
+Beočin,Beocin,45.1916,19.7250,Serbia,RS,SRB,Beočin ,admin,,1688152997
+Västerås,Vasteraas,59.6300,16.5400,Sweden,SE,SWE,Västmanland,admin,107194,1752826955
+Uppsala,Uppsala,59.8500,17.6333,Sweden,SE,SWE,Uppsala,admin,,1752953686
+Örebro,Orebro,59.2803,15.2200,Sweden,SE,SWE,Örebro,admin,98573,1752223019
+Östersund,Ostersund,63.1833,14.6500,Sweden,SE,SWE,Jämtland,admin,46178,1752026711
+Karlstad,Karlstad,59.3671,13.4999,Sweden,SE,SWE,Värmland,admin,74141,1752502445
+Nyköping,Nykoping,58.7640,17.0150,Sweden,SE,SWE,Södermanland,admin,27582,1752377083
+Göteborg,Goteborg,57.7500,12.0000,Sweden,SE,SWE,Västra Götaland,admin,537797,1752059374
+Halmstad,Halmstad,56.6718,12.8556,Sweden,SE,SWE,Halland,admin,55657,1752392511
+Linköping,Linkoping,58.4100,15.6299,Sweden,SE,SWE,Östergötland,admin,96732,1752963378
+Jönköping,Jonkoping,57.7713,14.1650,Sweden,SE,SWE,Jönköping,admin,89780,1752079041
+Kalmar,Kalmar,56.6670,16.3666,Sweden,SE,SWE,Kalmar,admin,35024,1752640618
+Gävle,Gavle,60.6670,17.1666,Sweden,SE,SWE,Gävleborg,admin,68635,1752586931
+Malmö,Malmo,55.5833,13.0333,Sweden,SE,SWE,Skåne,admin,269349,1752705818
+Växjö,Vaxjo,56.8837,14.8167,Sweden,SE,SWE,Kronoberg,admin,59600,1752263370
+Luleå,Lulea,65.5966,22.1584,Sweden,SE,SWE,Norrbotten,admin,48638,1752765449
+Stockholm,Stockholm,59.3508,18.0973,Sweden,SE,SWE,Stockholm,primary,1264000,1752425602
+Karlskrona,Karlskrona,56.2030,15.2960,Sweden,SE,SWE,Blekinge,admin,35212,1752316086
+Falun,Falun,60.6130,15.6470,Sweden,SE,SWE,Dalarna,admin,36477,1752939220
+Härnösand,Harnosand,62.6340,17.9340,Sweden,SE,SWE,Västernorrland,admin,17016,1752644953
+Uppsala,Uppsala,59.8601,17.6400,Sweden,SE,SWE,Stockholm,,133117,1752330831
+Umeå,Umea,63.8300,20.2400,Sweden,SE,SWE,Västerbotten,admin,78197,1752273881
+Kiruna,Kiruna,67.8500,20.2166,Sweden,SE,SWE,Norrbotten,minor,18154,1752001526
+Helsingborg,Helsingborg,56.0505,12.7000,Sweden,SE,SWE,Skåne,minor,91304,1752789933
+Skellefteå,Skelleftea,64.7721,20.9500,Sweden,SE,SWE,Västerbotten,minor,31311,1752233025
+Bollnäs,Bollnas,61.3520,16.3666,Sweden,SE,SWE,Gävleborg,minor,13398,1752287863
+Trollhättan,Trollhattan,58.2671,12.3000,Sweden,SE,SWE,Västra Götaland,minor,44543,1752863731
+Örnsköldsvik,Ornskoldsvik,63.3180,18.7167,Sweden,SE,SWE,Västernorrland,minor,27749,1752250773
+Sundsvall,Sundsvall,62.4001,17.3167,Sweden,SE,SWE,Västernorrland,minor,73389,1752024232
+Norrköping,Norrkoping,58.5954,16.1787,Sweden,SE,SWE,Östergötland,minor,88639,1752803583
+Vannersborg,Vannersborg,58.3630,12.3300,Sweden,SE,SWE,Västra Götaland,minor,21835,1752467593
+Borås,Boras,57.7304,12.9200,Sweden,SE,SWE,Västra Götaland,minor,65008,1752555835
+Kristianstad,Kristianstad,56.0337,14.1333,Sweden,SE,SWE,Skåne,minor,32188,1752606470
+Borlänge,Borlange,60.4833,15.4167,Sweden,SE,SWE,Dalarna,minor,39422,1752944924
+Mariestad,Mariestad,58.7050,13.8280,Sweden,SE,SWE,Västra Götaland,minor,14891,1752879298
+Visby,Visby,57.6337,18.3000,Sweden,SE,SWE,Gotland,admin,22593,1752027172
+Ljubljana,Ljubljana,46.0553,14.5150,Slovenia,SI,SVN,Ljubljana,primary,314807,1705917455
+Rečica ob Savinji,Recica ob Savinji,46.3167,14.9167,Slovenia,SI,SVN,Rečica ob Savinji,admin,,1705082644
+Selnica ob Dravi,Selnica ob Dravi,46.5500,15.4950,Slovenia,SI,SVN,Selnica ob Dravi,admin,,1705864774
+Semič,Semic,45.6461,15.1822,Slovenia,SI,SVN,Semič,admin,,1705653513
+Šalovci,Salovci,46.8250,16.2981,Slovenia,SI,SVN,Šalovci,admin,,1705296581
+Ribnica na Pohorju,Ribnica na Pohorju,46.5350,15.2728,Slovenia,SI,SVN,Ribnica na Pohorju,admin,,1705830999
+Ribnica,Ribnica,45.7386,14.7275,Slovenia,SI,SVN,Ribnica,admin,,1705675272
+Rogaška Slatina,Rogaska Slatina,46.2375,15.6397,Slovenia,SI,SVN,Rogaška Slatina,admin,,1705772825
+Rogašovci,Rogasovci,46.8000,16.0333,Slovenia,SI,SVN,Rogašovci,admin,,1705970248
+Rogatec,Rogatec,46.2294,15.7003,Slovenia,SI,SVN,Rogatec,admin,,1705579021
+Ruše,Ruse,46.5394,15.5158,Slovenia,SI,SVN,Ruše,admin,,1705417281
+Volčja Draga,Volcja Draga,45.9069,13.6775,Slovenia,SI,SVN,Renče-Vogrsko,admin,,1705547222
+Miklavž na Dravskem Polju,Miklavz na Dravskem Polju,46.5058,15.6972,Slovenia,SI,SVN,Miklavž na Dravskem Polju,admin,,1705244140
+Miren,Miren,45.8956,13.6075,Slovenia,SI,SVN,Miren-Kostanjevica,admin,,1705608129
+Poljčane,Poljcane,46.3119,15.5792,Slovenia,SI,SVN,Poljčane,admin,,1705286007
+Prevalje,Prevalje,46.5469,14.9208,Slovenia,SI,SVN,Prevalje,admin,,1705187949
+Rače,Race,46.4519,15.6814,Slovenia,SI,SVN,Rače-Fram,admin,,1705643433
+Podlehnik,Podlehnik,46.3353,15.8800,Slovenia,SI,SVN,Podlehnik,admin,,1705352359
+Prebold,Prebold,46.2369,15.0925,Slovenia,SI,SVN,Prebold,admin,,1705746627
+Ptuj,Ptuj,46.4214,15.8697,Slovenia,SI,SVN,Ptuj,admin,,1705072535
+Puconci,Puconci,46.7067,16.1564,Slovenia,SI,SVN,Puconci,admin,,1705677747
+Postojna,Postojna,45.7769,14.2167,Slovenia,SI,SVN,Postojna,admin,,1705090259
+Pivka,Pivka,45.6794,14.1967,Slovenia,SI,SVN,Pivka,admin,,1705709650
+Radeče,Radece,46.0681,15.1839,Slovenia,SI,SVN,Radeče,admin,,1705420341
+Polzela,Polzela,46.2833,15.0667,Slovenia,SI,SVN,Polzela,admin,,1705144123
+Preddvor,Preddvor,46.3025,14.4231,Slovenia,SI,SVN,Preddvor,admin,,1705403351
+Podvelka,Podvelka,46.5869,15.3306,Slovenia,SI,SVN,Podvelka,admin,,1705523444
+Podčetrtek,Podcetrtek,46.1569,15.5986,Slovenia,SI,SVN,Podčetrtek,admin,,1705261000
+Ajdovščina,Ajdovscina,45.8875,13.9111,Slovenia,SI,SVN,Ajdovščina,admin,,1705580792
+Bled,Bled,46.3692,14.1136,Slovenia,SI,SVN,Bled,admin,,1705655016
+Bistrica ob Sotli,Bistrica ob Sotli,46.0589,15.6642,Slovenia,SI,SVN,Bistrica ob Sotli,admin,,1705641346
+Benedikt v Slovenskih Goricah,Benedikt v Slovenskih Goricah,46.6086,15.8883,Slovenia,SI,SVN,Benedikt,admin,,1705523597
+Beltinci,Beltinci,46.6053,16.2406,Slovenia,SI,SVN,Beltinci,admin,,1705238814
+Gornji Petrovci,Gornji Petrovci,46.8053,16.2225,Slovenia,SI,SVN,Gornji Petrovci,admin,,1705170234
+Grad,Grad,46.8000,16.1000,Slovenia,SI,SVN,Grad,admin,,1705033390
+Grosuplje,Grosuplje,45.9556,14.6589,Slovenia,SI,SVN,Grosuplje,admin,,1705847148
+Nova Vas,Nova Vas,45.7717,14.5058,Slovenia,SI,SVN,Bloke,admin,,1705701553
+Spodnja Hajdina,Spodnja Hajdina,46.4089,15.8469,Slovenia,SI,SVN,Hajdina,admin,,1705733801
+Bohinjska Bistrica,Bohinjska Bistrica,46.2769,13.9550,Slovenia,SI,SVN,Bohinj,admin,,1705094350
+Borovnica,Borovnica,45.9158,14.3631,Slovenia,SI,SVN,Borovnica,admin,,1705665714
+Bovec,Bovec,46.3375,13.5528,Slovenia,SI,SVN,Bovec,admin,,1705609781
+Braslovče,Braslovce,46.2897,15.0389,Slovenia,SI,SVN,Braslovče,admin,,1705126731
+Brežice,Brezice,45.9033,15.5911,Slovenia,SI,SVN,Brežice,admin,,1705251132
+Brezovica,Brezovica,46.0333,14.4000,Slovenia,SI,SVN,Brezovica,admin,,1705190624
+Dobrovo,Dobrovo,45.9964,13.5264,Slovenia,SI,SVN,Brda,admin,,1705226459
+Cankova,Cankova,46.7208,16.0225,Slovenia,SI,SVN,Cankova,admin,,1705097170
+Celje,Celje,46.2361,15.2675,Slovenia,SI,SVN,Celje,admin,,1705563326
+Cerklje na Gorenjskem,Cerklje na Gorenjskem,46.2542,14.4886,Slovenia,SI,SVN,Cerklje na Gorenjskem,admin,,1705820033
+Cerknica,Cerknica,45.7931,14.3625,Slovenia,SI,SVN,Cerknica,admin,,1705932096
+Cerkno,Cerkno,46.1256,13.9817,Slovenia,SI,SVN,Cerkno,admin,,1705759580
+Cerkvenjak,Cerkvenjak,46.5706,15.9436,Slovenia,SI,SVN,Cerkvenjak,admin,,1705808302
+Črenšovci,Crensovci,46.5744,16.2906,Slovenia,SI,SVN,Črenšovci,admin,,1705698578
+Črna na Koroškem,Crna na Koroskem,46.4667,14.8500,Slovenia,SI,SVN,Črna na Koroškem,admin,,1705127725
+Črnomelj,Crnomelj,45.5711,15.1889,Slovenia,SI,SVN,Črnomelj,admin,,1705132468
+Destrnik,Destrnik,46.5006,15.8750,Slovenia,SI,SVN,Destrnik,admin,,1705579309
+Horjul,Horjul,46.0236,14.2992,Slovenia,SI,SVN,Horjul,admin,,1705243858
+Kranjska Gora,Kranjska Gora,46.4839,13.7894,Slovenia,SI,SVN,Kranjska Gora,admin,,1705443136
+Križevci pri Ljutomeru,Krizevci pri Ljutomeru,46.5683,16.1386,Slovenia,SI,SVN,Križevci,admin,,1705138690
+Krško,Krsko,45.9531,15.4894,Slovenia,SI,SVN,Krško,admin,,1705286396
+Ilirska Bistrica,Ilirska Bistrica,45.5697,14.2408,Slovenia,SI,SVN,Ilirska Bistrica,admin,,1705031705
+Ivančna Gorica,Ivancna Gorica,45.9383,14.8044,Slovenia,SI,SVN,Ivančna Gorica,admin,,1705930549
+Izola,Izola,45.5369,13.6619,Slovenia,SI,SVN,Izola,admin,,1705476087
+Jesenice,Jesenice,46.4306,14.0669,Slovenia,SI,SVN,Jesenice,admin,,1705471403
+Koper,Koper,45.5469,13.7294,Slovenia,SI,SVN,Koper,admin,,1705478862
+Kostanjevica na Krki,Kostanjevica na Krki,45.8461,15.4222,Slovenia,SI,SVN,Kostanjevica na Krki,admin,,1705796422
+Kozje,Kozje,46.0750,15.5603,Slovenia,SI,SVN,Kozje,admin,,1705548274
+Kranj,Kranj,46.2411,14.3617,Slovenia,SI,SVN,Kranj,admin,,1705842003
+Lendava,Lendava,46.5614,16.4506,Slovenia,SI,SVN,Lendava,admin,,1705653525
+Litija,Litija,46.0586,14.8225,Slovenia,SI,SVN,Litija,admin,,1705902870
+Ljubno,Ljubno,46.3456,14.8350,Slovenia,SI,SVN,Ljubno,admin,,1705083617
+Ljutomer,Ljutomer,46.5208,16.1975,Slovenia,SI,SVN,Ljutomer,admin,,1705303708
+Spodnje Hoče,Spodnje Hoce,46.5000,15.6500,Slovenia,SI,SVN,Hoče-Slivnica,admin,,1705379997
+Hodoš,Hodos,46.8233,16.3342,Slovenia,SI,SVN,Hodoš,admin,,1705217643
+Hrastnik,Hrastnik,46.1461,15.0814,Slovenia,SI,SVN,Hrastnik,admin,,1705818009
+Kozina,Kozina,45.6100,13.9356,Slovenia,SI,SVN,Hrpelje-Kozina,admin,,1705465646
+Idrija,Idrija,46.0028,14.0306,Slovenia,SI,SVN,Idrija,admin,,1705472042
+Ig,Ig,45.9603,14.5289,Slovenia,SI,SVN,Ig,admin,,1705409266
+Zgornja Kungota,Zgornja Kungota,46.6392,15.6156,Slovenia,SI,SVN,Kungota,admin,,1705104301
+Kuzma,Kuzma,46.8369,16.0833,Slovenia,SI,SVN,Kuzma,admin,,1705411351
+Laško,Lasko,46.1519,15.2364,Slovenia,SI,SVN,Laško,admin,,1705962698
+Lenart v Slovenskih Goricah,Lenart v Slovenskih Goricah,46.5761,15.8314,Slovenia,SI,SVN,Lenart,admin,,1705719159
+Logatec,Logatec,45.9144,14.2258,Slovenia,SI,SVN,Logatec,admin,,1705275257
+Log pri Brezovici,Log pri Brezovici,46.0167,14.3667,Slovenia,SI,SVN,Log-Dragomer,admin,,1705822369
+Stari Trg pri Ložu,Stari Trg pri Lozu,45.7128,14.4694,Slovenia,SI,SVN,Loška Dolina,admin,,1705849784
+Hrib-Loški Potok,Hrib-Loski Potok,45.7011,14.5911,Slovenia,SI,SVN,Loški Potok,admin,,1705118688
+Zgornje Jezersko,Zgornje Jezersko,46.3833,14.4667,Slovenia,SI,SVN,Jezersko,admin,,1705991236
+Juršinci,Jursinci,46.4847,15.9714,Slovenia,SI,SVN,Juršinci,admin,,1705262198
+Kamnik,Kamnik,46.2197,14.6094,Slovenia,SI,SVN,Kamnik,admin,,1705864078
+Kanal,Kanal,46.0886,13.6397,Slovenia,SI,SVN,Kanal,admin,,1705955833
+Kidričevo,Kidricevo,46.4036,15.7911,Slovenia,SI,SVN,Kidričevo,admin,,1705321982
+Kobarid,Kobarid,46.2481,13.5772,Slovenia,SI,SVN,Kobarid,admin,,1705651680
+Kobilje,Kobilje,46.6847,16.3978,Slovenia,SI,SVN,Kobilje,admin,,1705965317
+Kočevje,Kocevje,45.6433,14.8633,Slovenia,SI,SVN,Kočevje,admin,,1705859832
+Komen,Komen,45.8153,13.7483,Slovenia,SI,SVN,Komen,admin,,1705031068
+Sveta Trojica v Slovenskih Goricah,Sveta Trojica v Slovenskih Goricah,46.5767,15.8769,Slovenia,SI,SVN,Sveta Trojica v Slovenskih Goricah,admin,,1705659496
+Pesnica pri Mariboru,Pesnica pri Mariboru,46.6069,15.6767,Slovenia,SI,SVN,Pesnica,admin,,1705389455
+Piran,Piran,45.5278,13.5706,Slovenia,SI,SVN,Piran,admin,,1705085466
+Murska Sobota,Murska Sobota,46.6625,16.1664,Slovenia,SI,SVN,Murska Sobota,admin,,1705129726
+Muta,Muta,46.6114,15.1661,Slovenia,SI,SVN,Muta,admin,,1705459961
+Moravče,Moravce,46.1369,14.7450,Slovenia,SI,SVN,Moravče,admin,,1705291500
+Novo Mesto,Novo Mesto,45.7925,15.1647,Slovenia,SI,SVN,Novo Mesto,admin,,1705849587
+Odranci,Odranci,46.5867,16.2803,Slovenia,SI,SVN,Odranci,admin,,1705912877
+Oplotnica,Oplotnica,46.3878,15.4467,Slovenia,SI,SVN,Oplotnica,admin,,1705182651
+Ormož,Ormoz,46.4114,16.1544,Slovenia,SI,SVN,Ormož,admin,,1705413437
+Moravske-Toplice,Moravske-Toplice,46.6875,16.2256,Slovenia,SI,SVN,Moravske Toplice,admin,,1705126489
+Mozirje,Mozirje,46.3394,14.9633,Slovenia,SI,SVN,Mozirje,admin,,1705239053
+Mirna,Mirna,45.9553,15.0619,Slovenia,SI,SVN,Mirna,admin,,1705033855
+Mirna Peč,Mirna Pec,45.8603,15.0833,Slovenia,SI,SVN,Mirna Peč,admin,,1705096910
+Mislinja,Mislinja,46.4411,15.1956,Slovenia,SI,SVN,Mislinja,admin,,1705898157
+Mokronog,Mokronog,45.9342,15.1408,Slovenia,SI,SVN,Mokronog-Trebelno,admin,,1705336506
+Naklo,Naklo,46.2728,14.3172,Slovenia,SI,SVN,Naklo,admin,,1705637872
+Nova Gorica,Nova Gorica,45.9614,13.6436,Slovenia,SI,SVN,Nova Gorica,admin,,1705939355
+Dol pri Ljubljani,Dol pri Ljubljani,46.0886,14.6008,Slovenia,SI,SVN,Dol pri Ljubljani,admin,,1705717325
+Dolenjske Toplice,Dolenjske Toplice,45.7667,15.0667,Slovenia,SI,SVN,Dolenjske Toplice,admin,,1705395845
+Domžale,Domzale,46.1381,14.5978,Slovenia,SI,SVN,Domžale,admin,,1705822721
+Dornava,Dornava,46.4367,15.9536,Slovenia,SI,SVN,Dornava,admin,,1705023699
+Dravograd,Dravograd,46.5881,15.0192,Slovenia,SI,SVN,Dravograd,admin,,1705130450
+Spodnji Duplek,Spodnji Duplek,46.5031,15.7453,Slovenia,SI,SVN,Duplek,admin,,1705953692
+Gorenja Vas,Gorenja Vas,46.1072,14.1481,Slovenia,SI,SVN,Gorenja Vas-Poljane,admin,,1705961189
+Gorišnica,Gorisnica,46.4147,16.0139,Slovenia,SI,SVN,Gorišnica,admin,,1705561619
+Gornja Radgona,Gornja Radgona,46.6733,15.9922,Slovenia,SI,SVN,Gornja Radgona,admin,,1705643923
+Gornji Grad,Gornji Grad,46.2953,14.8083,Slovenia,SI,SVN,Gornji Grad,admin,,1705879741
+Zgornje Gorje,Zgornje Gorje,46.3833,14.0833,Slovenia,SI,SVN,Gorje,admin,,1705342044
+Divača,Divaca,45.6847,13.9703,Slovenia,SI,SVN,Divača,admin,,1705065298
+Dobje pri Planini,Dobje pri Planini,46.1367,15.4089,Slovenia,SI,SVN,Dobje,admin,,1705204927
+Videm,Videm,45.8500,14.6942,Slovenia,SI,SVN,Dobrepolje,admin,,1705074870
+Dobrna,Dobrna,46.3375,15.2264,Slovenia,SI,SVN,Dobrna,admin,,1705353787
+Dobrova,Dobrova,46.0550,14.4172,Slovenia,SI,SVN,Dobrova-Polhov Gradec,admin,,1705653264
+Dobrovnik,Dobrovnik,46.6514,16.3525,Slovenia,SI,SVN,Dobrovnik,admin,,1705602796
+Radenci,Radenci,46.6472,16.0442,Slovenia,SI,SVN,Radenci,admin,,1705609332
+Radlje ob Dravi,Radlje ob Dravi,46.6142,15.2264,Slovenia,SI,SVN,Radlje ob Dravi,admin,,1705478193
+Radovljica,Radovljica,46.3444,14.1744,Slovenia,SI,SVN,Radovljica,admin,,1705488511
+Ravne na Koroškem,Ravne na Koroskem,46.5431,14.9692,Slovenia,SI,SVN,Ravne na Koroškem,admin,,1705757622
+Šentjur,Sentjur,46.2172,15.3975,Slovenia,SI,SVN,Šentjur,admin,,1705076635
+Šentrupert,Sentrupert,45.9778,15.0956,Slovenia,SI,SVN,Šentrupert,admin,,1705083565
+Sevnica,Sevnica,46.0078,15.3156,Slovenia,SI,SVN,Sevnica,admin,,1705218575
+Vitomarci,Vitomarci,46.5275,15.9394,Slovenia,SI,SVN,Sveti Andraž v Slovenskih Goricah,admin,,1705653481
+Straža,Straza,45.7800,15.0728,Slovenia,SI,SVN,Straža,admin,,1705491164
+Sveta Ana v Slovenskih Goricah,Sveta Ana v Slovenskih Goricah,46.6492,15.8442,Slovenia,SI,SVN,Sveta Ana,admin,,1705062986
+Jurovski Dol,Jurovski Dol,46.6064,15.7847,Slovenia,SI,SVN,Sveti Jurij v Slovenskih Goricah,admin,,1705288408
+Šoštanj,Sostanj,46.3800,15.0486,Slovenia,SI,SVN,Šoštanj,admin,,1705376916
+Središče ob Dravi,Sredisce ob Dravi,46.3942,16.2681,Slovenia,SI,SVN,Središče ob Dravi,admin,,1705613407
+Starše,Starse,46.4658,15.7672,Slovenia,SI,SVN,Starše,admin,,1705557844
+Štore,Store,46.2208,15.3139,Slovenia,SI,SVN,Štore,admin,,1705775604
+Sveti Jurij ob Ščavnici,Sveti Jurij ob Scavnici,46.5695,16.0235,Slovenia,SI,SVN,Sveti Jurij ob Ščavnici,admin,,1705832384
+Šmartno ob Paki,Smartno ob Paki,46.3333,15.0333,Slovenia,SI,SVN,Šmartno ob Paki,admin,,1705804130
+Šmartno pri Litiji,Smartno pri Litiji,46.0444,14.8442,Slovenia,SI,SVN,Šmartno pri Litiji,admin,,1705164835
+Sodražica,Sodrazica,45.7611,14.6356,Slovenia,SI,SVN,Sodražica,admin,,1705295579
+Solčava,Solcava,46.4194,14.6936,Slovenia,SI,SVN,Solčava,admin,,1705581561
+Slovenj Gradec,Slovenj Gradec,46.5103,15.0806,Slovenia,SI,SVN,Slovenj Gradec,admin,,1705845238
+Slovenska Bistrica,Slovenska Bistrica,46.3928,15.5744,Slovenia,SI,SVN,Slovenska Bistrica,admin,,1705359875
+Slovenske Konjice,Slovenske Konjice,46.3367,15.4258,Slovenia,SI,SVN,Slovenske Konjice,admin,,1705506460
+Šmarje pri Jelšah,Smarje pri Jelsah,46.2272,15.5192,Slovenia,SI,SVN,Šmarje pri Jelšah,admin,,1705373506
+Šenčur,Sencur,46.2456,14.4197,Slovenia,SI,SVN,Šenčur,admin,,1705968659
+Šempeter pri Gorici,Sempeter pri Gorici,45.9275,13.6411,Slovenia,SI,SVN,Šempeter-Vrtojba,admin,,1705397569
+Šentilj,Sentilj,46.6817,15.6481,Slovenia,SI,SVN,Šentilj,admin,,1705840723
+Šentjernej,Sentjernej,45.8400,15.3361,Slovenia,SI,SVN,Šentjernej,admin,,1705329272
+Sežana,Sezana,45.7069,13.8722,Slovenia,SI,SVN,Sežana,admin,,1705079549
+Škocjan,Skocjan,45.9067,15.2914,Slovenia,SI,SVN,Škocjan,admin,,1705940381
+Škofja Loka,Skofja Loka,46.1672,14.3089,Slovenia,SI,SVN,Škofja Loka,admin,,1705743622
+Škofljica,Skofljica,45.9833,14.5767,Slovenia,SI,SVN,Škofljica,admin,,1705067758
+Razkrižje,Razkrizje,46.5217,16.2811,Slovenia,SI,SVN,Razkrižje,admin,,1705276725
+Markovci,Markovci,46.3833,15.9500,Slovenia,SI,SVN,Markovci,admin,,1705493301
+Medvode,Medvode,46.1333,14.4333,Slovenia,SI,SVN,Medvode,admin,,1705158152
+Mengeš,Menges,46.1669,14.5750,Slovenia,SI,SVN,Mengeš,admin,,1705274788
+Metlika,Metlika,45.6472,15.3142,Slovenia,SI,SVN,Metlika,admin,,1705008169
+Mežica,Mezica,46.5214,14.8544,Slovenia,SI,SVN,Mežica,admin,,1705607524
+Lovrenc na Pohorju,Lovrenc na Pohorju,46.5406,15.3931,Slovenia,SI,SVN,Lovrenc na Pohorju,admin,,1705376318
+Luče,Luce,46.3561,14.7467,Slovenia,SI,SVN,Luče,admin,,1705042629
+Lukovica pri Domžalah,Lukovica pri Domzalah,46.1667,14.7000,Slovenia,SI,SVN,Lukovica,admin,,1705829201
+Majšperk,Majsperk,46.3517,15.7336,Slovenia,SI,SVN,Majšperk,admin,,1705147774
+Makole,Makole,46.3172,15.6672,Slovenia,SI,SVN,Makole,admin,,1705304446
+Maribor,Maribor,46.5405,15.6500,Slovenia,SI,SVN,Maribor,admin,114228,1705454394
+Tomaž pri Ormožu,Tomaz pri Ormozu,46.4842,16.0836,Slovenia,SI,SVN,Sveti Tomaž,admin,,1705837424
+Videm pri Ptuju,Videm pri Ptuju,46.3686,15.9064,Slovenia,SI,SVN,Videm,admin,,1705681768
+Tolmin,Tolmin,46.1864,13.7361,Slovenia,SI,SVN,Tolmin,admin,,1705602247
+Trbovlje,Trbovlje,46.1550,15.0533,Slovenia,SI,SVN,Trbovlje,admin,,1705370010
+Trebnje,Trebnje,45.9042,15.0217,Slovenia,SI,SVN,Trebnje,admin,,1705570941
+Tržič,Trzic,46.3667,14.3167,Slovenia,SI,SVN,Tržič,admin,,1705554055
+Turnišče,Turnisce,46.6278,16.3203,Slovenia,SI,SVN,Turnišče,admin,,1705851676
+Velenje,Velenje,46.3592,15.1103,Slovenia,SI,SVN,Velenje,admin,,1705929589
+Velike Lašče,Velike Lasce,45.8322,14.6364,Slovenia,SI,SVN,Velike Lašče,admin,,1705618557
+Vipava,Vipava,45.8467,13.9631,Slovenia,SI,SVN,Vipava,admin,,1705864633
+Vitanje,Vitanje,46.3817,15.2958,Slovenia,SI,SVN,Vitanje,admin,,1705925648
+Vodice,Vodice,46.2000,14.5000,Slovenia,SI,SVN,Vodice,admin,,1705728443
+Vrhnika,Vrhnika,45.9661,14.2956,Slovenia,SI,SVN,Vrhnika,admin,,1705071756
+Vuzenica,Vuzenica,46.5964,15.1672,Slovenia,SI,SVN,Vuzenica,admin,,1705639122
+Zagorje ob Savi,Zagorje ob Savi,46.1342,15.0014,Slovenia,SI,SVN,Zagorje ob Savi,admin,,1705942287
+Zavrč,Zavrc,46.3917,16.0497,Slovenia,SI,SVN,Zavrč,admin,,1705477555
+Železniki,Zelezniki,46.2333,14.1667,Slovenia,SI,SVN,Železniki,admin,,1705885002
+Vojnik,Vojnik,46.2933,15.3033,Slovenia,SI,SVN,Vojnik,admin,,1705662463
+Vransko,Vransko,46.2439,14.9514,Slovenia,SI,SVN,Vransko,admin,,1705616966
+Žalec,Zalec,46.2536,15.1675,Slovenia,SI,SVN,Žalec,admin,,1705340993
+Žetale,Zetale,46.2750,15.7939,Slovenia,SI,SVN,Žetale,admin,,1705941695
+Žirovnica,Zirovnica,46.4047,14.1400,Slovenia,SI,SVN,Žirovnica,admin,,1705602636
+Žužemberk,Zuzemberk,45.8339,14.9292,Slovenia,SI,SVN,Žužemberk,admin,,1705027920
+Trnovska Vas,Trnovska Vas,46.5167,15.9000,Slovenia,SI,SVN,Trnovska Vas,admin,,1705654373
+Trzin,Trzin,46.1333,14.5667,Slovenia,SI,SVN,Trzin,admin,,1705707595
+Velika Polana,Velika Polana,46.5719,16.3469,Slovenia,SI,SVN,Velika Polana,admin,,1705627212
+Veržej,Verzej,46.5836,16.1653,Slovenia,SI,SVN,Veržej,admin,,1705529436
+Žiri,Ziri,46.0422,14.1072,Slovenia,SI,SVN,Žiri,admin,,1705440220
+Zreče,Zrece,46.3833,15.3667,Slovenia,SI,SVN,Zreče,admin,,1705764665
+Tabor,Tabor,46.2361,15.0183,Slovenia,SI,SVN,Tabor,admin,,1705756002
+Tišina,Tisina,46.6581,16.0917,Slovenia,SI,SVN,Tišina,admin,,1705811179
+Osilnica,Osilnica,45.5292,14.6979,Slovenia,SI,SVN,Osilnica,admin,,1705839708
+Kostel,Kostel,45.5084,14.9101,Slovenia,SI,SVN,Kostel,admin,,1705541759
+Cirkulane,Cirkulane,46.3453,15.9952,Slovenia,SI,SVN,Cirkulane,admin,,1705650900
+Apače,Apace,46.6972,15.9106,Slovenia,SI,SVN,Apače,admin,,1705285338
+Komenda,Komenda,46.2038,14.5407,Slovenia,SI,SVN,Komenda,admin,,1705295612
+Šmarješke Toplice,Smarjeske Toplice,45.8620,15.2231,Slovenia,SI,SVN,Šmarješke Toplice,admin,,1705361649
+Nazarje,Nazarje,46.3176,14.9467,Slovenia,SI,SVN,Nazarje,admin,,1705598784
+Ankaran,Ankaran,45.5786,13.7361,Slovenia,SI,SVN,Ankaran,admin,,1705521676
+Žilina,Zilina,49.2198,18.7494,Slovakia,SK,SVK,Žilinský,admin,87625,1703289183
+Bratislava,Bratislava,48.1500,17.1170,Slovakia,SK,SVK,Bratislavský,primary,423737,1703195001
+Trnava,Trnava,48.3666,17.6000,Slovakia,SK,SVK,Trnavský,admin,69785,1703497997
+Prešov,Presov,48.9997,21.2394,Slovakia,SK,SVK,Prešovský,admin,94718,1703231427
+Košice,Kosice,48.7304,21.2500,Slovakia,SK,SVK,Košický,admin,236563,1703452690
+Trenčín,Trencin,48.8867,18.0480,Slovakia,SK,SVK,Trenčiansky,admin,,1703029695
+Nitra,Nitra,48.3090,18.0873,Slovakia,SK,SVK,Nitriansky,admin,,1703890031
+Banská Bystrica,Banska Bystrica,48.7333,19.1500,Slovakia,SK,SVK,Banskobystrický,admin,82336,1703015198
+Zvolen,Zvolen,48.5837,19.1332,Slovakia,SK,SVK,Banskobystrický,minor,44502,1703102070
+Uzhgorod,Uzhgorod,48.6300,22.2500,Ukraine,UA,UKR,Zakarpats’ka Oblast’,admin,150832,1804851697
+Kiev,Kiev,50.4334,30.5166,Ukraine,UA,UKR,"Kyyiv, Misto",primary,2709000,1804382913
+Ivano-Frankivsk,Ivano-Frankivsk,48.9348,24.7094,Ukraine,UA,UKR,Ivano-Frankivs’ka Oblast’,admin,241239,1804208152
+Kherson,Kherson,46.6325,32.6007,Ukraine,UA,UKR,Khersons’ka Oblast’,admin,320477,1804514036
+Donetsk,Donetsk,48.0000,37.8300,Ukraine,UA,UKR,Donets’ka Oblast’,admin,988000,1804963805
+Khmelnytskyy,Khmelnytskyy,49.4249,27.0015,Ukraine,UA,UKR,Khmel’nyts’ka Oblast’,admin,398346,1804347108
+Makiyivka,Makiyivka,48.0297,37.9746,Ukraine,UA,UKR,Donets’ka Oblast’,,376610,1804926154
+Mykolayiv,Mykolayiv,46.9677,31.9843,Ukraine,UA,UKR,Mykolayivs’ka Oblast’,admin,510840,1804398395
+Lvov,Lvov,49.8350,24.0300,Ukraine,UA,UKR,L’vivs’ka Oblast’,admin,803880,1804939658
+Odessa,Odessa,46.4900,30.7100,Ukraine,UA,UKR,Odes’ka Oblast’,admin,991000,1804178102
+Kharkiv,Kharkiv,50.0000,36.2500,Ukraine,UA,UKR,Kharkivs’ka Oblast’,admin,1461000,1804588111
+Zaporizhzhya,Zaporizhzhya,47.8573,35.1768,Ukraine,UA,UKR,Zaporiz’ka Oblast’,admin,788000,1804644752
+Luhansk,Luhansk,48.5698,39.3344,Ukraine,UA,UKR,Luhans’ka Oblast’,admin,452000,1804688214
+Sumy,Sumy,50.9243,34.7809,Ukraine,UA,UKR,Sums’ka Oblast’,admin,294456,1804489982
+Ternopil,Ternopil,49.5360,25.5821,Ukraine,UA,UKR,Ternopil’s’ka Oblast’,admin,244768,1804000146
+Poltava,Poltava,49.5740,34.5703,Ukraine,UA,UKR,Poltavs’ka Oblast’,admin,317847,1804547489
+Vinnytsya,Vinnytsya,49.2254,28.4816,Ukraine,UA,UKR,Vinnyts’ka Oblast’,admin,352115,1804658571
+Simferopol’,Simferopol',44.9572,34.1108,Ukraine,UA,UKR,"Krym, Avtonomna Respublika",admin,,1804665958
+Lutsk,Lutsk,50.7472,25.3334,Ukraine,UA,UKR,Volyns’ka Oblast’,admin,213661,1804014744
+Chernivtsi,Chernivtsi,48.3053,25.9216,Ukraine,UA,UKR,Chernivets’ka Oblast’,admin,298251,1804652872
+Cherkasy,Cherkasy,49.4347,32.0709,Ukraine,UA,UKR,Cherkas’ka Oblast’,admin,297568,1804459212
+Mariupol,Mariupol,47.0962,37.5562,Ukraine,UA,UKR,Donets’ka Oblast’,,481626,1804630021
+Chernobyl,Chernobyl,51.3894,30.0989,Ukraine,UA,UKR,Kyyivs’ka Oblast’,,0,1804043438
+Zhytomyr,Zhytomyr,50.2456,28.6622,Ukraine,UA,UKR,Zhytomyrs’ka Oblast’,admin,282192,1804540656
+Horlivka,Horlivka,48.2996,38.0547,Ukraine,UA,UKR,Donets’ka Oblast’,,396885,1804235146
+Kramatorsk,Kramatorsk,48.7194,37.5344,Ukraine,UA,UKR,Donets’ka Oblast’,,184105,1804461469
+Lysychansk,Lysychansk,48.9204,38.4274,Ukraine,UA,UKR,Luhans’ka Oblast’,,124421,1804673535
+Melitopol,Melitopol,46.8378,35.3775,Ukraine,UA,UKR,Zaporiz’ka Oblast’,minor,158000,1804906240
+Chernihiv,Chernihiv,51.5049,31.3015,Ukraine,UA,UKR,Chernihivs’ka Oblast’,admin,307684,1804565996
+Nizhyn,Nizhyn,51.0541,31.8903,Ukraine,UA,UKR,Chernihivs’ka Oblast’,minor,116288,1804714087
+Berdyansk,Berdyansk,46.7568,36.7868,Ukraine,UA,UKR,Zaporiz’ka Oblast’,minor,118284,1804599785
+Kovel,Kovel,51.2171,24.7166,Ukraine,UA,UKR,Volyns’ka Oblast’,minor,71301,1804093604
+Kupyansk,Kupyansk,49.7218,37.5981,Ukraine,UA,UKR,Kharkivs’ka Oblast’,minor,78870,1804300255
+Nikopol,Nikopol,47.5666,34.4062,Ukraine,UA,UKR,Dnipropetrovs’ka Oblast’,minor,130500,1804000135
+Rivne,Rivne,50.6166,26.2528,Ukraine,UA,UKR,Rivnens’ka Oblast’,admin,255106,1804144712
+Uman,Uman,48.7543,30.2109,Ukraine,UA,UKR,Cherkas’ka Oblast’,minor,87658,1804670442
+Drohobych,Drohobych,49.3444,23.4994,Ukraine,UA,UKR,L’vivs’ka Oblast’,minor,124269,1804782563
+Konotop,Konotop,51.2424,33.2090,Ukraine,UA,UKR,Sums’ka Oblast’,minor,103547,1804110853
+Voznesensk,Voznesensk,47.5504,31.3333,Ukraine,UA,UKR,Mykolayivs’ka Oblast’,minor,43996,1804117559
+Korosten,Korosten,50.9504,28.6500,Ukraine,UA,UKR,Zhytomyrs’ka Oblast’,minor,72984,1804648682
+Kamyanets-Podilskyy,Kamyanets-Podilskyy,48.6843,26.5809,Ukraine,UA,UKR,Khmel’nyts’ka Oblast’,minor,114658,1804779341
+Shostka,Shostka,51.8734,33.4797,Ukraine,UA,UKR,Sums’ka Oblast’,minor,96825,1804764606
+Kryvyy Rih,Kryvyy Rih,47.9283,33.3450,Ukraine,UA,UKR,Dnipropetrovs’ka Oblast’,minor,652380,1804544901
+Izmayil,Izmayil,45.3503,28.8374,Ukraine,UA,UKR,Odes’ka Oblast’,minor,83194,1804652754
+Bila Tserkva,Bila Tserkva,49.7743,30.1309,Ukraine,UA,UKR,Kyyivs’ka Oblast’,minor,199163,1804758853
+Brovary,Brovary,50.4943,30.7809,Ukraine,UA,UKR,Kyyivs’ka Oblast’,minor,88506,1804386597
+Sevastopol’,Sevastopol',44.5883,33.5224,Ukraine,UA,UKR,"Sevastopol’, Misto",admin,,1804806030
+Kremenchuk,Kremenchuk,49.0835,33.4296,Ukraine,UA,UKR,Poltavs’ka Oblast’,,232742,1804789102
+Kirovohrad,Kirovohrad,48.5041,32.2603,Ukraine,UA,UKR,Kirovohrads’ka Oblast’,admin,249454,1804374492
+Dnipro,Dnipro,48.4800,35.0000,Ukraine,UA,UKR,Dnipropetrovs’ka Oblast’,admin,1050000,1804152933
+Illichivsk,Illichivsk,46.3000,30.6666,Ukraine,UA,UKR,Odes’ka Oblast’,,54102,1804199117
+Berat,Berat,40.7100,19.9720,Albania,AL,ALB,Berat,admin,46866,1008955153
+Korçë,Korce,40.6167,20.7667,Albania,AL,ALB,Korçë,admin,58259,1008361921
+Librazhd,Librazhd,41.2000,20.3667,Albania,AL,ALB,Elbasan,,12691,1008800835
+Gjirokastër,Gjirokaster,40.0790,20.1490,Albania,AL,ALB,Gjirokastër,admin,23437,1008368062
+Pukë,Puke,42.0333,19.8833,Albania,AL,ALB,Shkodër,,6495,1008739218
+Krujë,Kruje,41.5190,19.7970,Albania,AL,ALB,Durrës,,21286,1008696208
+Tepelenë,Tepelene,40.2833,20.0333,Albania,AL,ALB,Gjirokastër,,11955,1008683571
+Rrëshen,Rreshen,41.7833,19.8167,Albania,AL,ALB,Lezhë,,10064,1008845269
+Çorovodë,Corovode,40.5167,20.2333,Albania,AL,ALB,Berat,,14046,1008566247
+Shkodër,Shkoder,42.0685,19.5188,Albania,AL,ALB,Shkodër,admin,155767,1008977725
+Lushnjë,Lushnje,40.9400,19.7160,Albania,AL,ALB,Fier,,41469,1008790888
+Ersekë,Erseke,40.3333,20.6833,Albania,AL,ALB,Korçë,,7890,1008049831
+Bajram Curri,Bajram Curri,42.3333,20.0833,Albania,AL,ALB,Kukës,,7967,1008251523
+Durrës,Durres,41.3178,19.4482,Albania,AL,ALB,Durrës,admin,142432,1008173690
+Burrel,Burrel,41.6260,20.0160,Albania,AL,ALB,Dibër,,15405,1008883153
+Kukës,Kukes,42.0830,20.4340,Albania,AL,ALB,Kukës,admin,17832,1008649172
+Gramsh,Gramsh,40.8667,20.2000,Albania,AL,ALB,Elbasan,,11556,1008632813
+Lezhë,Lezhe,41.7880,19.6540,Albania,AL,ALB,Lezhë,admin,18695,1008889153
+Sarandë,Sarande,39.8770,20.0000,Albania,AL,ALB,Vlorë,,15147,1008879697
+Përmet,Permet,40.2340,20.3520,Albania,AL,ALB,Gjirokastër,,10686,1008604833
+Pogradec,Pogradec,40.9000,20.6640,Albania,AL,ALB,Korçë,,40000,1008366566
+Vlorë,Vlore,40.4774,19.4982,Albania,AL,ALB,Vlorë,admin,89546,1008276050
+Elbasan,Elbasan,41.1215,20.0838,Albania,AL,ALB,Elbasan,admin,165010,1008409270
+Peshkopi,Peshkopi,41.6833,20.4333,Albania,AL,ALB,Dibër,admin,14848,1008412550
+Fier,Fier,40.7300,19.5730,Albania,AL,ALB,Fier,admin,82297,1008293317
+Tirana,Tirana,41.3275,19.8189,Albania,AL,ALB,Tiranë,primary,895350,1008162156
+Eisenstadt,Eisenstadt,47.8333,16.5333,Austria,AT,AUT,Burgenland,admin,13165,1040751740
+Innsbruck,Innsbruck,47.2804,11.4100,Austria,AT,AUT,Tirol,admin,155214,1040038924
+Bregenz,Bregenz,47.5167,9.7667,Austria,AT,AUT,Vorarlberg,admin,26928,1040174258
+Salzburg,Salzburg,47.8105,13.0400,Austria,AT,AUT,Salzburg,admin,206279,1040312147
+Linz,Linz,48.3192,14.2888,Austria,AT,AUT,Oberösterreich,admin,349161,1040261171
+Wiener Neustadt,Wiener Neustadt,47.8160,16.2500,Austria,AT,AUT,Niederösterreich,minor,82762,1040389518
+Sankt Pölten,Sankt Polten,48.2000,15.6333,Austria,AT,AUT,Niederösterreich,admin,,1040313109
+Graz,Graz,47.0778,15.4100,Austria,AT,AUT,Steiermark,admin,263234,1040184559
+Klagenfurt,Klagenfurt,46.6203,14.3100,Austria,AT,AUT,Kärnten,admin,90610,1040149651
+Vienna,Vienna,48.2000,16.3666,Austria,AT,AUT,Wien,primary,2400000,1040261752
+Sarajevo,Sarajevo,43.8500,18.3830,Bosnia And Herzegovina,BA,BIH,"Bosnia and Herzegovina, Federation of",primary,696731,1070966777
+Banja Luka,Banja Luka,44.7804,17.1800,Bosnia And Herzegovina,BA,BIH,"Srpska, Republika",admin,221738,1070859064
+Brčko,Brcko,44.8700,18.8101,Bosnia And Herzegovina,BA,BIH,Brcko District,admin,,1070370826
+Tuzla,Tuzla,44.5505,18.6800,Bosnia And Herzegovina,BA,BIH,"Bosnia and Herzegovina, Federation of",minor,144334,1070117835
+Zenica,Zenica,44.2200,17.9200,Bosnia And Herzegovina,BA,BIH,"Bosnia and Herzegovina, Federation of",minor,164423,1070047832
+Mostar,Mostar,43.3505,17.8200,Bosnia And Herzegovina,BA,BIH,"Bosnia and Herzegovina, Federation of",minor,163067,1070000220
+Prijedor,Prijedor,44.9804,16.7000,Bosnia And Herzegovina,BA,BIH,"Srpska, Republika",minor,104858,1070565353
+Brussels,Brussels,50.8333,4.3333,Belgium,BE,BEL,Brussels-Capital Region,primary,1743000,1056469830
+Arlon,Arlon,49.6833,5.8167,Belgium,BE,BEL,Wallonia,minor,26179,1056746428
+Antwerpen,Antwerpen,51.2204,4.4150,Belgium,BE,BEL,Flanders,minor,920000,1056168623
+Brugge,Brugge,51.2204,3.2300,Belgium,BE,BEL,Flanders,minor,146469,1056953902
+Liège,Liege,50.6300,5.5800,Belgium,BE,BEL,Wallonia,minor,749110,1056513284
+Hasselt,Hasselt,50.9640,5.4840,Belgium,BE,BEL,Flanders,minor,69222,1056617022
+Mons,Mons,50.4460,3.9390,Belgium,BE,BEL,Wallonia,minor,91277,1056836704
+Gent,Gent,51.0300,3.7000,Belgium,BE,BEL,Flanders,minor,444336,1056062897
+Namur,Namur,50.4704,4.8700,Belgium,BE,BEL,Wallonia,admin,106284,1056954156
+Charleroi,Charleroi,50.4204,4.4500,Belgium,BE,BEL,Wallonia,minor,345367,1056263311
+Ruse,Ruse,43.8537,25.9733,Bulgaria,BG,BGR,Ruse,admin,184270,1100854249
+Varna,Varna,43.2156,27.8953,Bulgaria,BG,BGR,Varna,admin,312770,1100789115
+Pazardzhik,Pazardzhik,42.2000,24.3333,Bulgaria,BG,BGR,Pazardzhik,admin,,1100273248
+Yambol,Yambol,42.4833,26.5000,Bulgaria,BG,BGR,Yambol,admin,,1100748067
+Sliven,Sliven,42.6794,26.3300,Bulgaria,BG,BGR,Sliven,admin,96368,1100110215
+Dobrich,Dobrich,43.5851,27.8400,Bulgaria,BG,BGR,Dobrich,admin,94831,1100364404
+Lovec,Lovec,43.1380,24.7190,Bulgaria,BG,BGR,Lovech,admin,42211,1100374163
+Plovdiv,Plovdiv,42.1540,24.7540,Bulgaria,BG,BGR,Plovdiv,admin,340494,1100436706
+Vidin,Vidin,43.9900,22.8725,Bulgaria,BG,BGR,Vidin,admin,,1100463536
+Shumen,Shumen,43.2700,26.9294,Bulgaria,BG,BGR,Shumen,admin,87283,1100000004
+Razgrad,Razgrad,43.5340,26.5360,Bulgaria,BG,BGR,Razgrad,admin,38285,1100143131
+Silistra,Silistra,44.1167,27.2667,Bulgaria,BG,BGR,Silistra,admin,,1100458181
+Blagoevgrad,Blagoevgrad,42.0167,23.1000,Bulgaria,BG,BGR,Blagoevgrad,admin,,1100214416
+Burgas,Burgas,42.5146,27.4746,Bulgaria,BG,BGR,Burgas,admin,195966,1100365645
+Montana,Montana,43.4140,23.2370,Bulgaria,BG,BGR,Montana,admin,47445,1100946651
+Gabrovo,Gabrovo,42.8747,25.3342,Bulgaria,BG,BGR,Gabrovo,admin,,1100696135
+Kyustendil,Kyustendil,42.2843,22.6911,Bulgaria,BG,BGR,Kyustendil,admin,51067,1100543134
+Vratsa,Vratsa,43.2100,23.5625,Bulgaria,BG,BGR,Vratsa,admin,71633,1100261281
+Stara Zagora,Stara Zagora,42.4231,25.6227,Bulgaria,BG,BGR,Stara Zagora,admin,143431,1100903924
+Smolyan,Smolyan,41.5853,24.6919,Bulgaria,BG,BGR,Smolyan,admin,,1100429166
+Pernik,Pernik,42.6100,23.0227,Bulgaria,BG,BGR,Pernik,admin,82467,1100616332
+Pleven,Pleven,43.4238,24.6134,Bulgaria,BG,BGR,Pleven,admin,118675,1100973719
+Sofia,Sofia,42.6833,23.3167,Bulgaria,BG,BGR,Sofia-Grad,primary,1185000,1100762037
+Khaskovo,Khaskovo,41.9438,25.5633,Bulgaria,BG,BGR,Haskovo,admin,79699,1100186247
+Kardzhali,Kardzhali,41.6500,25.3667,Bulgaria,BG,BGR,Kardzhali,admin,,1100473094
+Targovishte,Targovishte,43.2592,26.5892,Bulgaria,BG,BGR,Targovishte,admin,,1100987486
+Turnovo,Turnovo,43.0862,25.6555,Bulgaria,BG,BGR,Veliko Tarnovo,admin,53115,1100134696
+Minsk,Minsk,53.9000,27.5666,Belarus,BY,BLR,,primary,1805000,1112348503
+Brest,Brest,52.1000,23.7000,Belarus,BY,BLR,Brestskaya Voblasts’,admin,300715,1112896927
+Lida,Lida,53.8885,25.2846,Belarus,BY,BLR,Hrodzyenskaya Voblasts’,,100216,1112110662
+Baranavichy,Baranavichy,53.1368,26.0134,Belarus,BY,BLR,Brestskaya Voblasts’,minor,168772,1112421165
+Mazyr,Mazyr,52.0460,29.2722,Belarus,BY,BLR,Homyel’skaya Voblasts’,minor,112137,1112704173
+Hrodna,Hrodna,53.6779,23.8341,Belarus,BY,BLR,Hrodzyenskaya Voblasts’,admin,317365,1112187197
+Pinsk,Pinsk,52.1279,26.0941,Belarus,BY,BLR,Brestskaya Voblasts’,minor,130777,1112209279
+Maladzyechna,Maladzyechna,54.3188,26.8653,Belarus,BY,BLR,Minskaya Voblasts’,minor,101300,1112822882
+Barysaw,Barysaw,54.2260,28.4922,Belarus,BY,BLR,Minskaya Voblasts’,minor,155389,1112659163
+Polatsk,Polatsk,55.4894,28.7860,Belarus,BY,BLR,Vitsyebskaya Voblasts’,minor,82258,1112068992
+Orsha,Orsha,54.5153,30.4215,Belarus,BY,BLR,Vitsyebskaya Voblasts’,minor,135206,1112188007
+Babruysk,Babruysk,53.1266,29.1928,Belarus,BY,BLR,Mahilyowskaya Voblasts’,minor,220517,1112573808
+Homyel,Homyel,52.4300,31.0000,Belarus,BY,BLR,Homyel’skaya Voblasts’,admin,480951,1112580227
+Mahilyow,Mahilyow,53.8985,30.3247,Belarus,BY,BLR,Mahilyowskaya Voblasts’,admin,369200,1112518993
+Vitsyebsk,Vitsyebsk,55.1887,30.1853,Belarus,BY,BLR,Vitsyebskaya Voblasts’,admin,342700,1112480679
+Schaffhausen,Schaffhausen,47.6973,8.6349,Switzerland,CH,CHE,Schaffhausen,admin,,1756849233
+Aarau,Aarau,47.3896,8.0524,Switzerland,CH,CHE,Aargau,admin,,1756722157
+Glarus,Glarus,47.0500,9.0667,Switzerland,CH,CHE,Glarus,admin,5681,1756095767
+Zürich,Zurich,47.3800,8.5500,Switzerland,CH,CHE,Zürich,admin,1108000,1756539143
+Delémont,Delemont,47.3664,7.3290,Switzerland,CH,CHE,Jura,admin,,1756748908
+Liestal,Liestal,47.4830,7.7370,Switzerland,CH,CHE,Basel-Landschaft,admin,12832,1756371637
+Basel,Basel,47.5804,7.5900,Switzerland,CH,CHE,Basel-Stadt,admin,830000,1756731313
+Solothurn,Solothurn,47.2066,7.5166,Switzerland,CH,CHE,Solothurn,admin,,1756650126
+Fribourg,Fribourg,46.8000,7.1500,Switzerland,CH,CHE,Fribourg,admin,32827,1756145667
+Zug,Zug,47.1790,8.4870,Switzerland,CH,CHE,Zug,admin,23435,1756703208
+Chur,Chur,46.8500,9.5000,Switzerland,CH,CHE,Graubünden,admin,38293,1756471395
+Sarnen,Sarnen,46.8990,8.2430,Switzerland,CH,CHE,Obwalden,admin,9410,1756451113
+Schwyz,Schwyz,47.0200,8.6480,Switzerland,CH,CHE,Schwyz,admin,14177,1756270644
+Luzern,Luzern,47.0504,8.2800,Switzerland,CH,CHE,Luzern,admin,250000,1756544536
+Neuchâtel,Neuchatel,46.9990,6.9230,Switzerland,CH,CHE,Neuchâtel,admin,31270,1756726571
+Altdorf,Altdorf,46.8790,8.6380,Switzerland,CH,CHE,Uri,admin,8678,1756957308
+Biel,Biel,47.1666,7.2500,Switzerland,CH,CHE,Bern,,78708,1756649723
+Geneva,Geneva,46.2100,6.1400,Switzerland,CH,CHE,Genève,admin,1240000,1756810813
+Lausanne,Lausanne,46.5304,6.6500,Switzerland,CH,CHE,Vaud,admin,265702,1756055099
+Bern,Bern,46.9167,7.4670,Switzerland,CH,CHE,Bern,primary,275329,1756374318
+Stans,Stans,46.9500,8.3833,Switzerland,CH,CHE,Nidwalden,admin,7475,1756019042
+Saint Gallen,Saint Gallen,47.4230,9.3620,Switzerland,CH,CHE,Sankt Gallen,admin,70572,1756343098
+Appenzell,Appenzell,47.3333,9.4167,Switzerland,CH,CHE,Appenzell Innerrhoden,admin,5649,1756770881
+Herisau,Herisau,47.3833,9.2833,Switzerland,CH,CHE,Appenzell Ausserrhoden,,15438,1756581563
+Frauenfeld,Frauenfeld,47.5680,9.1080,Switzerland,CH,CHE,Thurgau,,21979,1756399413
+Lugano,Lugano,46.0004,8.9667,Switzerland,CH,CHE,Ticino,,105388,1756503816
+Bellinzona,Bellinzona,46.1970,9.0200,Switzerland,CH,CHE,Ticino,,16572,1756130026
+Sion,Sion,46.2390,7.3540,Switzerland,CH,CHE,Valais,,28045,1756457392
+Schaffhausen,Schaffhausen,47.7060,8.6330,Switzerland,CH,CHE,Schaffhausen,,33863,1756000000
+Aarau,Aarau,47.3900,8.0340,Switzerland,CH,CHE,Aargau,,15501,1756000000
+Delémont,Delemont,47.3700,7.3450,Switzerland,CH,CHE,Jura,,11315,1756000000
+Solothurn,Solothurn,47.2120,7.5370,Switzerland,CH,CHE,Solothurn,,14853,1756000000
+Usti Nad Labem,Usti Nad Labem,50.6630,14.0810,Czechia,CZ,CZE,Ústecký Kraj,admin,94105,1203734193
+Pardubice,Pardubice,50.0404,15.7600,Czechia,CZ,CZE,Pardubický Kraj,admin,107064,1203857442
+Jihlava,Jihlava,49.4004,15.5833,Czechia,CZ,CZE,Vysočina,admin,53921,1203810604
+Liberec,Liberec,50.8000,15.0800,Czechia,CZ,CZE,Liberecký Kraj,admin,102175,1203577727
+Prague,Prague,50.0833,14.4660,Czechia,CZ,CZE,"Praha, Hlavní Město",primary,1162000,1203744823
+Brno,Brno,49.2004,16.6100,Czechia,CZ,CZE,Jihomoravský Kraj,admin,388277,1203676514
+Pizen,Pizen,49.7404,13.3600,Czechia,CZ,CZE,Plzeňský Kraj,admin,164180,1203402469
+České Budějovice,Ceske Budejovice,48.9800,14.4600,Czechia,CZ,CZE,Jihočeský Kraj ,admin,98851,1203398046
+Karlovy Vary,Karlovy Vary,50.2370,12.8750,Czechia,CZ,CZE,Karlovarský Kraj,admin,,1203518899
+Ostrava,Ostrava,49.8304,18.2500,Czechia,CZ,CZE,Moravskoslezský Kraj ,admin,478963,1203687206
+Olomouc,Olomouc,49.6300,17.2500,Czechia,CZ,CZE,Olomoucký Kraj,admin,101268,1203328061
+Hradec Králové,Hradec Kralove,50.2060,15.8120,Czechia,CZ,CZE,Královéhradecký Kraj,admin,95195,1203430618
+Zlín,Zlin,49.2304,17.6500,Czechia,CZ,CZE,Zlínský Kraj,admin,124610,1203582141
+Berlin,Berlin,52.5218,13.4015,Germany,DE,DEU,Berlin,primary,3406000,1276451290
+Cologne,Cologne,50.9300,6.9500,Germany,DE,DEU,North Rhine-Westphalia,,1004000,1276015998
+Munich,Munich,48.1299,11.5750,Germany,DE,DEU,Bavaria,admin,1275000,1276692352
+Potsdam,Potsdam,52.4004,13.0700,Germany,DE,DEU,Brandenburg,admin,218095,1276395100
+Kiel,Kiel,54.3304,10.1300,Germany,DE,DEU,Schleswig-Holstein,admin,269427,1276305306
+Wiesbaden,Wiesbaden,50.0804,8.2500,Germany,DE,DEU,Hesse,admin,617126,1276652118
+Magdeburg,Magdeburg,52.1304,11.6200,Germany,DE,DEU,Saxony-Anhalt,admin,229826,1276418236
+Bremen,Bremen,53.0800,8.8000,Germany,DE,DEU,Bremen,admin,724909,1276376509
+Hannover,Hannover,52.3670,9.7167,Germany,DE,DEU,Lower Saxony,admin,722490,1276457707
+Düsseldorf,Dusseldorf,51.2204,6.7800,Germany,DE,DEU,North Rhine-Westphalia,admin,1220000,1276615258
+Saarbrücken,Saarbrucken,49.2504,6.9700,Germany,DE,DEU,Saarland,admin,770001,1276419711
+Schwerin,Schwerin,53.6333,11.4167,Germany,DE,DEU,Mecklenburg-Western Pomerania,admin,96641,1276221707
+Hamburg,Hamburg,53.5500,10.0000,Germany,DE,DEU,Hamburg,admin,1757000,1276041799
+Stuttgart,Stuttgart,48.7800,9.2000,Germany,DE,DEU,Baden-Württemberg,admin,2944700,1276171358
+Dresden,Dresden,51.0500,13.7500,Germany,DE,DEU,Saxony,admin,617515,1276561036
+Erfurt,Erfurt,50.9701,11.0300,Germany,DE,DEU,Thuringia,admin,203254,1276924655
+Mainz,Mainz,49.9825,8.2732,Germany,DE,DEU,Rhineland-Palatinate,admin,184997,1276801317
+Rostock,Rostock,54.0704,12.1500,Germany,DE,DEU,Mecklenburg-Western Pomerania,,203080,1276210265
+Kassel,Kassel,51.3000,9.5000,Germany,DE,DEU,Hesse,minor,289924,1276791686
+Dortmund,Dortmund,51.5300,7.4500,Germany,DE,DEU,North Rhine-Westphalia,minor,588462,1276562886
+Duisburg,Duisburg,51.4300,6.7500,Germany,DE,DEU,North Rhine-Westphalia,minor,1276757,1276977172
+Essen,Essen,51.4500,7.0166,Germany,DE,DEU,North Rhine-Westphalia,minor,1742135,1276769247
+Bonn,Bonn,50.7205,7.0800,Germany,DE,DEU,North Rhine-Westphalia,minor,680543,1276807850
+Bielefeld,Bielefeld,52.0300,8.5300,Germany,DE,DEU,North Rhine-Westphalia,minor,331906,1276112885
+Lübeck,Lubeck,53.8704,10.6700,Germany,DE,DEU,Schleswig-Holstein,minor,235390,1276852342
+Flensburg,Flensburg,54.7837,9.4333,Germany,DE,DEU,Schleswig-Holstein,minor,97930,1276853315
+Emden,Emden,53.3667,7.2167,Germany,DE,DEU,Lower Saxony,minor,51526,1276309938
+Wuppertal,Wuppertal,51.2500,7.1700,Germany,DE,DEU,North Rhine-Westphalia,minor,776525,1276004611
+Münster,Munster,51.9704,7.6200,Germany,DE,DEU,North Rhine-Westphalia,minor,270184,1276714504
+Osnabrück,Osnabruck,52.2804,8.0500,Germany,DE,DEU,Lower Saxony,minor,231268,1276554949
+Göttingen,Gottingen,51.5204,9.9200,Germany,DE,DEU,Lower Saxony,minor,139419,1276211234
+Oldenburg,Oldenburg,53.1300,8.2200,Germany,DE,DEU,Lower Saxony,minor,167458,1276946953
+Stralsund,Stralsund,54.3004,13.1000,Germany,DE,DEU,Mecklenburg-Western Pomerania,minor,61368,1276640152
+Braunschweig,Braunschweig,52.2500,10.5000,Germany,DE,DEU,Lower Saxony,minor,244715,1276941443
+Bremerhaven,Bremerhaven,53.5504,8.5800,Germany,DE,DEU,Bremen,minor,137751,1276991229
+Freiburg,Freiburg,48.0004,7.8699,Germany,DE,DEU,Baden-Württemberg,minor,254889,1276371228
+Karlsruhe,Karlsruhe,49.0000,8.4000,Germany,DE,DEU,Baden-Württemberg,minor,377487,1276923210
+Heidelberg,Heidelberg,49.4200,8.7000,Germany,DE,DEU,Baden-Württemberg,minor,426590,1276519742
+Ingolstadt,Ingolstadt,48.7704,11.4500,Germany,DE,DEU,Bavaria,minor,163325,1276803150
+Passau,Passau,48.5670,13.4666,Germany,DE,DEU,Bavaria,minor,50560,1276123699
+Rosenheim,Rosenheim,47.8503,12.1333,Germany,DE,DEU,Bavaria,minor,92809,1276301675
+Augsburg,Augsburg,48.3500,10.9000,Germany,DE,DEU,Bavaria,minor,358989,1276314100
+Regensburg,Regensburg,49.0204,12.1200,Germany,DE,DEU,Bavaria,minor,164359,1276000325
+Würzburg,Wurzburg,49.8004,9.9500,Germany,DE,DEU,Bavaria,minor,168561,1276233514
+Coburg,Coburg,50.2666,10.9666,Germany,DE,DEU,Bavaria,minor,61054,1276428862
+Hof,Hof,50.3170,11.9167,Germany,DE,DEU,Bavaria,minor,56153,1276561363
+Ulm,Ulm,48.4004,10.0000,Germany,DE,DEU,Baden-Württemberg,minor,172955,1276002212
+Nürnberg,Nurnberg,49.4500,11.0800,Germany,DE,DEU,Bavaria,minor,737304,1276166609
+Fürth,Furth,49.4700,11.0000,Germany,DE,DEU,Bavaria,minor,237844,1276580165
+Gießen,Giessen,50.5837,8.6500,Germany,DE,DEU,Hesse,minor,82358,1276576770
+Mannheim,Mannheim,49.5004,8.4700,Germany,DE,DEU,Baden-Württemberg,minor,2362000,1276150104
+Frankfurt,Frankfurt,50.1000,8.6750,Germany,DE,DEU,Hesse,minor,2895000,1276054552
+Koblenz,Koblenz,50.3505,7.6000,Germany,DE,DEU,Rhineland-Palatinate,minor,312633,1276605495
+Chemnitz,Chemnitz,50.8300,12.9200,Germany,DE,DEU,Saxony,minor,302643,1276519956
+Cottbus,Cottbus,51.7704,14.3300,Germany,DE,DEU,Brandenburg,minor,105067,1276436655
+Jena,Jena,50.9304,11.5800,Germany,DE,DEU,Thuringia,minor,104712,1276659978
+Gera,Gera,50.8704,12.0700,Germany,DE,DEU,Thuringia,minor,104659,1276548165
+Leipzig,Leipzig,51.3354,12.4100,Germany,DE,DEU,Saxony,minor,542529,1276563678
+Vejle,Vejle,55.7090,9.5350,Denmark,DK,DNK,Syddanmark,admin,51177,1208585023
+Hillerød,Hillerod,55.9333,12.3167,Denmark,DK,DNK,Hovedstaden,admin,28313,1208278269
+København,Kobenhavn,55.6786,12.5635,Denmark,DK,DNK,Hovedstaden,primary,1085000,1208763942
+Viborg,Viborg,56.4333,9.4000,Denmark,DK,DNK,Midtjylland,admin,34831,1208606810
+Sorø,Soro,55.4330,11.5667,Denmark,DK,DNK,Sjælland,admin,7167,1208841384
+Roskilde,Roskilde,55.6500,12.0833,Denmark,DK,DNK,Sjælland,minor,44285,1208722269
+Odense,Odense,55.4004,10.3833,Denmark,DK,DNK,Syddanmark,minor,158222,1208194249
+Svendborg,Svendborg,55.0704,10.6167,Denmark,DK,DNK,Syddanmark,minor,29180,1208924964
+Esbjerg,Esbjerg,55.4670,8.4500,Denmark,DK,DNK,Syddanmark,minor,72205,1208757169
+Århus,Aarhus,56.1572,10.2107,Denmark,DK,DNK,Midtjylland,minor,237551,1208841031
+Aalborg,Aalborg,57.0337,9.9166,Denmark,DK,DNK,Nordjylland,admin,122219,1208789278
+Frederikshavn,Frederikshavn,57.4337,10.5333,Denmark,DK,DNK,Nordjylland,minor,24103,1208910213
+Valga,Valga,57.7744,26.0453,Estonia,EE,EST,Valgamaa,admin,,1233406308
+Viljandi,Viljandi,58.3639,25.5900,Estonia,EE,EST,Viljandimaa,admin,20309,1233067368
+Tallinn,Tallinn,59.4339,24.7280,Estonia,EE,EST,Harjumaa,primary,394024,1233260021
+Kärdla,Kardla,58.9978,22.7492,Estonia,EE,EST,Hiiumaa,admin,,1233977488
+Rakvere,Rakvere,59.3464,26.3558,Estonia,EE,EST,Lääne-Virumaa,admin,,1233049348
+Pärnu,Parnu,58.3747,24.5136,Estonia,EE,EST,Pärnumaa,admin,44192,1233955054
+Paide,Paide,58.8856,25.5572,Estonia,EE,EST,Järvamaa,admin,,1233393684
+Jõgeva,Jogeva,58.7467,26.3939,Estonia,EE,EST,Jõgevamaa,admin,,1233192849
+Põlva,Polva,58.0603,27.0694,Estonia,EE,EST,Põlvamaa,admin,,1233866730
+Tartu,Tartu,58.3839,26.7099,Estonia,EE,EST,Tartumaa,admin,101092,1233809410
+Rapla,Rapla,59.0072,24.7928,Estonia,EE,EST,Raplamaa,admin,,1233013333
+Kuressaare,Kuressaare,58.2481,22.5039,Estonia,EE,EST,Saaremaa,admin,,1233341219
+Jõhvi,Johvi,59.3592,27.4211,Estonia,EE,EST,Ida-Virumaa,admin,,1233731045
+Võru,Voru,57.8339,27.0194,Estonia,EE,EST,Võrumaa,admin,,1233754374
+Haapsalu,Haapsalu,58.9431,23.5414,Estonia,EE,EST,Läänemaa,admin,11805,1233967642
+Kohtla-Järve,Kohtla-Jarve,59.4000,27.2833,Estonia,EE,EST,Ida-Virumaa,minor,46060,1233016348
+Narva,Narva,59.3776,28.1603,Estonia,EE,EST,Ida-Virumaa,minor,66980,1233751159
+Vitoria,Vitoria,42.8500,-2.6700,Spain,ES,ESP,Basque Country,admin,224578,1724975338
+Santander,Santander,43.3805,-3.8000,Spain,ES,ESP,Cantabria,admin,208763,1724247413
+Logroño,Logrono,42.4704,-2.4300,Spain,ES,ESP,La Rioja,admin,143698,1724721513
+Barcelona,Barcelona,41.3833,2.1834,Spain,ES,ESP,Catalonia,admin,4920000,1724594040
+Mataró,Mataro,41.5400,2.4500,Spain,ES,ESP,Catalonia,,183293,1724901780
+Oviedo,Oviedo,43.3505,-5.8300,Spain,ES,ESP,Asturias,admin,235651,1724090743
+Arrecife,Arrecife,28.9690,-13.5378,Spain,ES,ESP,Canary Islands,,52944,1724630905
+Las Palmas,Las Palmas,28.1000,-15.4300,Spain,ES,ESP,Canary Islands,admin,378495,1724501748
+Toledo,Toledo,39.8670,-4.0167,Spain,ES,ESP,Castille-La Mancha,admin,74632,1724171411
+Lorca,Lorca,37.6886,-1.6985,Spain,ES,ESP,Murcia,,86119,1724565149
+Zaragoza,Zaragoza,41.6500,-0.8900,Spain,ES,ESP,Aragon,admin,649404,1724907391
+Murcia,Murcia,37.9800,-1.1300,Spain,ES,ESP,Murcia,admin,406807,1724107739
+Gijón,Gijon,43.5300,-5.6700,Spain,ES,ESP,Asturias,,335972,1724170659
+Linares,Linares,38.0833,-3.6334,Spain,ES,ESP,Andalusia,,59761,1724047784
+Cartagena,Cartagena,37.6004,-0.9800,Spain,ES,ESP,Murcia,,201274,1724143241
+Vigo,Vigo,42.2200,-8.7300,Spain,ES,ESP,Galicia,,378952,1724045676
+Valladolid,Valladolid,41.6500,-4.7500,Spain,ES,ESP,Castille-Leon,admin,322304,1724133771
+Santiago de Compostela,Santiago de Compostela,42.8829,-8.5411,Spain,ES,ESP,Galicia,admin,92430,1724547778
+Mérida,Merida,38.9120,-6.3380,Spain,ES,ESP,Extremadura,admin,52423,1724941889
+Algeciras,Algeciras,36.1267,-5.4665,Spain,ES,ESP,Andalusia,,111027,1724355681
+Marbella,Marbella,36.5166,-4.8833,Spain,ES,ESP,Andalusia,,186131,1724685705
+Almería,Almeria,36.8303,-2.4300,Spain,ES,ESP,Andalusia,minor,179405,1724745640
+Córdoba,Cordoba,37.8800,-4.7700,Spain,ES,ESP,Andalusia,minor,321376,1724706440
+Granada‎,Granada,37.1650,-3.5850,Spain,ES,ESP,Andalusia,minor,388290,1724929320
+Jaén,Jaen,37.7704,-3.8000,Spain,ES,ESP,Andalusia,minor,116400,1724699771
+Málaga,Malaga,36.7204,-4.4200,Spain,ES,ESP,Andalusia,minor,550058,1724397372
+Albacete,Albacete,39.0003,-1.8700,Spain,ES,ESP,Castille-La Mancha,minor,158094,1724000069
+Guadalajara,Guadalajara,40.6337,-3.1666,Spain,ES,ESP,Castille-La Mancha,minor,72850,1724317859
+Burgos,Burgos,42.3504,-3.6800,Spain,ES,ESP,Castille-Leon,minor,170183,1724993285
+León,Leon,42.5800,-5.5700,Spain,ES,ESP,Castille-Leon,minor,136227,1724907542
+Salamanca,Salamanca,40.9704,-5.6700,Spain,ES,ESP,Castille-Leon,minor,162353,1724960825
+Huelva,Huelva,37.2504,-6.9299,Spain,ES,ESP,Andalusia,minor,144174,1724420824
+Cádiz,Cadiz,36.5350,-6.2250,Spain,ES,ESP,Andalusia,minor,283157,1724502822
+Ceuta,Ceuta,35.8890,-5.3070,Spain,ES,ESP,Ceuta,,78674,1724324416
+Melilla,Melilla,35.3000,-2.9500,Spain,ES,ESP,Melilla,,141308,1724144891
+Tarragona,Tarragona,41.1204,1.2500,Spain,ES,ESP,Catalonia,minor,126291,1724296961
+Badajoz,Badajoz,38.8804,-6.9700,Spain,ES,ESP,Extremadura,minor,140133,1724759742
+La Coruña,La Coruna,43.3300,-8.4200,Spain,ES,ESP,Galicia,minor,370610,1724417375
+Ourense,Ourense,42.3300,-7.8700,Spain,ES,ESP,Galicia,minor,118107,1724571895
+Bilbao,Bilbao,43.2500,-2.9300,Spain,ES,ESP,Basque Country,minor,875552,1724331267
+Santa Cruz de Tenerife,Santa Cruz de Tenerife,28.4700,-16.2500,Spain,ES,ESP,Canary Islands,admin,336061,1724813158
+Seville,Seville,37.4050,-5.9800,Spain,ES,ESP,Andalusia,admin,1212045,1724991838
+Pamplona,Pamplona,42.8200,-1.6500,Spain,ES,ESP,Navarre,admin,274545,1724483329
+Palma,Palma,39.5743,2.6542,Spain,ES,ESP,Balearic Islands,admin,375773,1724728111
+Valencia,Valencia,39.4850,-0.4000,Spain,ES,ESP,Valencia,admin,808000,1724981666
+Madrid,Madrid,40.4000,-3.6834,Spain,ES,ESP,Madrid,primary,5567000,1724616994
+San Sebastián,San Sebastian,43.3204,-1.9800,Spain,ES,ESP,Basque Country,minor,357468,1724910555
+Alicante,Alicante,38.3512,-0.4836,Spain,ES,ESP,Valencia,minor,315863,1724923163
+Castello,Castello,39.9704,-0.0500,Spain,ES,ESP,Valencia,minor,180610,1724579885
+Pori,Pori,61.4789,21.7749,Finland,FI,FIN,Satakunta,admin,76772,1246259412
+Kuopio,Kuopio,62.8943,27.6949,Finland,FI,FIN,Pohjois-Savo,admin,91900,1246334067
+Jyväskylä,Jyvaskyla,62.2603,25.7500,Finland,FI,FIN,Keski-Suomi,admin,98136,1246938345
+Rovaniemi,Rovaniemi,66.5000,25.7159,Finland,FI,FIN,Lappi,admin,34781,1246718173
+Lahti,Lahti,60.9939,25.6649,Finland,FI,FIN,Päijät-Häme,admin,98826,1246538847
+Mikkeli,Mikkeli,61.6900,27.2850,Finland,FI,FIN,Etelä-Savo,admin,46550,1246875185
+Oulu,Oulu,65.0000,25.4700,Finland,FI,FIN,Pohjois-Pohjanmaa,admin,136752,1246093273
+Hämeenlinna,Hameenlinna,60.9970,24.4720,Finland,FI,FIN,Kanta-Häme,admin,47261,1246026891
+Seinäjoki,Seinajoki,62.8000,22.8333,Finland,FI,FIN,Etelä-Pohjanmaa,admin,,1246118146
+Tampere,Tampere,61.5000,23.7500,Finland,FI,FIN,Pirkanmaa,admin,259279,1246964318
+Kajaani,Kajaani,64.2333,27.6833,Finland,FI,FIN,Kainuu,admin,,1246377765
+Lappeenranta,Lappeenranta,61.0671,28.1833,Finland,FI,FIN,Etelä-Karjala,admin,59276,1246492910
+Joensuu,Joensuu,62.6000,29.7666,Finland,FI,FIN,Pohjois-Karjala,admin,53388,1246489056
+Kouvola,Kouvola,60.8760,26.7090,Finland,FI,FIN,Kymenlaakso,admin,31133,1246167296
+Helsinki,Helsinki,60.1756,24.9341,Finland,FI,FIN,Uusimaa,primary,1115000,1246177997
+Kemi,Kemi,65.7333,24.5817,Finland,FI,FIN,Lappi,minor,22641,1246411843
+Mariehamn,Mariehamn,60.1000,19.9500,Finland,FI,FIN,Åland,admin,,1246614476
+Porvoo,Porvoo,60.4004,25.6660,Finland,FI,FIN,Uusimaa,minor,12242,1246277728
+Turku,Turku,60.4539,22.2550,Finland,FI,FIN,Varsinais-Suomi,admin,175945,1246456609
+Sodankylä,Sodankyla,67.4171,26.6000,Finland,FI,FIN,Lappi,minor,8942,1246413171
+Kemijärvi,Kemijarvi,66.6667,27.4167,Finland,FI,FIN,Lappi,minor,8883,1246358285
+Kokkola,Kokkola,63.8333,23.1167,Finland,FI,FIN,Keski-Pohjanmaa,admin,46714,1246041998
+Vaasa,Vaasa,63.1000,21.6000,Finland,FI,FIN,Pohjanmaa,admin,57014,1246734710
+Savonlinna,Savonlinna,61.8666,28.8833,Finland,FI,FIN,Etelä-Savo,minor,27353,1246948647
+Bastia,Bastia,42.7032,9.4500,France,FR,FRA,Corsica,,41001,1250664815
+Lorient,Lorient,47.7504,-3.3666,France,FR,FRA,Bretagne,,84952,1250615711
+Brest,Brest,48.3904,-4.4950,France,FR,FRA,Bretagne,,144899,1250882453
+Aix-en-Provence,Aix-en-Provence,43.5200,5.4500,France,FR,FRA,Provence-Alpes-Côte d’Azur,,146821,1250001687
+Ajaccio,Ajaccio,41.9271,8.7283,France,FR,FRA,Corsica,admin,54364,1250622666
+Marseille,Marseille,43.2900,5.3750,France,FR,FRA,Provence-Alpes-Côte d’Azur,admin,1400000,1250774071
+Rennes,Rennes,48.1000,-1.6700,France,FR,FRA,Bretagne,admin,209375,1250363682
+Nantes,Nantes,47.2104,-1.5900,France,FR,FRA,Pays de la Loire,admin,438537,1250091495
+Orléans,Orleans,47.9004,1.9000,France,FR,FRA,Centre-Val de Loire,admin,217301,1250441405
+Paris,Paris,48.8667,2.3333,France,FR,FRA,Île-de-France,primary,9904000,1250015082
+Clermont-Ferrand,Clermont-Ferrand,45.7800,3.0800,France,FR,FRA,Auvergne-Rhône-Alpes,minor,233050,1250135509
+Metz,Metz,49.1203,6.1800,France,FR,FRA,Grand Est,minor,409186,1250778717
+Montpellier,Montpellier,43.6104,3.8700,France,FR,FRA,Occitanie,minor,327254,1250819356
+Poitier,Poitier,46.5833,0.3333,France,FR,FRA,Nouvelle-Aquitaine,minor,85960,1250812174
+Bordeaux,Bordeaux,44.8500,-0.5950,France,FR,FRA,Nouvelle-Aquitaine,admin,803000,1250449238
+Limoges,Limoges,45.8300,1.2500,France,FR,FRA,Nouvelle-Aquitaine,minor,152199,1250736774
+Dijon,Dijon,47.3304,5.0300,France,FR,FRA,Bourgogne-Franche-Comté,admin,169946,1250505606
+Lille,Lille,50.6500,3.0800,France,FR,FRA,Hauts-de-France,admin,1044000,1250071961
+Lyon,Lyon,45.7700,4.8300,France,FR,FRA,Auvergne-Rhône-Alpes,admin,1423000,1250196189
+Strasbourg,Strasbourg,48.5800,7.7500,France,FR,FRA,Grand Est,admin,439972,1250789140
+Toulouse,Toulouse,43.6200,1.4499,France,FR,FRA,Occitanie,admin,847000,1250258110
+Rouen,Rouen,49.4304,1.0800,France,FR,FRA,Normandie,admin,532559,1250372069
+Amiens,Amiens,49.9004,2.3000,France,FR,FRA,Hauts-de-France,minor,143086,1250794759
+Besançon,Besancon,47.2300,6.0300,France,FR,FRA,Bourgogne-Franche-Comté,minor,128426,1250182013
+Caen,Caen,49.1838,-0.3500,France,FR,FRA,Normandie,minor,190099,1250001272
+Vichy,Vichy,46.1171,3.4167,France,FR,FRA,Auvergne-Rhône-Alpes,,43158,1250084403
+Mulhouse,Mulhouse,47.7504,7.3500,France,FR,FRA,Grand Est,,215454,1250218452
+Biarritz,Biarritz,43.4733,-1.5616,France,FR,FRA,Nouvelle-Aquitaine,,145348,1250324713
+Cherbourg,Cherbourg,49.6504,-1.6500,France,FR,FRA,Normandie,,60991,1250026751
+Reims,Reims,49.2504,4.0300,France,FR,FRA,Grand Est,,196565,1250608730
+Calais,Calais,50.9504,1.8333,France,FR,FRA,Hauts-de-France,,92201,1250081128
+Roanne,Roanne,46.0333,4.0667,France,FR,FRA,Auvergne-Rhône-Alpes,,73315,1250674978
+Dieppe,Dieppe,49.9337,1.0833,France,FR,FRA,Normandie,,42461,1250006284
+Le Havre,Le Havre,49.5050,0.1050,France,FR,FRA,Normandie,,242124,1250775297
+Brive,Brive,45.1504,1.5333,France,FR,FRA,Nouvelle-Aquitaine,,55448,1250549859
+Béziers,Beziers,43.3505,3.2100,France,FR,FRA,Occitanie,,81438,1250666824
+St.-Brieuc,St.-Brieuc,48.5167,-2.7833,France,FR,FRA,Bretagne,minor,53223,1250574796
+Angers,Angers,47.4800,-0.5300,France,FR,FRA,Pays de la Loire,minor,188380,1250962174
+Le Mans,Le Mans,48.0004,0.1000,France,FR,FRA,Pays de la Loire,minor,144515,1250829671
+Arras,Arras,50.2833,2.7833,France,FR,FRA,Hauts-de-France,minor,64165,1250447540
+Troyes,Troyes,48.3404,4.0834,France,FR,FRA,Grand Est,minor,61703,1250800856
+Nancy,Nancy,48.6837,6.2000,France,FR,FRA,Grand Est,minor,268976,1250925250
+Nevers,Nevers,46.9837,3.1667,France,FR,FRA,Bourgogne-Franche-Comté,minor,45929,1250147982
+Auxerre,Auxerre,47.8004,3.5666,France,FR,FRA,Bourgogne-Franche-Comté,minor,41516,1250482884
+Tours,Tours,47.3804,0.6999,France,FR,FRA,Centre-Val de Loire,minor,236096,1250635972
+Bourges,Bourges,47.0837,2.4000,France,FR,FRA,Centre-Val de Loire,minor,72340,1250043242
+Versailles,Versailles,48.8005,2.1333,France,FR,FRA,Île-de-France,minor,85416,1250143827
+Melun,Melun,48.5333,2.6666,France,FR,FRA,Île-de-France,minor,249432,1250913458
+La Rochelle,La Rochelle,46.1667,-1.1500,France,FR,FRA,Nouvelle-Aquitaine,minor,76997,1250623782
+Agen,Agen,44.2004,0.6333,France,FR,FRA,Nouvelle-Aquitaine,minor,58223,1250059626
+Annecy,Annecy,45.9000,6.1167,France,FR,FRA,Auvergne-Rhône-Alpes,minor,105749,1250551848
+Grenoble,Grenoble,45.1804,5.7200,France,FR,FRA,Auvergne-Rhône-Alpes,minor,388574,1250071647
+Saint-Étienne,Saint-Etienne,45.4304,4.3800,France,FR,FRA,Auvergne-Rhône-Alpes,minor,265684,1250000540
+Toulon,Toulon,43.1342,5.9188,France,FR,FRA,Provence-Alpes-Côte d’Azur,minor,357693,1250541629
+Nice,Nice,43.7150,7.2650,France,FR,FRA,Provence-Alpes-Côte d’Azur,minor,927000,1250774553
+Tarbes,Tarbes,43.2333,0.0833,France,FR,FRA,Occitanie,minor,54854,1250001722
+Perpignan,Perpignan,42.7000,2.9000,France,FR,FRA,Occitanie,minor,146620,1250102680
+Nîmes,Nimes,43.8304,4.3500,France,FR,FRA,Occitanie,minor,169547,1250417467
+Warrington,Warrington,53.3833,-2.6000,United Kingdom,GB,GBR,Warrington,admin,,1826261547
+Newbury,Newbury,51.4000,-1.3167,United Kingdom,GB,GBR,West Berkshire,admin,,1826103829
+Swindon,Swindon,51.5167,-1.7833,United Kingdom,GB,GBR,Swindon,admin,,1826498106
+Wick,Wick,58.4333,-3.0834,United Kingdom,GB,GBR,Highland,,7147,1826766399
+Dudley,Dudley,52.5000,-2.0833,United Kingdom,GB,GBR,Dudley,admin,,1826052828
+Oxford,Oxford,51.7704,-1.2500,United Kingdom,GB,GBR,Oxfordshire,admin,192796,1826689568
+Hackney,Hackney,51.5500,-0.0500,United Kingdom,GB,GBR,Hackney,admin,,1826413202
+Matlock,Matlock,53.1333,-1.5333,United Kingdom,GB,GBR,Derbyshire,admin,,1826168850
+Lochgilphead,Lochgilphead,56.0333,-5.4167,United Kingdom,GB,GBR,Argyll and Bute,admin,,1826789416
+Northallerton,Northallerton,54.3333,-1.4333,United Kingdom,GB,GBR,North Yorkshire,admin,,1826697671
+Edinburgh,Edinburgh,55.9483,-3.2191,United Kingdom,GB,GBR,"Edinburgh, City of",admin,504966,1826492520
+Sunderland,Sunderland,54.9200,-1.3800,United Kingdom,GB,GBR,Sunderland,admin,452934,1826736387
+Swansea,Swansea,51.6300,-3.9500,United Kingdom,GB,GBR,Swansea,admin,294339,1826574888
+Wokingham,Wokingham,51.4167,-0.8333,United Kingdom,GB,GBR,Wokingham,admin,,1826878333
+City of Westminster,City of Westminster,51.5000,-0.1167,United Kingdom,GB,GBR,Westminster,admin,,1826759011
+Solihull,Solihull,52.4167,-1.7833,United Kingdom,GB,GBR,Solihull,admin,,1826720500
+Rochdale,Rochdale,53.6167,-2.1500,United Kingdom,GB,GBR,Rochdale,admin,,1826578106
+Nottingham,Nottingham,52.9703,-1.1700,United Kingdom,GB,GBR,Nottingham,admin,825600,1826122597
+Winchester,Winchester,51.0167,-1.3167,United Kingdom,GB,GBR,Hampshire,admin,,1826967267
+Wembley,Wembley,51.5500,-0.2833,United Kingdom,GB,GBR,Brent,admin,,1826635683
+Motherwell,Motherwell,55.7833,-4.0000,United Kingdom,GB,GBR,North Lanarkshire,admin,,1826854355
+Reading,Reading,51.4700,-0.9800,United Kingdom,GB,GBR,Reading,admin,369804,1826869043
+Torquay,Torquay,50.4500,-3.5000,United Kingdom,GB,GBR,Torbay,admin,,1826982921
+Thornbury,Thornbury,51.6089,-2.5203,United Kingdom,GB,GBR,South Gloucestershire,admin,,1826096107
+Oldham,Oldham,53.5500,-2.1167,United Kingdom,GB,GBR,Oldham,admin,,1826716070
+Elgin,Elgin,57.6500,-3.3333,United Kingdom,GB,GBR,Moray,admin,,1826386055
+Wallsend,Wallsend,54.9914,-1.5597,United Kingdom,GB,GBR,North Tyneside,admin,,1826171317
+Weston-super-Mare,Weston-super-Mare,51.3458,-2.9678,United Kingdom,GB,GBR,North Somerset,admin,,1826189795
+Hounslow,Hounslow,51.4667,-0.3500,United Kingdom,GB,GBR,Hounslow,admin,,1826943293
+Irvine,Irvine,55.6000,-4.6667,United Kingdom,GB,GBR,North Ayrshire,admin,,1826965925
+Barnsley,Barnsley,53.5500,-1.4833,United Kingdom,GB,GBR,Barnsley,admin,,1826597621
+Falkirk,Falkirk,56.0000,-3.7667,United Kingdom,GB,GBR,Falkirk,admin,,1826502864
+Slough,Slough,51.5000,-0.5833,United Kingdom,GB,GBR,Slough,admin,,1826807636
+Huddersfield,Huddersfield,53.6500,-1.7833,United Kingdom,GB,GBR,Kirklees,admin,,1826672445
+Kingston upon Hull,Kingston upon Hull,53.7504,-0.3300,United Kingdom,GB,GBR,"Kingston upon Hull, City of",admin,302296,1826028894
+Romford,Romford,51.5833,0.2000,United Kingdom,GB,GBR,Havering,admin,,1826695421
+Stafford,Stafford,52.8000,-2.1000,United Kingdom,GB,GBR,St. Helens,admin,,1826088347
+Grays,Grays,51.4833,0.3333,United Kingdom,GB,GBR,Thurrock,admin,,1826003493
+Hertford,Hertford,51.8000,-0.0667,United Kingdom,GB,GBR,Hertfordshire,admin,,1826912872
+Coventry,Coventry,52.4204,-1.5000,United Kingdom,GB,GBR,Coventry,admin,388271,1826979198
+Leicester,Leicester,52.6300,-1.1332,United Kingdom,GB,GBR,Leicester,admin,457983,1826431946
+Beverley,Beverley,53.8333,-0.4167,United Kingdom,GB,GBR,East Riding of Yorkshire,admin,,1826700096
+Stirling,Stirling,56.1167,-3.9500,United Kingdom,GB,GBR,Stirling,admin,,1826517007
+Norwich,Norwich,52.6304,1.3000,United Kingdom,GB,GBR,Norfolk,admin,190756,1826688051
+Darlington,Darlington,54.5333,-1.5667,United Kingdom,GB,GBR,Darlington,admin,,1826453946
+Hereford,Hereford,52.0500,-2.7167,United Kingdom,GB,GBR,Herefordshire,admin,,1826996583
+Grimsby,Grimsby,53.5333,-0.0500,United Kingdom,GB,GBR,North East Lincolnshire,admin,,1826700880
+Bradford,Bradford,53.8000,-1.7500,United Kingdom,GB,GBR,Bradford,admin,501700,1826687116
+Bracknell,Bracknell,51.4167,-0.7500,United Kingdom,GB,GBR,Bracknell Forest,admin,,1826880896
+Morpeth,Morpeth,55.1667,-1.6833,United Kingdom,GB,GBR,Northumberland,admin,,1826000022
+Gateshead,Gateshead,54.9450,-1.6175,United Kingdom,GB,GBR,Gateshead,admin,,1826635849
+Wandsworth,Wandsworth,51.4500,-0.2000,United Kingdom,GB,GBR,Wandsworth,admin,,1826844924
+South Shields,South Shields,54.9878,-1.4214,United Kingdom,GB,GBR,South Tyneside,admin,,1826396004
+Sheffield,Sheffield,53.3667,-1.5000,United Kingdom,GB,GBR,Sheffield,admin,1292900,1826289852
+Ystrad Mynach,Ystrad Mynach,51.6403,-3.2433,United Kingdom,GB,GBR,Caerphilly,admin,,1826498228
+South Bank,South Bank,54.5667,-1.1500,United Kingdom,GB,GBR,Redcar and Cleveland,admin,,1826839813
+Haddington,Haddington,55.9333,-2.7667,United Kingdom,GB,GBR,East Lothian,admin,,1826363081
+Aberaeron,Aberaeron,52.2500,-4.2500,United Kingdom,GB,GBR,Ceredigion,admin,,1826410688
+Lerwick,Lerwick,60.1500,-1.1500,United Kingdom,GB,GBR,Shetland Islands,admin,6594,1826896340
+Cambridge,Cambridge,52.2004,0.1166,United Kingdom,GB,GBR,Cambridgeshire,admin,128488,1826229713
+Glenrothes,Glenrothes,56.2000,-3.1833,United Kingdom,GB,GBR,Fife,admin,,1826270044
+Pen-y-Bont ar Ogwr,Pen-y-Bont ar Ogwr,51.5058,-3.5772,United Kingdom,GB,GBR,Bridgend,admin,,1826587515
+Barri,Barri,51.4067,-3.2694,United Kingdom,GB,GBR,"Vale of Glamorgan, The",admin,,1826605492
+Carlisle,Carlisle,54.8800,-2.9300,United Kingdom,GB,GBR,Cumbria,admin,72633,1826843688
+Aylesbury,Aylesbury,51.8167,-0.8000,United Kingdom,GB,GBR,Buckinghamshire,admin,,1826391298
+Lincoln,Lincoln,53.2333,-0.5333,United Kingdom,GB,GBR,Lincolnshire,admin,,1826312785
+Bromley,Bromley,51.4000,0.0500,United Kingdom,GB,GBR,Bromley,admin,,1826385764
+Kirkwall,Kirkwall,58.9670,-2.9500,United Kingdom,GB,GBR,Orkney Islands,admin,8500,1826208698
+Blackpool,Blackpool,53.8304,-3.0500,United Kingdom,GB,GBR,Blackpool,admin,272792,1826093175
+Croydon,Croydon,51.3833,-0.1000,United Kingdom,GB,GBR,Croydon,admin,,1826126675
+Dorchester,Dorchester,50.7167,-2.4333,United Kingdom,GB,GBR,Dorset,admin,,1826909037
+Hendon,Hendon,51.6000,-0.2167,United Kingdom,GB,GBR,Barnet,admin,,1826052476
+Hammersmith,Hammersmith,51.5000,-0.2333,United Kingdom,GB,GBR,Hammersmith and Fulham,admin,,1826090130
+Bournemouth,Bournemouth,50.7300,-1.9000,United Kingdom,GB,GBR,Bournemouth,admin,426945,1826769743
+Fort William,Fort William,56.8165,-5.1121,United Kingdom,GB,GBR,Highland,,9652,1826742184
+Dumfries,Dumfries,55.0671,-3.5500,United Kingdom,GB,GBR,Dumfries and Galloway,admin,31044,1826801547
+Dumbarton,Dumbarton,55.9500,-4.5667,United Kingdom,GB,GBR,West Dunbartonshire,admin,,1826077098
+Luton,Luton,51.8804,-0.4200,United Kingdom,GB,GBR,Luton,admin,235958,1826630574
+Bristol,Bristol,51.4500,-2.5833,United Kingdom,GB,GBR,"Bristol, City of",admin,553528,1826921049
+Enfield,Enfield,51.6667,-0.0667,United Kingdom,GB,GBR,Enfield,admin,,1826362409
+Camberwell,Camberwell,51.4736,-0.0916,United Kingdom,GB,GBR,Southwark,admin,,1826778761
+Truro,Truro,50.2617,-5.0433,United Kingdom,GB,GBR,Cornwall,admin,,1826586304
+Penzance,Penzance,50.1337,-5.5500,United Kingdom,GB,GBR,Cornwall,,20812,1826600240
+Clydach Vale,Clydach Vale,51.6267,-3.4761,United Kingdom,GB,GBR,Rhondda Cynon Taff,admin,,1826644016
+Telford,Telford,52.6333,-2.5000,United Kingdom,GB,GBR,Telford and Wrekin,admin,,1826968934
+Stockton-on-Tees,Stockton-on-Tees,54.5833,-1.4167,United Kingdom,GB,GBR,Stockton-on-Tees,admin,,1826259802
+Maidenhead,Maidenhead,51.5167,-0.7000,United Kingdom,GB,GBR,Windsor and Maidenhead,admin,,1826979451
+Dalkeith,Dalkeith,55.8667,-3.0667,United Kingdom,GB,GBR,Midlothian,admin,,1826152382
+Wood Green,Wood Green,51.6000,-0.1167,United Kingdom,GB,GBR,Haringey,admin,,1826902664
+Pont-y-pŵl,Pont-y-pwl,51.7011,-3.0444,United Kingdom,GB,GBR,Torfaen,admin,,1826931206
+Perth,Perth,56.4003,-3.4700,United Kingdom,GB,GBR,Perth and Kinross,admin,39654,1826081674
+Milton Keynes,Milton Keynes,52.0333,-0.7000,United Kingdom,GB,GBR,Milton Keynes,admin,,1826291745
+Hartlepool,Hartlepool,54.6861,-1.2125,United Kingdom,GB,GBR,Hartlepool,admin,,1826069842
+Harrow,Harrow,51.5833,-0.3167,United Kingdom,GB,GBR,Harrow,admin,,1826648099
+Oldbury,Oldbury,52.5000,-2.0167,United Kingdom,GB,GBR,Sandwell,admin,,1826772887
+Ashton-under-Lyne,Ashton-under-Lyne,53.5000,-2.1000,United Kingdom,GB,GBR,Tameside,admin,,1826027715
+Wakefield,Wakefield,53.7000,-1.4833,United Kingdom,GB,GBR,Wakefield,admin,,1826013112
+Trowbridge,Trowbridge,51.3189,-2.2086,United Kingdom,GB,GBR,Wiltshire,admin,,1826965204
+Maidstone,Maidstone,51.2667,0.5167,United Kingdom,GB,GBR,Kent,admin,,1826000009
+Poole,Poole,50.7167,-2.0000,United Kingdom,GB,GBR,Poole,admin,,1826379738
+Newport,Newport,50.7000,-1.3000,United Kingdom,GB,GBR,Isle of Wight,admin,,1826718687
+Walsall,Walsall,52.6000,-2.0000,United Kingdom,GB,GBR,Walsall,admin,,1826655696
+Woolwich,Woolwich,51.4667,0.2000,United Kingdom,GB,GBR,Greenwich,admin,,1826479020
+Southend-on-Sea,Southend-on-Sea,51.5500,0.7200,United Kingdom,GB,GBR,Southend-on-Sea,admin,618386,1826524208
+Scunthorpe,Scunthorpe,53.5833,-0.6500,United Kingdom,GB,GBR,North Lincolnshire,admin,,1826817883
+Caernarfon,Caernarfon,53.1500,-4.2667,United Kingdom,GB,GBR,Gwynedd,admin,,1826011275
+Hamilton,Hamilton,55.7667,-4.0333,United Kingdom,GB,GBR,South Lanarkshire,admin,,1826692620
+Durham,Durham,54.7667,-1.5667,United Kingdom,GB,GBR,Durham,admin,,1826031748
+Warwick,Warwick,52.2833,-1.5833,United Kingdom,GB,GBR,Warwickshire,admin,,1826383937
+Aberdeen,Aberdeen,57.1704,-2.0800,United Kingdom,GB,GBR,Aberdeen City,admin,189364,1826324306
+Newtown Saint Boswells,Newtown Saint Boswells,55.5833,-2.6833,United Kingdom,GB,GBR,"Scottish Borders, The",admin,,1826157453
+Sutton,Sutton,51.3500,-0.2000,United Kingdom,GB,GBR,Sutton,admin,,1826827095
+Catford,Catford,51.4500,-0.0167,United Kingdom,GB,GBR,Lewisham,admin,,1826259011
+Lambeth,Lambeth,51.5000,-0.1167,United Kingdom,GB,GBR,Lambeth,admin,,1826545364
+Lewes,Lewes,50.8667,-0.0167,United Kingdom,GB,GBR,East Sussex,admin,,1826774397
+Dundee,Dundee,56.4704,-3.0000,United Kingdom,GB,GBR,Dundee City,admin,151592,1826581481
+Ipswich,Ipswich,52.0703,1.1700,United Kingdom,GB,GBR,Suffolk,admin,143767,1826629486
+Birmingham,Birmingham,52.4750,-1.9200,United Kingdom,GB,GBR,Birmingham,admin,2285000,1826423213
+Stoke,Stoke,53.0004,-2.1800,United Kingdom,GB,GBR,Stoke-on-Trent,admin,390801,1826799578
+Stockport,Stockport,53.4000,-2.1500,United Kingdom,GB,GBR,Stockport,admin,,1826228303
+Chelmsford,Chelmsford,51.7333,0.4833,United Kingdom,GB,GBR,Essex,admin,,1826876670
+Leeds,Leeds,53.8300,-1.5800,United Kingdom,GB,GBR,Leeds,admin,1529000,1826343963
+Bath,Bath,51.3837,-2.3500,United Kingdom,GB,GBR,Bath and North East Somerset,admin,93238,1826611282
+Ayr,Ayr,55.4504,-4.6167,United Kingdom,GB,GBR,South Ayrshire,admin,69042,1826430700
+Kirkintilloch,Kirkintilloch,55.9167,-4.1667,United Kingdom,GB,GBR,East Dunbartonshire,admin,,1826571447
+Wallasey,Wallasey,53.4333,-3.0667,United Kingdom,GB,GBR,Wirral,admin,,1826741418
+Conwy,Conwy,53.2833,-3.8333,United Kingdom,GB,GBR,Conwy,admin,,1826011797
+Rhuthun,Rhuthun,53.1167,-3.3000,United Kingdom,GB,GBR,Denbighshire,admin,,1826254442
+Walthamstow,Walthamstow,51.6000,-0.0333,United Kingdom,GB,GBR,Waltham Forest,admin,,1826009890
+Halifax,Halifax,53.7167,-1.8500,United Kingdom,GB,GBR,Calderdale,admin,,1826413776
+Peterborough,Peterborough,52.5804,-0.2500,United Kingdom,GB,GBR,Peterborough,admin,140141,1826626144
+Rotherham,Rotherham,53.4333,-1.3500,United Kingdom,GB,GBR,Rotherham,admin,,1826763937
+Alloa,Alloa,56.1167,-3.8000,United Kingdom,GB,GBR,Clackmannanshire,admin,,1826126712
+Southampton,Southampton,50.9000,-1.4000,United Kingdom,GB,GBR,Southampton,admin,384417,1826602892
+Ebbw Vale,Ebbw Vale,51.7833,-3.2000,United Kingdom,GB,GBR,Blaenau Gwent,admin,,1826821223
+Forfar,Forfar,56.6500,-2.8833,United Kingdom,GB,GBR,Angus,admin,,1826527188
+Islington,Islington,51.5333,-0.1000,United Kingdom,GB,GBR,Islington,admin,,1826267810
+Caerfyrddin,Caerfyrddin,51.8592,-4.3117,United Kingdom,GB,GBR,Carmarthenshire,admin,,1826550370
+Ealing,Ealing,51.4888,-0.3048,United Kingdom,GB,GBR,Ealing,admin,,1826730060
+Kilmarnock,Kilmarnock,55.6333,-4.5333,United Kingdom,GB,GBR,East Ayrshire,admin,,1826595229
+Newport,Newport,51.5833,-2.9833,United Kingdom,GB,GBR,Newport,admin,,1826018889
+Kensington,Kensington,51.5047,-0.1998,United Kingdom,GB,GBR,Kensington and Chelsea,admin,,1826583042
+Hwlffordd,Hwlffordd,51.8017,-4.9708,United Kingdom,GB,GBR,Pembrokeshire,admin,,1826514766
+Uxbridge,Uxbridge,51.5500,-0.4833,United Kingdom,GB,GBR,Hillingdon,admin,,1826505308
+Twickenham,Twickenham,51.4333,-0.3167,United Kingdom,GB,GBR,Richmond upon Thames,admin,,1826827915
+Plymouth,Plymouth,50.3854,-4.1600,United Kingdom,GB,GBR,Plymouth,admin,247297,1826947183
+Livingston,Livingston,55.8833,-3.5333,United Kingdom,GB,GBR,West Lothian,admin,,1826286558
+Portsmouth,Portsmouth,50.8003,-1.0800,United Kingdom,GB,GBR,Portsmouth,admin,442252,1826964096
+Paisley,Paisley,55.8333,-4.4333,United Kingdom,GB,GBR,Renfrewshire,admin,,1826549531
+Exeter,Exeter,50.7004,-3.5300,United Kingdom,GB,GBR,Devon,admin,113118,1826840903
+Widnes,Widnes,53.3500,-2.7333,United Kingdom,GB,GBR,Halton,admin,,1826947686
+Stretford,Stretford,53.4500,-2.3167,United Kingdom,GB,GBR,Trafford,admin,,1826645692
+Stornoway,Stornoway,58.2167,-6.3667,United Kingdom,GB,GBR,Eilean Siar,admin,,1826708788
+Manchester,Manchester,53.5004,-2.2480,United Kingdom,GB,GBR,Manchester,admin,2230000,1826246335
+Inverness,Inverness,57.4671,-4.2333,United Kingdom,GB,GBR,Highland,admin,45158,1826161019
+Morden,Morden,51.3982,-0.1984,United Kingdom,GB,GBR,Merton,admin,,1826667903
+London,London,51.5000,-0.1167,United Kingdom,GB,GBR,,primary,8567000,1826645935
+Ilford,Ilford,51.5597,0.0708,United Kingdom,GB,GBR,Redbridge,admin,,1826381000
+Poplar,Poplar,51.5000,-0.0167,United Kingdom,GB,GBR,Tower Hamlets,admin,,1826020769
+Salford,Salford,53.4833,-2.2667,United Kingdom,GB,GBR,Salford,admin,,1826868550
+Derby,Derby,52.9333,-1.5000,United Kingdom,GB,GBR,Derby,admin,,1826333435
+Mold,Mold,53.1667,-3.1333,United Kingdom,GB,GBR,Flintshire,admin,,1826650301
+Worcester,Worcester,52.2000,-2.2000,United Kingdom,GB,GBR,Worcestershire,admin,,1826393854
+Rochester,Rochester,51.3833,0.5167,United Kingdom,GB,GBR,Medway,admin,,1826559634
+Chichester,Chichester,50.8333,-0.7833,United Kingdom,GB,GBR,West Sussex,admin,,1826696164
+East Ham,East Ham,51.5333,0.0500,United Kingdom,GB,GBR,Newham,admin,,1826587417
+Oakham,Oakham,52.6667,-0.7333,United Kingdom,GB,GBR,Rutland,admin,,1826442570
+Gloucester,Gloucester,51.8333,-2.2500,United Kingdom,GB,GBR,Gloucestershire,admin,,1826932068
+Wrecsam,Wrecsam,53.0500,-3.0000,United Kingdom,GB,GBR,Wrexham,admin,,1826879983
+Wolverhampton,Wolverhampton,52.5833,-2.1333,United Kingdom,GB,GBR,Wolverhampton,admin,,1826636841
+Llangefni,Llangefni,53.2667,-4.3333,United Kingdom,GB,GBR,Isle of Anglesey,admin,,1826557923
+Hove,Hove,50.8333,-0.1833,United Kingdom,GB,GBR,Brighton and Hove,admin,,1826419818
+Brighton,Brighton,50.8303,-0.1700,United Kingdom,GB,GBR,Brighton and Hove,,503008,1826609057
+Doncaster,Doncaster,53.5333,-1.1167,United Kingdom,GB,GBR,Doncaster,admin,,1826979494
+Shrewsbury,Shrewsbury,52.7167,-2.7333,United Kingdom,GB,GBR,Shropshire,admin,,1826283137
+Glasgow,Glasgow,55.8744,-4.2507,United Kingdom,GB,GBR,Glasgow City,admin,1160000,1826836462
+Camden Town,Camden Town,51.5457,-0.1403,United Kingdom,GB,GBR,Camden,admin,,1826810136
+Cardiff,Cardiff,51.5000,-3.2250,United Kingdom,GB,GBR,Cardiff,admin,861400,1826362422
+Bexleyheath,Bexleyheath,51.4500,0.1500,United Kingdom,GB,GBR,Bexley,admin,,1826858601
+Dover,Dover,51.1337,1.3000,United Kingdom,GB,GBR,Kent,,36384,1826963129
+Bury,Bury,53.6000,-2.3000,United Kingdom,GB,GBR,Bury,admin,,1826242195
+Greenock,Greenock,55.9333,-4.7500,United Kingdom,GB,GBR,Inverclyde,admin,74635,1826864377
+Middlesbrough,Middlesbrough,54.5804,-1.2300,United Kingdom,GB,GBR,Redcar and Cleveland,admin,416042,1826407067
+Scarborough,Scarborough,54.2804,-0.4300,United Kingdom,GB,GBR,North Yorkshire,,70571,1826723231
+Merthyr Tudful,Merthyr Tudful,51.7500,-3.3833,United Kingdom,GB,GBR,Merthyr Tydfil,admin,,1826737367
+Taunton,Taunton,51.0211,-3.1047,United Kingdom,GB,GBR,Somerset,admin,,1826959489
+York,York,53.9704,-1.0800,United Kingdom,GB,GBR,York,admin,158947,1826149980
+Port Talbot,Port Talbot,51.6000,-3.7833,United Kingdom,GB,GBR,Neath Port Talbot,admin,,1826981147
+Dagenham,Dagenham,51.5500,0.1667,United Kingdom,GB,GBR,Barking and Dagenham,admin,,1826363543
+Liverpool,Liverpool,53.4160,-2.9180,United Kingdom,GB,GBR,Liverpool,admin,811000,1826558678
+Saint Helens,Saint Helens,53.4500,-2.7333,United Kingdom,GB,GBR,St. Helens,admin,,1826775771
+Knowsley,Knowsley,53.4500,-2.8500,United Kingdom,GB,GBR,Knowsley,admin,,1826568900
+Kingston upon Thames,Kingston upon Thames,51.4167,-0.2833,United Kingdom,GB,GBR,Kingston upon Thames,admin,,1826345299
+Wigan,Wigan,53.5333,-2.6167,United Kingdom,GB,GBR,Wigan,admin,,1826902223
+Southport,Southport,53.6667,-3.0000,United Kingdom,GB,GBR,Sefton,admin,,1826271387
+Preston,Preston,53.7667,-2.7167,United Kingdom,GB,GBR,Lancashire,admin,,1826018478
+Blackburn,Blackburn,53.7500,-2.4833,United Kingdom,GB,GBR,Blackburn with Darwen,admin,,1826802533
+Bolton,Bolton,53.5833,-2.4333,United Kingdom,GB,GBR,Bolton,admin,,1826628353
+Hugh Town,Hugh Town,49.9146,-6.3143,United Kingdom,GB,GBR,Isles of Scilly,admin,,1826252332
+Bedford,Bedford,52.1333,-0.4500,United Kingdom,GB,GBR,Bedford,admin,,1826771105
+Chicksands,Chicksands,52.0333,-0.3667,United Kingdom,GB,GBR,Central Bedfordshire,admin,,1826903198
+Sandbach,Sandbach,53.1333,-2.3667,United Kingdom,GB,GBR,Cheshire East,admin,,1826911682
+Chester,Chester,53.2000,-2.9200,United Kingdom,GB,GBR,Cheshire West and Chester,admin,89531,1826441668
+Llandrindod Wells,Llandrindod Wells,52.2333,-3.3833,United Kingdom,GB,GBR,Powys,admin,,1826769225
+Northampton,Northampton,52.2500,-0.8833,United Kingdom,GB,GBR,Northamptonshire,admin,,1826806747
+Giffnock,Giffnock,55.8000,-4.2833,United Kingdom,GB,GBR,East Renfrewshire,admin,,1826874548
+Newcastle,Newcastle,55.0004,-1.6000,United Kingdom,GB,GBR,Newcastle upon Tyne,admin,882000,1826292220
+Downpatrick,Downpatrick,54.3269,-5.7113,United Kingdom,GB,GBR,"Newry, Mourne and Down",admin,,1826860584
+Coleraine,Coleraine,55.1349,-6.6687,United Kingdom,GB,GBR,Causeway Coast and Glens,admin,,1826465785
+Magherafelt,Magherafelt,54.7543,-6.6094,United Kingdom,GB,GBR,Mid Ulster,admin,,1826490342
+Dungannon,Dungannon,54.5033,-6.7643,United Kingdom,GB,GBR,Mid Ulster,admin,,1826799961
+Cookstown,Cookstown,54.6428,-6.7452,United Kingdom,GB,GBR,Mid Ulster,admin,,1826277161
+Bangor,Bangor,54.6617,-5.6654,United Kingdom,GB,GBR,Ards and North Down,admin,,1826282262
+Strabane,Strabane,54.8224,-7.4684,United Kingdom,GB,GBR,Derry and Strabane,admin,,1826843663
+Londonderry,Londonderry,55.0004,-7.3333,United Kingdom,GB,GBR,Derry and Strabane,admin,83652,1826603241
+Omagh,Omagh,54.6000,-7.3000,United Kingdom,GB,GBR,Fermanagh and Omagh,admin,21056,1826686995
+Enniskillen,Enniskillen,54.3466,-7.6411,United Kingdom,GB,GBR,Fermanagh and Omagh,admin,,1826724326
+Ballymena,Ballymena,54.8612,-6.2763,United Kingdom,GB,GBR,Mid and East Antrim,admin,,1826020355
+Banbridge,Banbridge,54.3509,-6.2670,United Kingdom,GB,GBR,"Armagh, Banbridge and Craigavon",admin,,1826331367
+Armagh,Armagh,54.3481,-6.6496,United Kingdom,GB,GBR,"Armagh, Banbridge and Craigavon",admin,,1826000010
+Newtownabbey,Newtownabbey,54.6691,-5.9044,United Kingdom,GB,GBR,Antrim and Newtownabbey,admin,,1826392182
+Craigavon,Craigavon,54.4497,-6.3646,United Kingdom,GB,GBR,"Armagh, Banbridge and Craigavon",admin,,1826678234
+Antrim,Antrim,54.7129,-6.2085,United Kingdom,GB,GBR,Antrim and Newtownabbey,admin,,1826477610
+Newry,Newry,54.1780,-6.3381,United Kingdom,GB,GBR,"Newry, Mourne and Down",admin,,1826243852
+Lisburn,Lisburn,54.5099,-6.0404,United Kingdom,GB,GBR,Lisburn and Castlereagh,admin,,1826667481
+Belfast,Belfast,54.5968,-5.9254,United Kingdom,GB,GBR,Belfast,admin,,1826325087
+Belfast,Belfast,54.6000,-5.9600,United Kingdom,GB,GBR,Belfast,,450406,1826509389
+Usk,Usk,51.7025,-2.9042,United Kingdom,GB,GBR,Monmouthshire,admin,,1826007615
+Komatini,Komatini,41.1333,25.4167,Greece,GR,GRC,Anatolikí Makedonía kai Thráki,admin,45631,1300373048
+Athens,Athens,37.9833,23.7333,Greece,GR,GRC,Attikí,primary,3242000,1300715560
+Ermoupoli,Ermoupoli,37.4504,24.9333,Greece,GR,GRC,Notío Aigaío,admin,12260,1300072209
+Patra,Patra,38.2300,21.7300,Greece,GR,GRC,Dytikí Elláda,admin,163360,1300201099
+Lamia,Lamia,38.8990,22.4340,Greece,GR,GRC,Stereá Elláda,admin,47246,1300400935
+Tripoli,Tripoli,37.5091,22.3794,Greece,GR,GRC,Peloponnísos,admin,28970,1300131630
+Mitilini,Mitilini,39.1104,26.5546,Greece,GR,GRC,Voreío Aigaío,admin,29328,1300101706
+Hania,Hania,35.5122,24.0156,Greece,GR,GRC,Kríti,minor,78728,1300233408
+Sitia,Sitia,35.2004,26.0986,Greece,GR,GRC,Kríti,minor,8833,1300275780
+Seres,Seres,41.0860,23.5497,Greece,GR,GRC,Kentrikí Makedonía,minor,55886,1300726987
+Iraklio,Iraklio,35.3250,25.1305,Greece,GR,GRC,Kríti,admin,137154,1300777854
+Polygyros,Polygyros,40.3810,23.4530,Greece,GR,GRC,Kentrikí Makedonía,minor,5258,1300297120
+Thessaloniki,Thessaloniki,40.6961,22.8850,Greece,GR,GRC,Kentrikí Makedonía,admin,828000,1300397999
+Xanthi,Xanthi,41.1418,24.8836,Greece,GR,GRC,Anatolikí Makedonía kai Thráki,minor,50570,1300051191
+Kerkira,Kerkira,39.6154,19.9147,Greece,GR,GRC,Ionía Nísia,admin,38517,1300093403
+Kavala,Kavala,40.9412,24.4018,Greece,GR,GRC,Anatolikí Makedonía kai Thráki,minor,59240,1300398756
+Kozáni,Kozani,40.3007,21.7890,Greece,GR,GRC,Dytikí Makedonía,admin,,1300407295
+Alexandroupoli,Alexandroupoli,40.8486,25.8744,Greece,GR,GRC,Anatolikí Makedonía kai Thráki,minor,52979,1300949419
+Katerini,Katerini,40.2723,22.5025,Greece,GR,GRC,Kentrikí Makedonía,minor,53293,1300524464
+Ioanina,Ioanina,39.6679,20.8509,Greece,GR,GRC,Ípeiros,admin,86304,1300317204
+Volos,Volos,39.3700,22.9500,Greece,GR,GRC,Thessalía,minor,110632,1300109851
+Larissa,Larissa,39.6304,22.4200,Greece,GR,GRC,Thessalía,admin,128758,1300003141
+Piraeus,Piraievs,37.9500,23.7000,Greece,GR,GRC,Attikí,minor,466065,1300458367
+Agrinio,Agrinio,38.6218,21.4077,Greece,GR,GRC,Dytikí Elláda,minor,75233,1300351677
+Pirgos,Pirgos,37.6837,21.4500,Greece,GR,GRC,Dytikí Elláda,minor,22399,1300188949
+Chalkida,Chalkida,38.4640,23.6124,Greece,GR,GRC,Stereá Elláda,minor,71842,1300585149
+Sparti,Sparti,37.0737,22.4297,Greece,GR,GRC,Peloponnísos,minor,16187,1300989189
+Kalamata,Kalamata,37.0389,22.1142,Greece,GR,GRC,Peloponnísos,minor,71823,1300638148
+Hios,Hios,38.3681,26.1358,Greece,GR,GRC,Voreío Aigaío,minor,26891,1300169896
+Rodos,Rodos,36.4412,28.2225,Greece,GR,GRC,Notío Aigaío,minor,56969,1300944675
+Kos,Kos,36.8937,27.2888,Greece,GR,GRC,Notío Aigaío,minor,19244,1300683758
+Šibenik,Sibenik,43.7272,15.9058,Croatia,HR,HRV,Šibensko-Kninska Županija,admin,37112,1191444936
+Slavonski Brod,Slavonski Brod,45.1603,18.0156,Croatia,HR,HRV,Brodsko-Posavska Županija,admin,97718,1191097030
+Požega,Pozega,45.3403,17.6853,Croatia,HR,HRV,Požeško-Slavonska Županija,admin,,1191353181
+Virovitica,Virovitica,45.8319,17.3839,Croatia,HR,HRV,Virovitičko-Podravska Županija,admin,,1191128636
+Rijeka,Rijeka,45.3300,14.4500,Croatia,HR,HRV,Primorsko-Goranska Županija,admin,170992,1191949063
+Krapina,Krapina,46.1608,15.8789,Croatia,HR,HRV,Krapinsko-Zagorska Županija,admin,,1191389404
+Dubrovnik,Dubrovnik,42.6609,18.0914,Croatia,HR,HRV,Dubrovačko-Neretvanska Županija,admin,36994,1191004286
+Sisak,Sisak,45.4661,16.3783,Croatia,HR,HRV,Sisačko-Moslavačka Županija,admin,,1191526652
+Osijek,Osijek,45.5504,18.6800,Croatia,HR,HRV,Osječko-Baranjska Županija,admin,95077,1191917921
+Koprivnica,Koprivnica,46.1628,16.8275,Croatia,HR,HRV,Koprivničko-Križevačka Županija,admin,,1191924250
+Čakovec,Cakovec,46.3844,16.4339,Croatia,HR,HRV,Međimurska Županija,admin,,1191424625
+Vukovar,Vukovar,45.3433,18.9997,Croatia,HR,HRV,Vukovarsko-Srijemska Županija,admin,,1191345427
+Zadar,Zadar,44.1201,15.2623,Croatia,HR,HRV,Zadarska Županija,admin,71258,1191160875
+Gospić,Gospic,44.5461,15.3747,Croatia,HR,HRV,Ličko-Senjska Županija,admin,,1191887616
+Varaždin,Varazdin,46.3044,16.3378,Croatia,HR,HRV,Varaždinska Županija,admin,,1191291148
+Split,Split,43.5204,16.4700,Croatia,HR,HRV,Splitsko-Dalmatinska Županija,admin,214741,1191440208
+Pazin,Pazin,45.2403,13.9367,Croatia,HR,HRV,Istarska Županija,admin,,1191654566
+Zagreb,Zagreb,45.8000,16.0000,Croatia,HR,HRV,"Zagreb, Grad",primary,722526,1191233290
+Karlovac,Karlovac,45.4872,15.5478,Croatia,HR,HRV,Karlovačka Županija,admin,55063,1191133986
+Bjelovar,Bjelovar,45.8986,16.8489,Croatia,HR,HRV,Bjelovarsko-Bilogorska Županija,admin,,1191340640
+Pula,Pula,44.8687,13.8481,Croatia,HR,HRV,Istarska Županija,minor,61599,1191143009
+Szolnok,Szolnok,47.1864,20.1794,Hungary,HU,HUN,Jász-Nagykun-Szolnok,admin,109261,1348287339
+Hódmezővásárhely,Hodmezovasarhely,46.4167,20.3333,Hungary,HU,HUN,Csongrád,admin,,1348676241
+Nagykanizsa,Nagykanizsa,46.5142,16.9717,Hungary,HU,HUN,Zala,admin,,1348509592
+Nyíregyháza,Nyiregyhaza,47.9653,21.7187,Hungary,HU,HUN,Szabolcs-Szatmár-Bereg,admin,176880,1348653343
+Budapest,Budapest,47.5000,19.0833,Hungary,HU,HUN,Budapest,primary,1679000,1348611435
+Békéscsaba,Bekescsaba,46.6720,21.1010,Hungary,HU,HUN,Békés,admin,65206,1348329493
+Eger,Eger,46.4000,17.5833,Hungary,HU,HUN,Somogy,admin,,1348314005
+Zalaegerszeg,Zalaegerszeg,46.8440,16.8400,Hungary,HU,HUN,Zala,admin,61898,1348293073
+Szeged,Szeged,46.2504,20.1500,Hungary,HU,HUN,Szeged,admin,187765,1348655615
+Kaposvár,Kaposvar,46.3670,17.8000,Hungary,HU,HUN,Somogy,admin,108528,1348114190
+Sopron,Sopron,47.6833,16.6000,Hungary,HU,HUN,Győr-Moson-Sopron,admin,,1348988570
+Kecskemét,Kecskemet,46.9000,19.7000,Hungary,HU,HUN,Bács-Kiskun,admin,113895,1348900171
+Debrecen,Debrecen,47.5305,21.6300,Hungary,HU,HUN,Debrecen,admin,231286,1348460698
+Miskolc,Miskolc,48.1004,20.7800,Hungary,HU,HUN,Miskolc,admin,247757,1348668815
+Szombathely,Szombathely,47.2253,16.6287,Hungary,HU,HUN,Vas,admin,109518,1348565183
+Dunaújváros,Dunaujvaros,46.9807,18.9327,Hungary,HU,HUN,Fejér,admin,,1348928583
+Veszprém,Veszprem,47.0910,17.9110,Hungary,HU,HUN,Veszprém,admin,62023,1348279762
+Salgótarján,Salgotarjan,48.1050,19.8260,Hungary,HU,HUN,Nógrád,admin,39640,1348290189
+Székesfehérvár,Szekesfehervar,47.1947,18.4081,Hungary,HU,HUN,Fejér,admin,144319,1348968301
+Győr,Gyor,47.7004,17.6300,Hungary,HU,HUN,Győr,admin,136081,1348507878
+Tatabánya,Tatabanya,47.5500,18.4330,Hungary,HU,HUN,Komárom-Esztergom,admin,70541,1348450358
+Pécs,Pecs,46.0804,18.2200,Hungary,HU,HUN,Pécs,admin,186262,1348611992
+Szekszárd,Szekszard,46.3440,18.7130,Hungary,HU,HUN,Tolna,admin,34174,1348026284
+Eger,Eger,47.8950,20.3830,Hungary,HU,HUN,Heves,admin,56647,1348559499
+Vác,Vac,47.7837,19.1332,Hungary,HU,HUN,Pest,minor,35293,1348810997
+Sligo,Sligo,54.2671,-8.4833,Ireland,IE,IRL,Sligo,admin,20228,1372185807
+Mullingar,Mullingar,53.5333,-7.3500,Ireland,IE,IRL,Westmeath,admin,,1372969205
+Drogheda,Drogheda,53.7193,-6.3478,Ireland,IE,IRL,Louth,,36533,1372750233
+Dundalk,Dundalk,54.0004,-6.4167,Ireland,IE,IRL,Louth,admin,38884,1372735852
+Muineachan,Muineachan,54.2500,-6.9667,Ireland,IE,IRL,Monaghan,,5937,1372399438
+Port Laoise,Port Laoise,53.0322,-7.3000,Ireland,IE,IRL,Laois,admin,,1372726111
+Longford,Longford,53.7333,-7.8000,Ireland,IE,IRL,Longford,admin,,1372905339
+Shannon,Shannon,52.7038,-8.8641,Ireland,IE,IRL,Clare,,8781,1372328164
+Tralee,Tralee,52.2667,-9.7167,Ireland,IE,IRL,Kerry,admin,26384,1372403494
+Lifford,Lifford,54.8319,-7.4836,Ireland,IE,IRL,Donegal,admin,,1372149317
+Wicklow,Wicklow,52.9750,-6.0494,Ireland,IE,IRL,Wicklow,admin,,1372662642
+Kilkenny,Kilkenny,52.6545,-7.2523,Ireland,IE,IRL,Kilkenny,admin,21589,1372926521
+An Cabhán,An Cabhan,53.9908,-7.3606,Ireland,IE,IRL,Cavan,admin,,1372007853
+Carrick on Shannon,Carrick on Shannon,53.9469,-8.0900,Ireland,IE,IRL,Leitrim,admin,,1372960774
+Wexford,Wexford,52.3342,-6.4575,Ireland,IE,IRL,Wexford,admin,,1372349451
+Donegal,Donegal,54.6500,-8.1167,Ireland,IE,IRL,Donegal,,2513,1372576120
+Killarney,Killarney,52.0504,-9.5167,Ireland,IE,IRL,Kerry,,11902,1372916792
+Ros Comain,Ros Comain,53.6333,-8.1833,Ireland,IE,IRL,Roscommon,admin,4860,1372870384
+Galway,Galway,53.2724,-9.0488,Ireland,IE,IRL,Galway,admin,75594,1372499968
+Cork,Cork,51.8986,-8.4958,Ireland,IE,IRL,Cork,admin,188907,1372221853
+Dublin,Dublin,53.3331,-6.2489,Ireland,IE,IRL,Dublin,primary,1059000,1372595407
+Trim,Trim,53.5550,-6.7917,Ireland,IE,IRL,Meath,admin,,1372676556
+Waterford,Waterford,52.2583,-7.1119,Ireland,IE,IRL,Waterford,admin,49275,1372267114
+Limerick,Limerick,52.6647,-8.6231,Ireland,IE,IRL,Limerick,admin,90054,1372126011
+Clonmel,Clonmel,52.3550,-7.7039,Ireland,IE,IRL,Tipperary,admin,,1372974181
+Nenagh,Nenagh,52.8619,-8.1967,Ireland,IE,IRL,Tipperary,admin,,1372867922
+Swords,Swords,53.4597,-6.2181,Ireland,IE,IRL,Fingal,admin,,1372755688
+Dunleary,Dunleary,53.2925,-6.1286,Ireland,IE,IRL,Dún Laoghaire-Rathdown,admin,,1372038958
+Tallaght,Tallaght,53.2878,-6.3411,Ireland,IE,IRL,South Dublin,admin,,1372547040
+Castlebar,Castlebar,53.8500,-9.3000,Ireland,IE,IRL,Mayo,admin,,1372066739
+Naas,Naas,53.2158,-6.6669,Ireland,IE,IRL,Kildare,admin,,1372985945
+Carlow,Carlow,52.8408,-6.9261,Ireland,IE,IRL,Carlow,admin,,1372096982
+Ennis,Ennis,52.8436,-8.9864,Ireland,IE,IRL,Clare,admin,,1372255646
+Tullamore,Tullamore,53.2739,-7.4889,Ireland,IE,IRL,Offaly,admin,,1372035774
+Reykjavík,Reykjavik,64.1500,-21.9500,Iceland,IS,ISL,Höfuðborgarsvæði,primary,166212,1352327190
+Höfn,Hofn,64.2723,-15.2139,Iceland,IS,ISL,Austurland,,1695,1352857630
+Egilsstaðir,Egilsstadir,65.2674,-14.3950,Iceland,IS,ISL,Austurland,admin,2265,1352699507
+Akureyi,Akureyi,65.6666,-18.1000,Iceland,IS,ISL,Norðurland Eystra,admin,16563,1352098424
+Sauðárkrókur,Saudarkrokur,65.7464,-19.6390,Iceland,IS,ISL,Norðurland Vestra,admin,2682,1352929836
+Selfoss,Selfoss,63.9334,-20.9969,Iceland,IS,ISL,Suðurland,admin,6275,1352214400
+Keflavík,Keflavik,64.0166,-22.5666,Iceland,IS,ISL,Suðurnes,admin,7930,1352901945
+Ísafjörður,Isafjordur,66.0833,-23.1500,Iceland,IS,ISL,Vestfirðir,admin,2534,1352563432
+Borgarnes,Borgarnes,64.5695,-21.8623,Iceland,IS,ISL,Vesturland,admin,1783,1352063842
+Venice,Venice,45.4387,12.3350,Italy,IT,ITA,Veneto,admin,270816,1380660414
+Trento,Trento,46.0804,11.1200,Italy,IT,ITA,Trentino-Alto Adige,admin,107808,1380953307
+Cagliari,Cagliari,39.2224,9.1040,Italy,IT,ITA,Sardegna,admin,291511,1380685705
+Rome,Rome,41.8960,12.4833,Italy,IT,ITA,Lazio,primary,3339000,1380382862
+Trieste,Trieste,45.6504,13.8000,Italy,IT,ITA,Friuli-Venezia Giulia,admin,216035,1380102581
+Palermo,Palermo,38.1250,13.3500,Italy,IT,ITA,Sicilia,admin,863000,1380428434
+Marsala,Marsala,37.8054,12.4387,Italy,IT,ITA,Sicilia,,77784,1380770056
+Campobasso,Campobasso,41.5630,14.6560,Italy,IT,ITA,Molise,admin,50762,1380959273
+L'Aquila,L'Aquila,42.3504,13.3900,Italy,IT,ITA,Abruzzo,admin,68503,1380218474
+Civitavecchia,Civitavecchia,42.1004,11.8000,Italy,IT,ITA,Lazio,,61316,1380282443
+Catanzaro,Catanzaro,38.9004,16.6000,Italy,IT,ITA,Calabria,admin,95251,1380650072
+Genoa,Genoa,44.4100,8.9300,Italy,IT,ITA,Liguria,admin,647497,1380716540
+Ancona,Ancona,43.6004,13.4999,Italy,IT,ITA,Marche,admin,100507,1380597324
+Bologna,Bologna,44.5004,11.3400,Italy,IT,ITA,Emilia-Romagna,admin,488172,1380202039
+Potenza,Potenza,40.6420,15.7990,Italy,IT,ITA,Basilicata,admin,69060,1380649430
+Bari,Bari,41.1142,16.8728,Italy,IT,ITA,Puglia,admin,500577,1380991126
+Milan,Milan,45.4700,9.2050,Italy,IT,ITA,Lombardy,admin,2945000,1380724377
+Turin,Turin,45.0704,7.6700,Italy,IT,ITA,Piedmont,admin,1652000,1380244627
+Naples,Naples,40.8400,14.2450,Italy,IT,ITA,Campania,admin,2250000,1380646673
+Florence,Florence,43.7800,11.2500,Italy,IT,ITA,Tuscany,admin,1500000,1380726561
+Aosta,Aosta,45.7370,7.3150,Italy,IT,ITA,Valle d’Aosta,admin,34062,1380291310
+Perugia,Perugia,43.1104,12.3900,Italy,IT,ITA,Umbria,admin,149125,1380939013
+Como,Como,45.8100,9.0800,Italy,IT,ITA,Lombardy,minor,250000,1380994905
+Novara,Novara,45.4500,8.6200,Italy,IT,ITA,Piedmont,minor,100910,1380911437
+Asti,Asti,44.9300,8.2100,Italy,IT,ITA,Piedmont,minor,71276,1380024585
+Sassari,Sassari,40.7300,8.5700,Italy,IT,ITA,Sardegna,minor,120729,1380371433
+Olbia,Olbia,40.9143,9.5151,Italy,IT,ITA,Sardegna,minor,45366,1380424474
+Modena,Modena,44.6500,10.9200,Italy,IT,ITA,Emilia-Romagna,minor,175502,1380306270
+Ferrara,Ferrara,44.8504,11.6099,Italy,IT,ITA,Emilia-Romagna,minor,130992,1380682411
+Ravenna,Ravenna,44.4204,12.2200,Italy,IT,ITA,Emilia-Romagna,minor,134631,1380964180
+Treviso,Treviso,45.6700,12.2400,Italy,IT,ITA,Veneto,minor,177309,1380900516
+Verona,Verona,45.4404,10.9900,Italy,IT,ITA,Veneto,minor,347459,1380324879
+Udine,Udine,46.0700,13.2400,Italy,IT,ITA,Friuli-Venezia Giulia,minor,119009,1380396446
+Bolzano,Bolzano,46.5004,11.3600,Italy,IT,ITA,Trentino-Alto Adige,minor,95895,1380677819
+Bergamo,Bergamo,45.7004,9.6700,Italy,IT,ITA,Lombardy,minor,200000,1380253521
+Salerno,Salerno,40.6804,14.7699,Italy,IT,ITA,Campania,minor,954265,1380863448
+Pescara,Pescara,42.4554,14.2187,Italy,IT,ITA,Abruzzo,minor,314789,1380000966
+Arezzo,Arezzo,43.4617,11.8750,Italy,IT,ITA,Tuscany,minor,91589,1380418355
+Siena,Siena,43.3170,11.3500,Italy,IT,ITA,Tuscany,minor,52625,1380088439
+Livorno,Livorno,43.5511,10.3023,Italy,IT,ITA,Tuscany,minor,156274,1380159305
+Pisa,Pisa,43.7205,10.4000,Italy,IT,ITA,Tuscany,minor,203336,1380310225
+Parma,Parma,44.8104,10.3200,Italy,IT,ITA,Emilia-Romagna,minor,166011,1380655938
+Catania,Catania,37.5000,15.0800,Italy,IT,ITA,Sicilia,minor,674542,1380562508
+Messina,Messina,38.2005,15.5500,Italy,IT,ITA,Sicilia,minor,252026,1380622386
+Ragusa,Ragusa,36.9300,14.7300,Italy,IT,ITA,Sicilia,minor,68956,1380117871
+Siracusa,Siracusa,37.0704,15.2900,Italy,IT,ITA,Sicilia,minor,123657,1380071816
+Reggio di Calabria,Reggio di Calabria,38.1150,15.6414,Italy,IT,ITA,Calabria,minor,180353,1380630212
+Vibo Valentia,Vibo Valentia,38.6666,16.1000,Italy,IT,ITA,Calabria,minor,33957,1380359147
+Crotone,Crotone,39.0833,17.1233,Italy,IT,ITA,Calabria,minor,60010,1380444441
+Foggia,Foggia,41.4605,15.5600,Italy,IT,ITA,Puglia,minor,155203,1380084447
+Barletta,Barletta,41.3200,16.2700,Italy,IT,ITA,Puglia,minor,107830,1380940717
+Taranto,Taranto,40.5084,17.2300,Italy,IT,ITA,Puglia,minor,202033,1380707445
+Brindisi,Brindisi,40.6403,17.9300,Italy,IT,ITA,Puglia,minor,104437,1380201254
+Lecce,Lecce,40.3604,18.1500,Italy,IT,ITA,Puglia,minor,162582,1380057273
+Benevento,Benevento,41.1337,14.7500,Italy,IT,ITA,Campania,minor,61791,1380723198
+Caserta,Caserta,41.0600,14.3374,Italy,IT,ITA,Campania,minor,250000,1380614087
+
