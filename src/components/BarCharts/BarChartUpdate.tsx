@@ -1,6 +1,8 @@
+
 import * as d3 from 'd3'
 import { FC, useRef, useState, useEffect, FormEvent } from 'react'
-import { D3SVGSVGElementSelection } from '../../models'
+import { D3Selection } from '../../models'
+
 
 type LengthData = {
     name: string,
@@ -51,7 +53,7 @@ export const BarChartUpdate: FC = () => {
         .domain([0, d3.max(data, ({ units }: LengthData) => units)])
         .range([dimensions.height, 0])
 
-    const [selection, setSelection] = useState<D3SVGSVGElementSelection>(null)
+    const [selection, setSelection] = useState<D3Selection<SVGSVGElement>>(null)
 
     useEffect(() => {
         if (!selection) {

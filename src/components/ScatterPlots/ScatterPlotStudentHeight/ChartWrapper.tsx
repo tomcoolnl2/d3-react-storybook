@@ -19,7 +19,7 @@ export const ChartWrapper: FC<ChartWrapperProps> = ({ data, setActiveName }) => 
 			setChart(new D3Chart(chartArea.current, data, setActiveName))
 		}
 		else {
-			chart?.update(data)
+			chart?.draw(data)
 		}
 	}, [chart, data, setActiveName])
 

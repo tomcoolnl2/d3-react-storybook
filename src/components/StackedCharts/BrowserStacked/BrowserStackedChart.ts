@@ -5,22 +5,19 @@
 
 import * as d3 from 'd3'
 import { 
-    MarginCoords, 
     D3Axis, 
     D3ScaleLinear, 
     D3ScaleOrdinal, 
     D3ScaleTime, 
+    D3SVGGElementSelection, 
     D3Selection,
     D3Stack,
-    D3Series,
-    D3Area,
-    D3AreaShape,
-    D3IterableStackData
+    MarginCoords 
 } from '../../../models'
 import { CountriesEnum, RawStackedItem, StackedItem } from './models'
 
 
-export class StackedAreaChart {
+export class BrowserStackedChart {
 
     // Measurements to calculate with
     private readonly fullWidth: number = 600
@@ -33,18 +30,16 @@ export class StackedAreaChart {
 
     // D3/SVG Elements
 	private readonly parent: SVGSVGElement = null
+    private stack: D3Stack = null
 	private svg: D3Selection<SVGSVGElement> = null
-	private mainGroup: D3Selection<SVGGElement> = null
-    
+	private mainGroup: D3SVGGElementSelection = null
 	private xScale: D3ScaleTime = null
 	private yScale: D3ScaleLinear = null
     private colorScale: D3ScaleOrdinal = null
 
-    private stack: D3Stack = null
-
     private xAxis: D3Axis = null
     private yAxis: D3Axis = null
-    private area: D3Area = null // TODO
+    area: d3.Area<StackedItem[]>
 
     constructor(parent: SVGSVGElement, data: RawStackedItem[]) {
 
@@ -58,7 +53,7 @@ export class StackedAreaChart {
     }
 
     private normalize(data: RawStackedItem[]): void {
-
+        console.log('normalize',data)
         const formattedData: StackedItem[] = data.map((d: RawStackedItem): StackedItem => ({
             ...d,
             date: d3.timeParse('%Y')(d.date),
@@ -76,7 +71,7 @@ export class StackedAreaChart {
             .attr('height', this.fullHeight)
         
         this.mainGroup = this.svg.append('g')
-            .attr('transform', `translate(${this.margin.left}, ${this.margin.top})`)
+            .attr('transform', `translate(${this.margin.left}, ${this.margin.top})`);
 
         // Scales
         this.xScale = d3.scaleTime().range([0, this.width])
@@ -89,15 +84,13 @@ export class StackedAreaChart {
         this.xAxis = d3.axisBottom(this.xScale).scale(this.xScale)
 
         this.yAxis = d3.axisLeft(this.yScale)
-            .scale(this.yScale)
-            .tickFormat(d3NumberValue => this.formatBillion(d3NumberValue as number))
+            .scale(this.xScale)
+            .tickFormat(x => this.formatBillion(x as number))
         
-        // TODO: Typing 'area' - and its chaining methods - needs more investigation. 
-        // Documentation is very hard to find. 
-        this.area = d3.area<D3AreaShape<StackedItem>>()
-            .x(d => this.xScale(d.data.date))
-            .y0(d => this.yScale(d[0]))
-            .y1(d => this.yScale(d[1]))
+        this.area = d3.area<StackedItem[]>()
+            .x((d) => this.xScale(((d as unknown) as { date: number }).date))
+            .y0(d => this.yScale(d[0])
+            .y1((d: any) => this.yScale(d[1])))
     }
 
     private draw(): void {
@@ -109,7 +102,7 @@ export class StackedAreaChart {
         const keys: CountriesEnum[] = Object.values(CountriesEnum)
 
         const maxDate = d3.max(this.data, (item: StackedItem): number => {
-            const nums = Object.keys(item).map((key: string): number => {
+            const nums = Object.keys(item).map((key: string) => {
                 return (key !== 'date' ? Number(item[key as keyof StackedItem]) : 0)
             })
             return d3.sum(nums)
@@ -122,43 +115,6 @@ export class StackedAreaChart {
         this.stack.keys(keys)
         this.stack.order(d3.stackOrderNone)
         this.stack.offset(d3.stackOffsetNone)
-
-        const browser = this.mainGroup.selectAll('.browser')
-            .data(this.stack(<D3IterableStackData>this.data))
-            .enter()
-            .append('g')
-                .attr('class', ({ key }: D3Series): string => 'browser ' + key)
-                .attr('fill-opacity', 0.5)
-
-        browser.append('path')
-            .attr('class', 'area')
-            .attr('d', this.area)
-            .style('fill', ({ key }: D3Series): string => this.colorScale(key))
-
-        browser.append('text')
-            .datum(d => d)
-            .attr('transform', (d: D3Series): string => {
-                const j: number = this.data.length - 1
-                return `translate(${this.xScale(this.data[j].date)}, ${this.yScale(d[j][1])})`
-            })
-            .attr('x', -6) 
-            .attr('dy', '.35em')
-            .style('text-anchor', 'start')
-            .text(({ key }: D3Series): string => key)
-                .attr('fill-opacity', 1)
-
-        this.mainGroup.append('g')
-            .attr('class', 'x-axis')
-            .attr('transform', `translate(0, ${this.height})`)
-            .call(this.xAxis)
-
-        this.mainGroup.append('g')
-            .attr('class', 'y-axis')
-            .call(this.yAxis)
-
-        this.mainGroup.append('text')
-            .attr('x', 0 - this.margin.left)
-            .text('Billions of liters')
     }
 
     private formatBillion(x: number): string {

@@ -1,14 +1,13 @@
 
 
 import * as d3 from 'd3'
+import { BaseType } from 'd3'
 import {
 	MarginCoords,
 	D3ScaleLinear, 
 	D3ScaleLog, 
-	D3ScaleOrdinal, 
-	D3SVGGElementSelection, 
-	D3SVGSVGElementSelection, 
-	D3SVGTextElementSelection
+	D3ScaleOrdinal,
+	D3Selection,
 } from '../../../models'
 import { 
 	PublicationData, 
@@ -40,12 +39,12 @@ export class GapMinderChart {
 
 	// D3/SVG Elements
 	private readonly parent: SVGSVGElement = null
-	private svg: D3SVGSVGElementSelection = null
-	private mainGroup: D3SVGGElementSelection = null
-	private x: D3ScaleLog = null
-	private y: D3ScaleLinear = null
-	private area: D3ScaleLinear = null
-	private timeLabel: D3SVGTextElementSelection = null
+	private svg: D3Selection<SVGSVGElement> = null
+	private mainGroup: D3Selection<SVGGElement> = null
+	private xScale: D3ScaleLog = null
+	private yScale: D3ScaleLinear = null
+	private areaScale: D3ScaleLinear = null
+	private timeLabel: D3Selection<SVGTextElement> = null
 
     constructor(parent: SVGSVGElement, data: PublicationData[]) {
 
@@ -55,7 +54,7 @@ export class GapMinderChart {
 		// prepare
 		this.initialize()
 		// force initial state
-		this.update(this.filteredData[0])
+		this.draw(this.filteredData[0])
     }
 
 	private initialize() {
@@ -82,30 +81,30 @@ export class GapMinderChart {
 
 	private setupScales() {
 
-		this.x = d3.scaleLog()
+		this.xScale = d3.scaleLog()
 			.base(10)
 			.range([0, this.width])
 			.domain([142, 150000])
 
-		this.y = d3.scaleLinear()
+		this.yScale = d3.scaleLinear()
 			.range([this.height, 0])
 			.domain([0, 90])
 
-		this.area = d3.scaleLinear()
+		this.areaScale = d3.scaleLinear()
 			.range([25 * Math.PI, 1500 * Math.PI])
 			.domain([2000, 1400000000])	
 	}
 
 	private setupLabels() {
 
-		const xLabel: D3SVGTextElementSelection = this.mainGroup.append('text')
+		const xLabel: D3Selection<SVGTextElement> = this.mainGroup.append('text')
 			.attr('y', this.height + 50)
 			.attr('x', this.width / 2)
 			.attr('font-size', '20px')
 			.attr('text-anchor', 'middle')
 			.text('GDP Per Capita ($)')
 
-		const yLabel: D3SVGTextElementSelection = this.mainGroup.append('text')
+		const yLabel: D3Selection<SVGTextElement> = this.mainGroup.append('text')
 			.attr('transform', 'rotate(-90)')
 			.attr('y', -40)
 			.attr('x', -170)
@@ -125,7 +124,7 @@ export class GapMinderChart {
 	private setupAxes() {
 		
 		// X Axis
-		const xAxisCall = d3.axisBottom(this.x)
+		const xAxisCall = d3.axisBottom(this.xScale)
 			.tickValues([400, 4000, 40000])
 			.tickFormat(d3.format('$'))
 
@@ -135,7 +134,7 @@ export class GapMinderChart {
 			.call(xAxisCall)
 
 		// Y Axis
-		const yAxisCall = d3.axisLeft(this.y)
+		const yAxisCall = d3.axisLeft(this.yScale)
 
 		this.mainGroup.append('g')
 			.attr('class', 'y axis')
@@ -144,13 +143,13 @@ export class GapMinderChart {
 
 	private createStaticLegend() {
 
-		const legend: D3SVGGElementSelection = this.mainGroup.append('g')
+		const legend: D3Selection<SVGGElement> = this.mainGroup.append('g')
 			.attr('transform', `translate(${this.width - 10}, ${this.height - 125})`)
 
 		// i starts at 1, to skip 'all'
 		for (let i: number = 1, continent: ContinentsEnum; continent = continentList[i]; i += 1) {
 
-			const legendRow: D3SVGGElementSelection = legend.append('g')
+			const legendRow: D3Selection<SVGGElement> = legend.append('g')
 				.attr('transform', `translate(0, ${(i - 1) * 20})`)
 
 			legendRow.append('rect')
@@ -186,14 +185,14 @@ export class GapMinderChart {
 	private step() {
 		// at the end of the data, loop back
 		this.setTime((this.time < this.filteredData.length - 1) ? this.time + 1 : 0)
-		this.update(this.filteredData[this.time])
+		this.draw(this.filteredData[this.time])
 	}
 
-    public update(data: PublicationData) {
+    public draw(data: PublicationData) {
 
 		// JOIN new data with old elements.
-		const circles = this.mainGroup.selectAll('circle')
-			.data(data.countries)
+		const circles = this.mainGroup.selectAll<SVGCircleElement, unknown>('circle')
+			.data<Country>(data.countries)
 			
 		// // EXIT old elements not present in new data.
 		circles.exit().remove()
@@ -203,9 +202,9 @@ export class GapMinderChart {
 			.merge(circles)
 			.transition().duration(0)
 				.attr('fill', ({ continent }: Country) => this.continentColor(continent))
-				.attr('cy', ({ life_exp }: Country) => this.y(life_exp))
-				.attr('cx', ({ income }: Country) => this.x(income))
-				.attr('r', ({ population }: Country) => Math.sqrt(this.area(population) / Math.PI))
+				.attr('cy', ({ life_exp }: Country) => this.yScale(life_exp))
+				.attr('cx', ({ income }: Country) => this.xScale(income))
+				.attr('r', ({ population }: Country) => Math.sqrt(this.areaScale(population) / Math.PI))
 
 		// update the time label
 		this.timeLabel.text(String(this.time + GapMinderChart.min))
@@ -223,7 +222,7 @@ export class GapMinderChart {
 		this.pause()
 		this.setTime(0)
 		this.filteredData = this.normalizedData
-		this.update(this.filteredData[this.time])
+		this.draw(this.filteredData[this.time])
 	}
 
 	public filterDataByContinent(continent: ContinentsEnum = ContinentsEnum.ALL) {
@@ -249,12 +248,12 @@ export class GapMinderChart {
 		}
 		
 		this.filteredData = dataPerContinent
-		this.update(this.filteredData[this.time])
+		this.draw(this.filteredData[this.time])
 	}
 
 	public filterDataByYear(year: number) {
 		this.setTime(year - GapMinderChart.min)
-		this.update(this.filteredData[this.time])
+		this.draw(this.filteredData[this.time])
 	}
 
 	public registerYearChangeHandler(fn: (year: number) => void) {

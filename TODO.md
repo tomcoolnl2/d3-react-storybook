@@ -1,7 +1,7 @@
 
 # TODO
 
-- [ ] Types for d3.Transition
+- [ ] Types for d3.Transition (test on: BarChartGenderSort)
 - [ ] Types for d3.area and its chained methods (stackedAreaChart)
 
 - Indexed tyopescript error:

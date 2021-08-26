@@ -42,5 +42,3 @@ export type StackedItem = {
     'United Kingdom': string,
     'Rest of the world': string
 }
-
-export type StackedItemIterable = StackedItem & Iterable<{ [key: string]: number }>
