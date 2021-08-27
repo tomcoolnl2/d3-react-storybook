@@ -16,8 +16,8 @@ export class AreaChartChart {
     private readonly fullWidth: number = 460
     private readonly fullHeight: number = 400
     private readonly margin: MarginCoords = { top: 10, right: 30, bottom: 30, left: 50 }
-    private readonly width = this.fullWidth - this.margin.left - this.margin.right
-    private readonly height = this.fullHeight - this.margin.top - this.margin.bottom
+    private readonly width: number = this.fullWidth - this.margin.left - this.margin.right
+    private readonly height: number = this.fullHeight - this.margin.top - this.margin.bottom
 
     private readonly parent: SVGSVGElement = null
     private svg: D3Selection<SVGSVGElement> = null
@@ -26,7 +26,7 @@ export class AreaChartChart {
     private yScale: D3ScaleLinear = null
     private xAxis: D3Selection<SVGGElement> = null
     private yAxis: D3Selection<SVGGElement> = null
-    private area: D3Area<Measurement>
+    private area: D3Area<Measurement> = null
 
     private data: Measurement[] = null
 
@@ -54,12 +54,12 @@ export class AreaChartChart {
             .attr('transform', `translate(${this.margin.left}, ${this.margin.top})`)
         
         this.xScale = d3.scaleTime()
-            .domain(d3.extent(this.data, d => d.date))
-            .range([ 0, this.width ]);
+            .domain(d3.extent(this.data, ({ date }: Measurement) => date))
+            .range([0, this.width])
 
         this.yScale = d3.scaleLinear()
-            .domain([0, d3.max(this.data, d => d.value )])
-            .range([ this.height, 0 ]);
+            .domain([0, d3.max(this.data, ({ value }: Measurement) => value )])
+            .range([this.height, 0])
 
         this.xAxis = this.mainGroup.append('g')
             .attr('transform', `translate(0, ${this.height})`)
@@ -69,9 +69,9 @@ export class AreaChartChart {
             .call(d3.axisLeft(this.yScale))
 
         this.area = d3.area<Measurement>()
-            .x(d => this.xScale(d.date))
+            .x(({ date }: Measurement) => this.xScale(date))
             .y0(this.yScale(0))
-            .y1(d => this.yScale(d.value))
+            .y1(({ value }: Measurement) => this.yScale(value))
     }
 
     private draw(): void {

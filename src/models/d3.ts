@@ -32,8 +32,8 @@ export interface D3ScaleThreshold extends ScaleThreshold<any, any, never>{}
 export interface D3Axis extends Axis<any> {}
 
 export interface D3Area<T = any> extends Area<T> {}
-export interface D3AreaShape<T> { [key: number]: number, data: T }
-export interface D3Stack extends Stack<any, { [key: string]: number }, string> {}
+export interface D3AreaShape<T = any> { [key: number]: number, data: T }
+export interface D3Stack extends Stack<any, { [key: string]: number }, string | string[]> {}
 export interface D3IterableStackData extends Iterable<{ [key: string]: number }> {}
 export interface D3Series extends Series<{ [key: string]: number }, string> {}
 

@@ -7,7 +7,7 @@ import {
     D3ScaleThreshold, 
     D3Selection, 
     Feature as GeoJSONFeature, 
-    FeatureCollection as GeoJSONFeatureCollection,
+    FeatureCollection as GeoJSONFeatureCollection
 } from '../../../models'
 import { PoulationPerCountryMap } from './models'
 
@@ -65,7 +65,7 @@ export class WorldChoroplethChart {
 
         this.geoProjection = d3.geoMercator()
             .scale(70)
-            .center([0,20])
+            .center([0, 20])
             .translate([this.width / 2, this.height / 2])
     }
 
@@ -78,8 +78,8 @@ export class WorldChoroplethChart {
                 // draw each country
                 .attr('d', d3.geoPath().projection(this.geoProjection))
                 // set the color of each country
-                .attr('fill', (d: GeoJSONFeature): string => {
-                    const total: number = this.populationDataMap.get(String(d.id)) || 0
+                .attr('fill', ({ id }: GeoJSONFeature): string => {
+                    const total: number = this.populationDataMap.get(String(id)) || 0
                     return this.colorScale(total)
                 })
     }
