@@ -2,7 +2,7 @@
 import { json } from 'd3'
 import { FC, useEffect, useRef, useState } from 'react'
 import { FlareHierarchy } from './models'
-import { SunburstChart } from './SunbusrtChart'
+import { SunburstChart } from './SunburstChart'
 
 export const Sunburst: FC = () => {
 

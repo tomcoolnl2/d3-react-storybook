@@ -1,15 +1,27 @@
+import { D3HierarchyRectangularNode } from "../../../models"
 
-export type FlareHierarchy = {
+type FlareTypeBase = {
     name: string
-    children: FlareHierarchyBranch[]
 }
 
-export type FlareHierarchyBranch = {
-    name: string
-    children: [FlareHierarchyBranch, FlareHierarchyLeaf]
+export type FlareTreeLevel = FlareBranch | FlareLeaf
+
+export type FlareTree = FlareTypeBase & {
+    children: FlareTreeLevel[]
 }
 
-export type FlareHierarchyLeaf = {
-    name: string
+export type FlareBranch = FlareTree
+
+export type FlareLeaf = FlareTypeBase & {
     value: number
+}
+
+export type FlareHierarchyItem<T = FlareTreeLevel> = D3HierarchyRectangularNode<T> & {
+    current?: D3HierarchyRectangularNode<T>
+    target?: {
+        x0: number
+        x1: number
+        y0: number
+        y1: number
+    }
 }

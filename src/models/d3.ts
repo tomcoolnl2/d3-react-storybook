@@ -22,7 +22,8 @@ import {
     DefaultArcObject,
     Arc,
     InternMap,
-    PieArcDatum
+    PieArcDatum,
+    HierarchyRectangularNode
 } from 'd3'
 
 
@@ -55,3 +56,5 @@ export interface D3GeoProjection extends GeoProjection {}
 export interface D3Pie<T = NumberValue> extends Pie<any, T> {}
 export interface D3Arc<T = DefaultArcObject> extends Arc<any, T> {}
 export interface D3PieArcDatum<T = any> extends PieArcDatum<T> {}
+
+export interface D3HierarchyRectangularNode<T = unknown> extends HierarchyRectangularNode<T> {}
