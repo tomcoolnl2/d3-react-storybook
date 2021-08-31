@@ -12,6 +12,8 @@ import {
     AreaChart,
     StackedArea,
     StackedBarChart,
+    PieChartUpdate,
+    Sunburst,
     WorldChoropleth
 } from './components'
 
@@ -29,6 +31,10 @@ storiesOf('Stacked Charts', module)
     .add('Simple Area Chart', () => <AreaChart />)
     .add('Stacked Area', () => <StackedArea />)
     .add('Stacked Bars', () => <StackedBarChart />)
+
+storiesOf('Pies and Donuts', module)
+    .add('Pie Chart (Update)', () => <PieChartUpdate />)
+    .add('Sunburst', () => <Sunburst />)
 
 storiesOf('Scatter Plots', module)
     .add('Student Height', () => <ScatterPlotStudentHeight />)

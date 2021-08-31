@@ -49,14 +49,14 @@
             .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
     d3.tsv("data/donut2.tsv", type, function(error, data) {
-        console.log(data)
+        // console.log(data)
         
         var regionsByFruit = d3.nest()
             .key(function(d) { return d.fruit; })
             .entries(data)
             .reverse();
 
-        console.log(regionsByFruit)
+        // console.log(regionsByFruit)
 
         var label = d3.select("form").selectAll("label")
             .data(regionsByFruit)
@@ -68,8 +68,8 @@
             .attr("value", function(d) { return d.key; })
             .on("change", change)
             .filter(function(d, i) { return !i; })
-            .each(change)
-            .property("checked", true);
+                .each(change)
+                .property("checked", true);
 
         label.append("span")
             .text(function(d) { return d.key; });
@@ -78,7 +78,7 @@
             var path = svg.selectAll("path");
 
             var data0 = path.data(),
-                data1 = pie(region.values);
+                data1 = pie(region.values)
 
             // JOIN elements with new data.
             path = path.data(data1, key);
@@ -99,7 +99,7 @@
             // ENTER new elements in the array.
             path.enter()
                 .append("path")
-                .each(function(d, i) { this._current = findNeighborArc(i, data0, data1, key) || d; }) 
+                .each(function(d, i) { this._current = findNeighborArc(i, data0, data1, key) || d;console.log('path.enter', d, this); }) 
                 .attr("fill", function(d) {  return color(d.data.region) })
                 .transition()
                 .duration(750)
@@ -149,6 +149,7 @@
     function arcTween(d) {
         var i = d3.interpolate(this._current, d);
         this._current = i(1)
+        console.log('arcTween', d, this._current, this)
         return function(t) { return arc(i(t)); };
     }
 
