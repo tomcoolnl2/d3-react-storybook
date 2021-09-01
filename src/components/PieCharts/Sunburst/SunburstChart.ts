@@ -1,7 +1,7 @@
 
 import * as d3 from 'd3'
 import { D3Arc, D3ScaleOrdinal, D3Selection, D3Transition } from '../../../models'
-import { FlareTree, FlareLeaf, FlareTreeLevel, FlareHierarchyItem } from './models'
+import { FlareTree, FlareLeaf, FlareTreeLevel, FlareHierarchyItem, FlareHierarchyShape } from './models'
 
 
 export class SunburstChart {
@@ -12,7 +12,7 @@ export class SunburstChart {
 
     private svg: D3Selection<SVGSVGElement> = null
     private mainGroup: D3Selection<SVGGElement> = null
-    private arc: D3Arc<FlareHierarchyItem> = null
+    private arc: D3Arc<FlareHierarchyShape> = null
 
     private colorScale: D3ScaleOrdinal = null
     private data: any = null
@@ -51,7 +51,7 @@ export class SunburstChart {
         this.mainGroup = this.svg.append('g')
             .attr('transform', `translate(${this.width / 2}, ${this.width / 2})`)
 
-        this.arc = d3.arc<FlareHierarchyItem>()
+        this.arc = d3.arc<FlareHierarchyShape>()
             .startAngle(({ x0 }) =>  x0)
             .endAngle(({ x1 }) => x1)
             .padAngle(({ x0, x1 }) => Math.min((x1 - x0) / 2, 0.005))
@@ -78,9 +78,9 @@ export class SunburstChart {
             // so that if this transition is interrupted, entering arcs will start
             // the next transition from the desired position.
             path.transition(t)
-                .tween('data', (d) => {
+                .tween('data', (d: FlareHierarchyItem) => {
                     const i = d3.interpolate(d.current, d.target)
-                    return (t) => d.current = i(t)
+                    return (t: number) => (d).current = i(t)
                 })
                 .filter((d) => +d.node().getAttribute('fill-opacity') || this.arcVisible(d.target))
                 .attr('fill-opacity', d => this.arcVisible(d.target) ? (d.children ? 0.6 : 0.4) : 0)
@@ -135,15 +135,15 @@ export class SunburstChart {
             .on('click', clicked)
     }
 
-    private arcVisible(d: FlareHierarchyItem): boolean {
+    private arcVisible(d: FlareHierarchyShape): boolean {
         return d.y1 <= 3 && d.y0 >= 1 && d.x1 > d.x0
     }
 
-    private labelVisible(d: FlareHierarchyItem): boolean {
+    private labelVisible(d: FlareHierarchyShape): boolean {
         return d.y1 <= 3 && d.y0 >= 1 && (d.y1 - d.y0) * (d.x1 - d.x0) > 0.03
     }
     
-    private labelTransform(d: FlareHierarchyItem): string {
+    private labelTransform(d: FlareHierarchyShape): string {
         const x = (d.x0 + d.x1) / 2 * 180 / this.π
         const y = (d.y0 + d.y1) / 2 * this.radius
         return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`

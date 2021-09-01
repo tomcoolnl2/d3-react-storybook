@@ -16,12 +16,17 @@ export type FlareLeaf = FlareTypeBase & {
     value: number
 }
 
+export type FlareHierarchyShape<T = FlareTreeLevel> = D3HierarchyRectangularNode<T> | FlareHierarchyTarget
+
 export type FlareHierarchyItem<T = FlareTreeLevel> = D3HierarchyRectangularNode<T> & {
-    current?: D3HierarchyRectangularNode<T>
-    target?: {
-        x0: number
-        x1: number
-        y0: number
-        y1: number
-    }
+    current?: FlareHierarchyShape
+    target?: FlareHierarchyTarget
+}
+
+export type FlareHierarchyTarget = {
+    x0: number
+    x1: number
+    y0: number
+    y1: number
+    current?: D3HierarchyRectangularNode
 }
